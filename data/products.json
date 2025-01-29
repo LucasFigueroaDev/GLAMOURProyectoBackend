@@ -1,0 +1,82 @@
+[
+    {
+        "id": "8218f9da-74c9-47bc-a89c-52ef4a4cfa0b",
+        "title": "Pantalón Jean",
+        "description": "Pantalón jean elastizado de excelente calidad",
+        "price": 35000,
+        "code": "P-JEAN",
+        "stock": 32,
+        "category": "Hombre",
+        "status": true
+    },
+    {
+        "id": "7b584cf4-5ba7-4698-9120-0be19426dcc5",
+        "title": "Camisa Formal",
+        "description": "Camisa de algodón para ocasiones formales",
+        "price": 25000,
+        "code": "C-FORMAL",
+        "stock": 45,
+        "category": "Hombre",
+        "status": true
+    },
+    {
+        "id": "9715014e-5b85-4f88-872a-2a25adb5b93d",
+        "title": "Sudadera con Capucha",
+        "description": "Sudadera de algodón con capucha, perfecta para climas fríos",
+        "price": 20000,
+        "code": "S-CAPUCHA",
+        "stock": 30,
+        "category": "Hombre",
+        "status": true
+    },
+    {
+        "id": "1967ada0-4b0c-46af-bde7-e3b563c603b6",
+        "title": "Sandalias de Cuero",
+        "description": "Sandalias cómodas de cuero para verano",
+        "price": 22000,
+        "code": "S-CUERO",
+        "stock": 55,
+        "category": "Mujer",
+        "status": true
+    },
+    {
+        "id": "8a652001-4032-4547-a796-3f823d2453af",
+        "title": "Pantalón Cargo",
+        "description": "Pantalón cargo con múltiples bolsillos, ideal para actividades al aire libre",
+        "price": 30000,
+        "code": "P-CARGO",
+        "stock": 15,
+        "category": "Hombre",
+        "status": true
+    },
+    {
+        "id": "6f526a32-a42e-496d-a8b0-8b095038f3a2",
+        "title": "Bikini Deportivo",
+        "description": "Bikini de tela elástica, perfecto para deportes acuáticos",
+        "price": 17000,
+        "code": "B-DEPORTIVO",
+        "stock": 40,
+        "category": "Mujer",
+        "status": true
+    },
+    {
+        "id": "5750702c-07f1-4226-bae1-d194c28ccc96",
+        "title": "Chaqueta de Plumas",
+        "description": "Chaqueta ligera de plumas para invierno",
+        "price": 55000,
+        "code": "C-PLUMAS",
+        "stock": 22,
+        "category": "Hombre",
+        "status": true
+    },
+    {
+        "id": "9c16b179-44e5-40a5-827c-1e60310b2b51",
+        "title": "Cartera de Cuero",
+        "description": "Cartera de cuero genuino, diseño elegante y funcional",
+        "price": 35000,
+        "code": "C-CUERO",
+        "stock": 20,
+        "status": true,
+        "category": "Mujer"
+    }
+]
