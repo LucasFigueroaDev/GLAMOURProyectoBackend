@@ -78,5 +78,15 @@
         "stock": 20,
         "status": true,
         "category": "Mujer"
+    },
+    {
+        "id": "9f4a28e1-bf0d-43c5-b60f-7f496af7d048",
+        "title": "Gorra Nike",
+        "description": "Gorra Nike Dri-FIT ADV Club",
+        "price": 63164,
+        "code": "Dri-fit",
+        "stock": 12,
+        "category": "Unisex",
+        "status": true
     }
 ]

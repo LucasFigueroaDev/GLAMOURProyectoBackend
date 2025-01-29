@@ -62,7 +62,7 @@ class ProductController {
     async updateProduct(value, id) {
         try {
             const allProducts = await this.loadProducts();
-            let prodId = await this.getProductID(id);
+            const prodId = await this.getProductID(id);
             prodId = { ...prodId, ...value };
             const newList = allProducts.filter((prod) => prod.id !== id);
             newList.push(prodId);
