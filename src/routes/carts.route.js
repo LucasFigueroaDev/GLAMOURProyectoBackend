@@ -3,15 +3,17 @@ import { cartsController } from "../controllers/cartsController.js";
 
 const router = Router();
 
-router.post('/', async (req, res) => {
+// Ruta para obtener todos los carritos
+router.get('/', async (req, res) => {
     try {
-        const newCart = await cartsController.createCart()
-        res.json({ message: newCart });
+        const carts = await cartsController.loadCarts();
+        res.status(200).json({Carritos: carts});
     } catch (error) {
-        res.status(404).json({ message: 'Error al crear un nuevo carrito' });
+        res.status(404).json({message: 'Error al cargar los carritos'});
     }
 });
 
+// Ruta para obtener un carrito por su ID
 router.get('/:cid', async (req, res) => {
     try {
         const { cid } = req.params;
@@ -22,6 +24,17 @@ router.get('/:cid', async (req, res) => {
     }
 });
 
+// Ruta para crear un carrito nuevo
+router.post('/', async (req, res) => {
+    try {
+        const newCart = await cartsController.createCart()
+        res.json({ message: newCart });
+    } catch (error) {
+        res.status(404).json({ message: 'Error al crear un nuevo carrito' });
+    }
+});
+
+// Ruta para agregar un producto al carrito
 router.post('/:cid/product/:pid', async (req, res) => {
     try {
         const { cid } = req.params;
@@ -29,7 +42,7 @@ router.post('/:cid/product/:pid', async (req, res) => {
         const addProduct = await cartsController.addProductToCart(pid, cid);
         res.status(200).json({ addProduct });
     } catch (error) {
-        res.status({message: error.message});
+        res.status({ message: error.message });
     }
 });
 
