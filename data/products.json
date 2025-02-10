@@ -3,11 +3,12 @@
         "id": "8218f9da-74c9-47bc-a89c-52ef4a4cfa0b",
         "title": "Pantalón Jean",
         "description": "Pantalón jean elastizado de excelente calidad",
-        "price": 25000,
+        "price": 32000,
         "code": "Jean - P",
         "stock": 32,
         "category": "Hombre",
-        "status": true
+        "status": true,
+        "image": "https://i.ibb.co/rVmJcxw/pantalonjean.webp"
     },
     {
         "id": "7b584cf4-5ba7-4698-9120-0be19426dcc5",
@@ -17,7 +18,8 @@
         "code": "C-FORMAL",
         "stock": 45,
         "category": "Hombre",
-        "status": true
+        "status": true,
+        "image": "https://i.ibb.co/ynvc5nMZ/camisaformal.webp"
     },
     {
         "id": "9715014e-5b85-4f88-872a-2a25adb5b93d",
@@ -27,7 +29,8 @@
         "code": "S-CAPUCHA",
         "stock": 30,
         "category": "Hombre",
-        "status": true
+        "status": true,
+        "image": "https://i.ibb.co/V070MYky/Sudaderacon-Capucha.webp"
     },
     {
         "id": "1967ada0-4b0c-46af-bde7-e3b563c603b6",
@@ -37,7 +40,8 @@
         "code": "S-CUERO",
         "stock": 55,
         "category": "Mujer",
-        "status": true
+        "status": true,
+        "image": "https://i.ibb.co/BHKwtXQT/sandaliasdecuero.webp"
     },
     {
         "id": "8a652001-4032-4547-a796-3f823d2453af",
@@ -47,7 +51,8 @@
         "code": "P-CARGO",
         "stock": 15,
         "category": "Hombre",
-        "status": true
+        "status": true,
+        "image": "https://i.ibb.co/yFHdxXMn/pantaloncargo.webp"
     },
     {
         "id": "6f526a32-a42e-496d-a8b0-8b095038f3a2",
@@ -57,7 +62,8 @@
         "code": "B-DEPORTIVO",
         "stock": 40,
         "category": "Mujer",
-        "status": true
+        "status": true,
+        "image": "https://i.ibb.co/jv7RJCMZ/bikinideportivo.webp"
     },
     {
         "id": "5750702c-07f1-4226-bae1-d194c28ccc96",
@@ -67,7 +73,8 @@
         "code": "C-PLUMAS",
         "stock": 22,
         "category": "Hombre",
-        "status": true
+        "status": true,
+        "image": "https://i.ibb.co/35xcxhxp/camperadeplumas.webp"
     },
     {
         "id": "9c16b179-44e5-40a5-827c-1e60310b2b51",
@@ -77,7 +84,8 @@
         "code": "C-CUERO",
         "stock": 20,
         "status": true,
-        "category": "Mujer"
+        "category": "Mujer",
+        "image": "https://i.ibb.co/Cs2ZRYz6/carteradecuero.webp"
     },
     {
         "id": "9f4a28e1-bf0d-43c5-b60f-7f496af7d048",
@@ -87,6 +95,7 @@
         "code": "Dri-fit",
         "stock": 12,
         "category": "Unisex",
-        "status": true
+        "status": true,
+        "image": "https://i.ibb.co/qYGqDnsx/gorranike.webp"
     }
 ]

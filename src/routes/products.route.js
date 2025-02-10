@@ -8,11 +8,12 @@ router.get('/', async (req, res) => {
     try {
         const { limit } = req.query; // Params para limitar la cantidad de productos a retornar
         const products = await productController.loadProducts();
-        if (limit && !isNaN(limit)) {
-            const limitedProducts = products.slice(0, parseInt(limit));
-            return res.status(200).json(limitedProducts);
-        }
-        res.status(200).json(products);
+        const displayedProducts = (limit && !isNaN(limit)) 
+            ? products.slice(0, parseInt(limit)) 
+            : products;
+
+        // Renderizar home.handlebars con los productos
+        res.render("home", { products: displayedProducts });
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
@@ -23,7 +24,7 @@ router.get('/:pid', async (req, res) => {
     try {
         const { pid } = req.params; // Params del ID del producto a retornar
         const productID = await productController.getProductID(pid);
-        res.status(200).json(productID);
+        res.render("details", {product: productID});
     } catch (error) {
         res.status(404).json({ message: error.message });
     }
