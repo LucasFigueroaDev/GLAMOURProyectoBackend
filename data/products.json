@@ -97,5 +97,38 @@
         "category": "Unisex",
         "status": true,
         "image": "https://i.ibb.co/qYGqDnsx/gorranike.webp"
+    },
+    {
+        "id": "edde6994-a698-4d61-a0f6-0b0793986d9b",
+        "title": "Short Deportivo",
+        "description": "Short Deportivo Hombre Running Microfibra Bolsillos Cierre",
+        "price": 9900,
+        "code": "S - Hombre",
+        "stock": 22,
+        "category": "short",
+        "image": "https://i.ibb.co/1GnMHR3s/short.webp",
+        "status": true
+    },
+    {
+        "id": "7b71999d-491d-472b-b472-fd22b4f4a357",
+        "title": "Short Lycra",
+        "description": "Short Lycra Deportivo Faja Modeladora Y Calce Perfecto Jp",
+        "price": 9999,
+        "code": "S - Mujer",
+        "stock": 39,
+        "category": "short",
+        "image": "https://i.ibb.co/Jw2kqK4q/shorlycra.webp",
+        "status": true
+    },
+    {
+        "id": "bf611e6a-3cb3-494d-b3f0-8e32898b37f1",
+        "title": "Buzo entallado",
+        "description": "Buzo De Hombre,entallado-manga Rangla Ltco Calidad Premiun",
+        "price": 33000,
+        "code": "B - E",
+        "stock": 50,
+        "category": "Buzos",
+        "image": "https://i.ibb.co/W4hBCTy3/buzohombre.webp",
+        "status": true
     }
 ]

@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
             : products;
 
         // Renderizar home.handlebars con los productos
-        res.render("home", { products: displayedProducts });
+        res.render('home', { products: displayedProducts });
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
@@ -24,7 +24,7 @@ router.get('/:pid', async (req, res) => {
     try {
         const { pid } = req.params; // Params del ID del producto a retornar
         const productID = await productController.getProductID(pid);
-        res.render("details", {product: productID});
+        res.render('details', {product: productID});
     } catch (error) {
         res.status(404).json({ message: error.message });
     }
