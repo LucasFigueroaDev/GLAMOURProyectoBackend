@@ -17,7 +17,7 @@ socket.on('realTime', (data) => {
 
         const img = document.createElement('img');
         img.classList.add('real-time-foto');
-        img.src = el.image;
+        img.src = el.imagen;
         img.alt = el.title;
 
         const pId = document.createElement('p');
@@ -55,7 +55,7 @@ const addProduct = () => {
     const imagen = document.getElementById('form-imagen').value;
 
     // newproduct obtiene todos los valores
-    const newProduct = { title, description, price, stock, code, category };
+    const newProduct = { title, description, price, stock, code, category, imagen };
     
     // emitimos newproduct
     socket.emit('new-product', newProduct);

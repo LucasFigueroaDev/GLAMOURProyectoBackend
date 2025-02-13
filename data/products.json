@@ -8,7 +8,7 @@
         "stock": 32,
         "category": "Hombre",
         "status": true,
-        "image": "https://i.ibb.co/rVmJcxw/pantalonjean.webp"
+        "imagen": "https://i.ibb.co/rVmJcxw/pantalonjean.webp"
     },
     {
         "id": "7b584cf4-5ba7-4698-9120-0be19426dcc5",
@@ -19,7 +19,7 @@
         "stock": 45,
         "category": "Hombre",
         "status": true,
-        "image": "https://i.ibb.co/ynvc5nMZ/camisaformal.webp"
+        "imagen": "https://i.ibb.co/ynvc5nMZ/camisaformal.webp"
     },
     {
         "id": "9715014e-5b85-4f88-872a-2a25adb5b93d",
@@ -30,7 +30,7 @@
         "stock": 30,
         "category": "Hombre",
         "status": true,
-        "image": "https://i.ibb.co/V070MYky/Sudaderacon-Capucha.webp"
+        "imagen": "https://i.ibb.co/V070MYky/Sudaderacon-Capucha.webp"
     },
     {
         "id": "1967ada0-4b0c-46af-bde7-e3b563c603b6",
@@ -41,7 +41,7 @@
         "stock": 55,
         "category": "Mujer",
         "status": true,
-        "image": "https://i.ibb.co/BHKwtXQT/sandaliasdecuero.webp"
+        "imagen": "https://i.ibb.co/BHKwtXQT/sandaliasdecuero.webp"
     },
     {
         "id": "8a652001-4032-4547-a796-3f823d2453af",
@@ -52,7 +52,7 @@
         "stock": 15,
         "category": "Hombre",
         "status": true,
-        "image": "https://i.ibb.co/yFHdxXMn/pantaloncargo.webp"
+        "imagen": "https://i.ibb.co/yFHdxXMn/pantaloncargo.webp"
     },
     {
         "id": "6f526a32-a42e-496d-a8b0-8b095038f3a2",
@@ -63,7 +63,7 @@
         "stock": 40,
         "category": "Mujer",
         "status": true,
-        "image": "https://i.ibb.co/jv7RJCMZ/bikinideportivo.webp"
+        "imagen": "https://i.ibb.co/jv7RJCMZ/bikinideportivo.webp"
     },
     {
         "id": "5750702c-07f1-4226-bae1-d194c28ccc96",
@@ -74,7 +74,7 @@
         "stock": 22,
         "category": "Hombre",
         "status": true,
-        "image": "https://i.ibb.co/35xcxhxp/camperadeplumas.webp"
+        "imagen": "https://i.ibb.co/35xcxhxp/camperadeplumas.webp"
     },
     {
         "id": "9c16b179-44e5-40a5-827c-1e60310b2b51",
@@ -84,8 +84,8 @@
         "stock": 20,
         "status": true,
         "category": "Mujer",
-        "image": "https://i.ibb.co/Cs2ZRYz6/carteradecuero.webp",
-        "price": "29000"
+        "imagen": "https://i.ibb.co/Cs2ZRYz6/carteradecuero.webp",
+        "price": "59999.99"
     },
     {
         "id": "9f4a28e1-bf0d-43c5-b60f-7f496af7d048",
@@ -96,7 +96,7 @@
         "stock": 12,
         "category": "Unisex",
         "status": true,
-        "image": "https://i.ibb.co/qYGqDnsx/gorranike.webp"
+        "imagen": "https://i.ibb.co/qYGqDnsx/gorranike.webp"
     },
     {
         "id": "edde6994-a698-4d61-a0f6-0b0793986d9b",
@@ -106,7 +106,7 @@
         "code": "S - Hombre",
         "stock": 22,
         "category": "short",
-        "image": "https://i.ibb.co/1GnMHR3s/short.webp",
+        "imagen": "https://i.ibb.co/1GnMHR3s/short.webp",
         "status": true
     },
     {
@@ -117,7 +117,7 @@
         "code": "S - Mujer",
         "stock": 39,
         "category": "short",
-        "image": "https://i.ibb.co/Jw2kqK4q/shorlycra.webp",
+        "imagen": "https://i.ibb.co/Jw2kqK4q/shorlycra.webp",
         "status": true
     },
     {
@@ -128,18 +128,40 @@
         "code": "B - E",
         "stock": 50,
         "category": "Buzos",
-        "image": "https://i.ibb.co/W4hBCTy3/buzohombre.webp",
+        "imagen": "https://i.ibb.co/W4hBCTy3/buzohombre.webp",
         "status": true
     },
     {
-        "id": "e5e15b87-7e1c-4fe9-9cdf-f95ecb2f5707",
-        "title": "Prueba 213123",
-        "description": "1111111111",
-        "price": 1111111111,
-        "code": "11111111",
-        "stock": 11111111111,
-        "category": "11111111",
-        "imagen": "",
+        "id": "e0b1d8c1-0170-4672-8e65-d9880597a2a1",
+        "title": "Calzado Para Mujer Nike Revolution Negro",
+        "description": "Revolution 7 con el tipo de amortiguación suave y soporte que podría cambiar tu mundo del running.",
+        "price": 109000,
+        "code": "Z - Nike",
+        "stock": 33,
+        "category": "zapatillas",
+        "imagen": "https://i.ibb.co/RG6HrmTB/zapatillas.webp",
+        "status": true
+    },
+    {
+        "id": "57f11c4c-4363-432b-8205-4209221ea7b9",
+        "title": "111111111111",
+        "description": "22222222222222",
+        "price": 3333333333333,
+        "code": "5555555555555",
+        "stock": 44444444444,
+        "category": "666666666666666",
+        "imagen": "777777777777",
+        "status": true
+    },
+    {
+        "id": "13493390-9b3e-49a4-b4bf-533260a30f82",
+        "title": "12312312312",
+        "description": "3123123",
+        "price": 123123,
+        "code": "3123123",
+        "stock": 12312312,
+        "category": "12312312",
+        "imagen": "312312312",
         "status": true
     }
 ]

@@ -16,7 +16,7 @@ socket.on('home', (data)=>{
         divImagen.classList.add('card-img');
 
         const img = document.createElement('img');
-        img.src = el.image;
+        img.src = el.imagen;
         img.alt = el.title;
         divImagen.appendChild(img);
 
@@ -32,7 +32,7 @@ socket.on('home', (data)=>{
         const link = document.createElement('a');
         link.textContent = 'Más detalles';
         link.classList.add('card-link');
-        link.href = `/${el.id}`;
+        link.href = `/home/${el.id}`;
 
         div.appendChild(h3);
         div.appendChild(divImagen);

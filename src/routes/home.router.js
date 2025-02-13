@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
     res.render('home');
 });
 
-router.get('/:id', async (req, res) => {
+router.get('/home/:id', async (req, res) => {
     try {
         const { id } = req.params;
         const productID = await productController.getProductID(id);

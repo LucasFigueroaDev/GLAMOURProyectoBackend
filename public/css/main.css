@@ -15,7 +15,6 @@
 
 img {
     max-width: 100%;
-    height: -webkit-fill-available;
 }
 
 /* Home */
@@ -73,11 +72,11 @@ img {
 
 .card-img {
     width: 200px;
-    height: 250px;
+    height: 380px;
     align-content: center;
     background-color: #fff;
     justify-self: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .card-price {
@@ -91,7 +90,7 @@ img {
 
 /* Detail */
 .details-container {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .detail-content {
@@ -162,13 +161,11 @@ img {
 
 .real-time-img {
     width: 160px;
-    height: 190px;
+    max-height: 390px;
     justify-self: center;
+    margin: 1rem 0;
 }
 
-.real-time-foto {
-    height: -webkit-fill-available;
-}
 
 /* Formulario */
 .form {
@@ -192,6 +189,10 @@ img {
 
 input {
     margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1.3rem;
 }
 
 span {

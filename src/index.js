@@ -23,7 +23,7 @@ app.use(express.static('public'));
 app.use('/', homeRouter);
 app.use('/api/products', productsRouter);
 app.use('/api/carts/', cartsRouter);
-app.use('/api/realtimeproducts', realtime);
+app.use('/realtimeproducts', realtime);
 
 const httpServer = app.listen(port, () => console.log(`Servidor On en http://localhost:${port}`));
 const webSocketServer = new Server(httpServer);

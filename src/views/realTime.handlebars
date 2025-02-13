@@ -25,7 +25,7 @@
                 <input type="text" id="form-category" required>
 
                 <label for="imagen">Imagen del producto</label>
-                <input type="text" id="form-imagen" name="image" placeholder="url de la imagen">
+                <input type="text" id="form-imagen" name="image" placeholder="url de la imagen (opcional)">
 
                 <button id="add-button">Guardar Producto</button>
             </form>
@@ -44,18 +44,14 @@
                     <option value="imagen">Imagen</option>
                 </select>
 
-                <br><br>
-
                 <label for="new-value">Nuevo valor:</label>
                 <input type="text" id="new-value" name="new-value" required>
-
-                <br><br>
 
                 <button id="update-button">Modificar</button>
             </form>
 
             <form class="form-delete">
-                <label for="id-delete"><span>*</span> ID del Producto:</label>
+                <label for="id-delete"><span>*</span> ID del Producto a eliminar</label>
                 <input type="text" id="id-delete" required>
                 <button id="delete-button">Eliminar Producto</button>
             </form>
