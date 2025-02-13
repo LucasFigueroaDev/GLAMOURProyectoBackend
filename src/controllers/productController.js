@@ -30,28 +30,23 @@ class ProductController {
     }
 
     // Método para crear un nuevo producto y guardarlo en el archivo
-    async createProduct(title, description, price, code, stock, category, image) {
-
-        if (!title || !description || !price || !code || !stock || !category) {
-            throw new Error('Todos los campos son requeridos');
-        }
-
-        if (isNaN(price) || isNaN(stock)) {
-            throw new Error('El precio y el stock deben ser números válidos');
-        }
-        const newProduct = {
-            id: uuidv4(), // Genera un ID único para el producto
-            title,
-            description,
-            price: parseFloat(price),
-            code,
-            stock: parseInt(stock),
-            category,
-            image,
-            status: true // Estado por defecto del producto
-        };
+    async createProduct(product) {
         try {
             const allProducts = await this.loadProducts(); // Carga los productos existentes
+            const { title, description, price, code, stock, category, imagen, status } = product;
+
+            let newProduct = {
+                id: uuidv4(), // Genera un ID único para el producto
+                title: title || "Sin título",  // Si no viene, asigna un valor por defecto
+                description: description || "Sin descripción",
+                price: price ? parseFloat(price) : 0,
+                code: code || "Sin código",
+                stock: stock ? parseInt(stock) : 0,
+                category: category || "Sin categoría",
+                imagen: imagen || "",
+                status: status !== undefined ? status : true // Si no viene, se asigna true
+            };
+            
             allProducts.push(newProduct); // Agrega el nuevo producto a la lista
             await fs.promises.writeFile(this.filePath, JSON.stringify(allProducts, null, 4)); // Guarda la lista actualizada en el archivo
             return newProduct;
@@ -75,14 +70,14 @@ class ProductController {
     }
 
     // Método para actualizar un producto existente
-    async updateProduct(value, id) {
+    async updateProduct(id, key, value) {
         try {
             const allProducts = await this.loadProducts();
             const index = allProducts.findIndex(prod => prod.id === id); // Busca el índice del producto a actualizar
             if (index === -1) {
                 throw new Error(`Producto con ID ${id} no encontrado`);
             }
-            allProducts[index] = { ...allProducts[index], ...value }; // Actualiza los valores del producto
+            allProducts[index][key] = value;
             await fs.promises.writeFile(this.filePath, JSON.stringify(allProducts, null, 4));
             return allProducts[index]; // Retorna el producto actualizado
         } catch (error) {

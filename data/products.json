@@ -79,13 +79,13 @@
     {
         "id": "9c16b179-44e5-40a5-827c-1e60310b2b51",
         "title": "Cartera de Cuero",
-        "description": "Cartera de cuero genuino, diseño elegante y funcional",
-        "price": 35000,
+        "description": "Cartera de cuero",
         "code": "C-CUERO",
         "stock": 20,
         "status": true,
         "category": "Mujer",
-        "image": "https://i.ibb.co/Cs2ZRYz6/carteradecuero.webp"
+        "image": "https://i.ibb.co/Cs2ZRYz6/carteradecuero.webp",
+        "price": "29000"
     },
     {
         "id": "9f4a28e1-bf0d-43c5-b60f-7f496af7d048",
@@ -129,6 +129,17 @@
         "stock": 50,
         "category": "Buzos",
         "image": "https://i.ibb.co/W4hBCTy3/buzohombre.webp",
+        "status": true
+    },
+    {
+        "id": "e5e15b87-7e1c-4fe9-9cdf-f95ecb2f5707",
+        "title": "Prueba 213123",
+        "description": "1111111111",
+        "price": 1111111111,
+        "code": "11111111",
+        "stock": 11111111111,
+        "category": "11111111",
+        "imagen": "",
         "status": true
     }
 ]

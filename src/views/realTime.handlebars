@@ -1,60 +1,68 @@
-<div class="real-time-products">
-    <h1 class="product-title-pricipal">Productos en tiempo real</h1>
-    <div class="container" id="container">
-        {{#each products}}
-        <div class="card">
-            <h3 class="product-title">{{title}}</h3>
-            <div class="product-img">
-                <img class="product-foto" src="{{image}}" alt="imagen del producto">
-            </div>
-            <p>ID: {{id}}</p>
-            <p class="product-price">Precio: ${{price}}</p>
-            <p class="product-description">{{description}}</p>
+<div>
+    <h1 class="real-time-title">Productos en tiempo real</h1>
+    <div class="real-time-products">
+        <div class="real-time-container" id="container"></div>
+        <div class="form">
+            <h2>Gestión de Productos</h2>
+
+            <form class="form-create">
+                <label for="title"><span>*</span> Título: </label>
+                <input type="text" id="form-title" required>
+
+                <label for="description"><span>*</span> Descripción: </label>
+                <input type="text" id="form-description" required>
+
+                <label for="price"><span>*</span> Precio: </label>
+                <input type="number" id="form-price" step="0.01" required>
+
+                <label for="stock"><span>*</span> Stock: </label>
+                <input type="number" id="form-stock" required>
+
+                <label for="code"><span>*</span> Código: </label>
+                <input type="text" id="form-code" required>
+
+                <label for="category"><span>*</span> Categoría: </label>
+                <input type="text" id="form-category" required>
+
+                <label for="imagen">Imagen del producto</label>
+                <input type="text" id="form-imagen" name="image" placeholder="url de la imagen">
+
+                <button id="add-button">Guardar Producto</button>
+            </form>
+
+            <form class="form-update">
+                <label for="idproduct">ID del producto a modificar</label>
+                <input type="text" id="update-id">
+                <label for="update-data">¿Qué dato deseas modificar?</label>
+                <select id="update-data" name="update-data">
+                    <option value="title">Título</option>
+                    <option value="price">Precio</option>
+                    <option value="stock">Stock</option>
+                    <option value="code">Código</option>
+                    <option value="category">Categoría</option>
+                    <option value="description">Descripción</option>
+                    <option value="imagen">Imagen</option>
+                </select>
+
+                <br><br>
+
+                <label for="new-value">Nuevo valor:</label>
+                <input type="text" id="new-value" name="new-value" required>
+
+                <br><br>
+
+                <button id="update-button">Modificar</button>
+            </form>
+
+            <form class="form-delete">
+                <label for="id-delete"><span>*</span> ID del Producto:</label>
+                <input type="text" id="id-delete" required>
+                <button id="delete-button">Eliminar Producto</button>
+            </form>
         </div>
-        {{/each}}
-    </div>
-    <div class="form">
-        <h2>Gestión de Productos</h2>
-        <label>
-            <input type="radio" id="agregar" name="accion" onclick="toggleForm()"> Agregar Producto
-        </label>
-        <label>
-            <input type="radio" id="eliminar" name="accion" onclick="toggleForm()"> Eliminar Producto
-        </label>
-
-        <form class="form-create" id="formularioProducto" method="post" action="/api/realTimeProducts">
-            <label for="titulo"><span>*</span> Título: </label>
-            <input type="text" id="title" name="title" value="{{title}}" required>
-
-            <label for="descripcion"><span>*</span> Descripción: </label>
-            <input type="text" id="description" name="description" value="{{description}}" required>
-
-            <label for="precio"><span>*</span> Precio: </label>
-            <input type="number" id="price" name="price" value="{{price}}" step="0.01" required>
-
-            <label for="stock"><span>*</span> Stock: </label>
-            <input type="number" id="stock" name="stock" value="{{stock}}" required>
-
-            <label for="codigo"><span>*</span> Código: </label>
-            <input type="text" id="code" name="code" value="{{code}}" required>
-
-            <label for="categoria"><span>*</span> Categoría: </label>
-            <input type="text" id="category" name="category" value="{{category}}" required>
-
-            <label for="imagen">Imagen del producto</label>
-            <input type="text" id="image" name="image" placeholder="url de la imagen">
-
-            <button type="submit">Guardar Producto</button>
-        </form>
-
-        <form class="form-delete" id="formularioEliminar" method="post" action="/api/realTimeProducts/delete">
-            <label for="idEliminar"><span>*</span> ID del Producto:</label>
-            <input type="text" id="idEliminar" name="id" required> 
-            <button type="submit">Eliminar Producto</button>
-        </form>
     </div>
 
 </div>
 <script src="/socket.io/socket.io.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="/js/realTimeProducts.js"></script>
+<script src="/js/realtime.js"></script>

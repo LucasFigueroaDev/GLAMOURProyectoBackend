@@ -1,17 +1,12 @@
 <div class="section-products">
     <h1 class="title">Bienvenido a mi tienda</h1>
-    <div class="products">
+    <div >
         <h2 class="title-secundary">Mis productos</h2>
-        {{#each products}}
-        <div class="card-product">
-            <h3 class="card-title">{{title}}</h2>
-                <div class="card-img">
-                    <img src="{{image}}" alt="imagen del producto">
-                </div>
-                <p class="card-price">Precio: ${{price}}</p>
-                <p class="card-description">{{description}}</p>
-                <a href="/{{id}}">Más detalles</a>
+        <div class="products" id="container-products">
+
         </div>
-        {{/each}}
     </div>
 </div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/home.js"></script>
