@@ -20,6 +20,9 @@ socket.on('home', (data)=>{
         img.alt = el.title;
         divImagen.appendChild(img);
 
+        const divContent = document.createElement('div');
+        divContent.classList.add('card-content');
+
         const textPrice = document.createElement('p');
         textPrice.classList.add('card-price');
         textPrice.textContent = `Precio: $${el.price}`;
@@ -34,10 +37,11 @@ socket.on('home', (data)=>{
         link.classList.add('card-link');
         link.href = `/home/${el.id}`;
 
+        divContent.appendChild(textPrice);
+        divContent.appendChild(textDescription);
         div.appendChild(h3);
         div.appendChild(divImagen);
-        div.appendChild(textPrice);
-        div.appendChild(textDescription);
+        div.appendChild(divContent);
         div.appendChild(link);
         containerProducts.appendChild(div);
     });

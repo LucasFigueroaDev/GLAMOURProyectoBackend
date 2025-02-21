@@ -8,7 +8,7 @@
         "stock": 32,
         "category": "Hombre",
         "status": true,
-        "imagen": "https://i.ibb.co/rVmJcxw/pantalonjean.webp"
+        "imagen": "https://i.ibb.co/Mrr41HG/8.png"
     },
     {
         "id": "7b584cf4-5ba7-4698-9120-0be19426dcc5",
@@ -19,7 +19,7 @@
         "stock": 45,
         "category": "Hombre",
         "status": true,
-        "imagen": "https://i.ibb.co/ynvc5nMZ/camisaformal.webp"
+        "imagen": "https://i.ibb.co/WYf7635/3.png"
     },
     {
         "id": "9715014e-5b85-4f88-872a-2a25adb5b93d",
@@ -30,7 +30,7 @@
         "stock": 30,
         "category": "Hombre",
         "status": true,
-        "imagen": "https://i.ibb.co/V070MYky/Sudaderacon-Capucha.webp"
+        "imagen": "https://i.ibb.co/vCYwnYSD/12.png"
     },
     {
         "id": "1967ada0-4b0c-46af-bde7-e3b563c603b6",
@@ -41,7 +41,7 @@
         "stock": 55,
         "category": "Mujer",
         "status": true,
-        "imagen": "https://i.ibb.co/BHKwtXQT/sandaliasdecuero.webp"
+        "imagen": "https://i.ibb.co/WW54YjQc/9.png"
     },
     {
         "id": "8a652001-4032-4547-a796-3f823d2453af",
@@ -52,7 +52,7 @@
         "stock": 15,
         "category": "Hombre",
         "status": true,
-        "imagen": "https://i.ibb.co/yFHdxXMn/pantaloncargo.webp"
+        "imagen": "https://i.ibb.co/2Y1x0yYK/7.png"
     },
     {
         "id": "6f526a32-a42e-496d-a8b0-8b095038f3a2",
@@ -63,7 +63,7 @@
         "stock": 40,
         "category": "Mujer",
         "status": true,
-        "imagen": "https://i.ibb.co/jv7RJCMZ/bikinideportivo.webp"
+        "imagen": "https://i.ibb.co/Y4crG8zM/1.png"
     },
     {
         "id": "5750702c-07f1-4226-bae1-d194c28ccc96",
@@ -74,7 +74,7 @@
         "stock": 22,
         "category": "Hombre",
         "status": true,
-        "imagen": "https://i.ibb.co/35xcxhxp/camperadeplumas.webp"
+        "imagen": "https://i.ibb.co/JW1xFv75/4.png"
     },
     {
         "id": "9c16b179-44e5-40a5-827c-1e60310b2b51",
@@ -84,7 +84,7 @@
         "stock": 20,
         "status": true,
         "category": "Mujer",
-        "imagen": "https://i.ibb.co/Cs2ZRYz6/carteradecuero.webp",
+        "imagen": "https://i.ibb.co/Ndwjj2jw/5.png",
         "price": "59999.99"
     },
     {
@@ -96,7 +96,7 @@
         "stock": 12,
         "category": "Unisex",
         "status": true,
-        "imagen": "https://i.ibb.co/qYGqDnsx/gorranike.webp"
+        "imagen": "https://i.ibb.co/rKSNGmXw/6.png"
     },
     {
         "id": "edde6994-a698-4d61-a0f6-0b0793986d9b",
@@ -106,7 +106,7 @@
         "code": "S - Hombre",
         "stock": 22,
         "category": "short",
-        "imagen": "https://i.ibb.co/1GnMHR3s/short.webp",
+        "imagen": "https://i.ibb.co/3YpvgnZZ/11.png",
         "status": true
     },
     {
@@ -117,7 +117,7 @@
         "code": "S - Mujer",
         "stock": 39,
         "category": "short",
-        "imagen": "https://i.ibb.co/Jw2kqK4q/shorlycra.webp",
+        "imagen": "https://i.ibb.co/3mr2RYzr/10.png",
         "status": true
     },
     {
@@ -128,7 +128,7 @@
         "code": "B - E",
         "stock": 50,
         "category": "Buzos",
-        "imagen": "https://i.ibb.co/W4hBCTy3/buzohombre.webp",
+        "imagen": "https://i.ibb.co/7NL97Mhh/2.png",
         "status": true
     },
     {
@@ -139,7 +139,7 @@
         "code": "Z - Nike",
         "stock": 33,
         "category": "zapatillas",
-        "imagen": "https://i.ibb.co/RG6HrmTB/zapatillas.webp",
+        "imagen": "https://i.ibb.co/HDb45T1m/13.png",
         "status": true
     },
     {

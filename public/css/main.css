@@ -1,6 +1,11 @@
 :root {
     --color-black: #030f0f;
-    --color-white: #fff;
+    --color-white: #f9f9f8;
+    --color-pastel: #f5f3e2;
+    --color-green: #abd1c1;
+    --color-green-oscuro: #55969e;
+    --color-grey: #cccee0;
+    --color-texto: #2c3e50;
     --bg: linear-gradient(120deg, #5d99f8 20%, #c2e9fb 100%);
     --bg-ft: rgb(48, 198, 203);
 }
@@ -20,24 +25,23 @@ img {
 /* Home */
 .section-products,
 .details-container {
-    background-image: var(--bg);
+    background-color: var(--color-pastel);
     padding-bottom: 2rem;
 }
 
 .title,
 .details-title {
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
     font-size: 35px;
     text-align: center;
     padding: 2rem;
     margin-bottom: 5rem;
-    color: var(--color-black);
+    color: var(--color-green-oscuro);
 }
 
 .title-secundary {
     font-size: 30px;
     text-align: center;
-    color: var(--color-black);
+    color: var(--color-green-oscuro);
     margin-bottom: 2rem;
 }
 
@@ -53,39 +57,49 @@ img {
 .card-product {
     width: 288px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
     text-align: center;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-    -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+    border: 1px solid var(--color-green);
+    background-color: var(--color-white);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(171, 209, 193, 1);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(171, 209, 193, 1);
+    box-shadow: 2px 2px 2px 0px rgba(171, 209, 193, 1);
 }
 
 .card-title {
     padding: 10px;
-    color: var(--color-white);
+    color: var(--color-texto);
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .card-img {
     width: 200px;
     height: 380px;
-    align-content: center;
-    background-color: #fff;
-    justify-self: center;
-    margin-bottom: 25px;
+    margin: 0 auto;
 }
 
 .card-price {
+    color: var(--color-texto);
     font-size: 1.2rem;
 }
 
 .card-link {
     text-decoration: none;
     font-size: 1.2rem;
+    background-color: var(--color-green);
+    padding: 5px;
+    color: var(--color-black);
+    border: 1px solid var(--color-green-oscuro);
+    border-radius: 20px;
+}
+
+.card-link:hover {
+    color: var(--color-white);
+    background-color: var(--color-green-oscuro);
 }
 
 /* Detail */
@@ -101,9 +115,9 @@ img {
     margin: 0 auto;
     padding: 3rem;
     background-color: #fff;
-    -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(171, 209, 193, 1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(171, 209, 193, 1);
+    box-shadow: 0px 0px 5px 2px rgba(171, 209, 193, 1);
     border-radius: 20px;
 }
 
@@ -117,18 +131,16 @@ img {
 }
 
 .detail-description {
-    border: 1px solid var(--color-black);
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-    border-radius: 10px;
     padding: 5rem;
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .detail-txt {
     font-size: 1.2rem;
     margin-bottom: 15px;
     letter-spacing: 1px;
-    color: var(--color-white);
+    color: var(--color-texto);
 }
 
 /* Real time */
@@ -202,7 +214,7 @@ span {
 /* Footer */
 .ft {
     padding-top: 5px;
-    background-color: var(--bg-ft);
+    background-color: var(--color-green);
 }
 
 .ft-txt {
