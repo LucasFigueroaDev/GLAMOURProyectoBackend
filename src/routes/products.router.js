@@ -1,20 +1,28 @@
+import mongoose from "mongoose";
+import { __dirname, uploader } from '../utils/utils.js';
 import { Router } from "express";
-import { productController } from "../controllers/productController.js";
+import { Base } from '../Dao/base.dao.js';
+import { productModel } from '../models/product.model.js';
 
 const router = Router();
+const productsService = new Base(productModel);
 
 // Ruta para obtener todos los productos
 router.get('/', async (req, res) => {
     try {
-        const { limit } = req.query; // Params para limitar la cantidad de productos a retornar
-        const products = await productController.loadProducts();
-        if (limit && !isNaN(limit)) {
-            const limitedProducts = products.slice(0, parseInt(limit));
-            return res.status(200).json(limitedProducts);
+        let { limit } = req.query; // Params para limitar la cantidad de productos a retornar
+        let products = await productsService.getAll();
+        if (limit) {
+            limit = parseInt(limit);
+            if (isNaN(limit) || limit <= 0) { // Verificar que es un número y que no sea negativo
+                return res.status(400).json({ message: 'El limite debe ser un número válido y mayor a cero' });
+            }
+            products = products.slice(0, limit);
         }
-        res.status(200).json(products);
+
+        return res.status(200).json(products);
     } catch (error) {
-        res.status(500).json({ message: error.message });
+        return res.status(500).json({ message: 'Error en el servidor al obtener todos los productos' });
     }
 });
 
@@ -22,27 +30,35 @@ router.get('/', async (req, res) => {
 router.get('/:pid', async (req, res) => {
     try {
         const { pid } = req.params; // Params del ID del producto a retornar
-        const productID = await productController.getProductID(pid);
-        res.status(200).json(productID);
+        if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' }); // Validamos el id
+
+        const productID = await productsService.getById(pid);
+        if (!productID) {
+            return res.status(404).json({ message: 'Producto no existe' });
+        }
+
+        return res.status(200).json(productID);
     } catch (error) {
-        res.status(404).json({ message: error.message });
+        return res.status(500).json({ message: 'Error en el servidor al obtener el producto' });
     }
 });
 
 // Ruta para crear un producto nuevo
-router.post('/', async (req, res) => {
-    const prod = await productController.createProduct(
-        req.body.title,
-        req.body.description,
-        req.body.price,
-        req.body.code,
-        req.body.stock,
-        req.body.category
-    );
+router.post('/', uploader.single('file'), async (req, res) => {
     try {
-        res.status(201).json({ message: 'Producto creado correctamente', product: prod });
+        if (!req.file) return res.status(402).json({ message: 'Error al cargar la imagen' });
+        const data = req.body;
+        console.log(data);
+
+        if (!data || Object.keys(data).length === 0) return res.status(400).json({ message: 'Error faltan datos para crear el producto' });
+        const price = parseFloat(data.price)
+        if (isNaN(price) || price < 0) return res.status(400).json({ message: 'Error el precio debe ser un número positivo' });
+
+        const addProduct = await productsService.create({ ...data, price: price, thumbnail: req.file.path.split('public')[1] });
+
+        return res.status(201).json({ message: 'Producto creado correctamente', payload: addProduct });
     } catch (error) {
-        res.status(500).json({ message: 'Error en el servidor, no se pudo crear el producto' });
+        return res.status(500).json({ message: 'Error en el servidor, no se pudo crear el producto' });
     }
 });
 
@@ -52,29 +68,16 @@ router.put('/:pid', async (req, res) => {
         const { pid } = req.params; // Params del producto a modificar (ID)
         const productData = req.body; // Params de la data que se va a modificar del producto
 
-        if (!productData || Object.keys(productData).length === 0) {
-            return res.status(400).json({ message: 'Datos inválidos para actualizar el producto' });
-        }
+        if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' });
+        if (!productData || Object.keys(productData).length === 0) return res.status(400).json({ message: 'Datos inválidos para actualizar el producto' });
 
-        const updatedProduct = await productController.updateProduct(productData, pid);
+        const updatedProduct = await productsService.update(pid, productData);
 
-        if (!updatedProduct) {
-            return res.status(404).json({ message: 'Producto no encontrado' });
-        }
+        if (!updatedProduct) return res.status(404).json({ message: 'Producto no encontrado' });
 
-        res.status(200).json({ message: 'Producto actualizado correctamente', product: updatedProduct });
+        return res.status(200).json({ message: 'Producto actualizado correctamente', payload: updatedProduct });
     } catch (error) {
-        res.status(500).json({ message: 'Error en el servidor, no se logró procesar la solicitud' });
-    }
-});
-
-// Ruta para eliminar todos los productos
-router.delete('/', async (req, res) => {
-    try {
-        await productController.deleteAllProducts();
-        res.json({ message: 'Todos los productos fueron eliminados correctamente' });
-    } catch (error) {
-        res.status(404).json({ message: 'Error al intentar borrar todos los productos' });
+        return res.status(500).json({ message: 'Error en el servidor, no se logró procesar la solicitud' });
     }
 });
 
@@ -82,10 +85,14 @@ router.delete('/', async (req, res) => {
 router.delete('/:pid', async (req, res) => {
     try {
         const { pid } = req.params;
-        const prod = await productController.deleteProduct(pid);
-        res.status(200).json({ message: 'Producto eliminado correctamente' });
+        if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' });
+
+        const deleteProduct = await productsService.delete(pid);
+        if (deleteProduct.deletedCount === 0) return res.status(404).json({ message: 'Producto no encontrado' });
+
+        return res.status(200).json({ message: 'Producto eliminado correctamente', payload: deleteProduct });
     } catch (error) {
-        res.status(500).json({ message: 'Error en el servidor no se logro procesar la solicitud eliminar' });
+        return res.status(500).json({ message: 'Error en el servidor no se logro procesar la solicitud eliminar' });
     }
 });
 

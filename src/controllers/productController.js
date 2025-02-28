@@ -46,7 +46,7 @@ class ProductController {
                 imagen: imagen || "",
                 status: status !== undefined ? status : true // Si no viene, se asigna true
             };
-            
+
             allProducts.push(newProduct); // Agrega el nuevo producto a la lista
             await fs.promises.writeFile(this.filePath, JSON.stringify(allProducts, null, 4)); // Guarda la lista actualizada en el archivo
             return newProduct;

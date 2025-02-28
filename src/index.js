@@ -1,10 +1,11 @@
 import express from "express";
-import handlebars from 'express-handlebars';
-import productsRouter from './routes/products.router.js';
-import cartsRouter from './routes/carts.router.js';
-import realtime from './routes/realtime.router.js';
-import homeRouter from './routes/home.router.js';
-import path from 'path';
+import handlebars from "express-handlebars";
+import productsRouter from "./routes/products.router.js";
+import cartsRouter from "./routes/carts.router.js";
+import realtime from "./routes/realtime.router.js";
+import homeRouter from "./routes/home.router.js";
+import { __dirname } from "./utils/utils.js";
+import { connectToMongo } from "./connections/mongo.js";
 import { productController } from "./controllers/productController.js";
 import { Server } from "socket.io";
 
@@ -13,11 +14,13 @@ const port = 8080;
 
 
 app.engine('handlebars', handlebars.engine());
-app.set('views', path.join(process.cwd(), 'src', 'views'));
+app.set('views', __dirname + 'views');
 app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static(__dirname + '/public')) 
+
 app.use(express.static('public'));
 
 app.use('/', homeRouter);
@@ -25,6 +28,9 @@ app.use('/api/products', productsRouter);
 app.use('/api/carts/', cartsRouter);
 app.use('/realtimeproducts', realtime);
 
+connectToMongo();
+
+// WebSocket Server
 const httpServer = app.listen(port, () => console.log(`Servidor On en http://localhost:${port}`));
 const webSocketServer = new Server(httpServer);
 
