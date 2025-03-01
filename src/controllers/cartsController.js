@@ -1,6 +1,5 @@
 import fs from 'node:fs'; 
 import path from 'node:path'; 
-import { productController } from './productController.js'; 
 import { v4 as uuidv4 } from 'uuid';
 
 // Definición de la clase CartsController para gestionar los carritos de compra

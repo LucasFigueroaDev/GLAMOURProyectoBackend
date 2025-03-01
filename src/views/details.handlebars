@@ -1,14 +1,14 @@
 <div class="details-container">
     <h1 class="details-title">Detalles del producto</h1>
     <div class="detail-content">
-        <h2 class="detail-title">{{product.title}}</h2>
+        <h2 class="detail-title">{{productID.title}}</h2>
         <div class="detail-img">
-            <img src="{{product.imagen}}" alt="imagen del producto">
+            <img src="{{productID.thumbnail}}" alt="imagen del producto">
         </div>
         <div class="detail-description">
-            <p class="detail-txt">Descripción: {{product.description}}</p>
-            <p class="detail-txt">Stock disponible: {{product.stock}}</p>
-            <p class="detail-txt">${{product.price}}</p>
+            <p class="detail-txt">Descripción: {{productID.description}}</p>
+            <p class="detail-txt">Stock disponible: {{productID.stock}}</p>
+            <p class="detail-txt">${{productID.price}}</p>
             <button>Agregar al carrito</button>
         </div>
     </div>

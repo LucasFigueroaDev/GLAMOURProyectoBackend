@@ -20,7 +20,7 @@ router.get('/', async (req, res) => {
             products = products.slice(0, limit);
         }
 
-        return res.status(200).json(products);
+        return res.status(200).json({payload: products});
     } catch (error) {
         return res.status(500).json({ message: 'Error en el servidor al obtener todos los productos' });
     }
@@ -37,7 +37,7 @@ router.get('/:pid', async (req, res) => {
             return res.status(404).json({ message: 'Producto no existe' });
         }
 
-        return res.status(200).json(productID);
+        return res.status(200).json({payload: productID});
     } catch (error) {
         return res.status(500).json({ message: 'Error en el servidor al obtener el producto' });
     }
@@ -46,15 +46,14 @@ router.get('/:pid', async (req, res) => {
 // Ruta para crear un producto nuevo
 router.post('/', uploader.single('file'), async (req, res) => {
     try {
-        if (!req.file) return res.status(402).json({ message: 'Error al cargar la imagen' });
         const data = req.body;
-        console.log(data);
 
         if (!data || Object.keys(data).length === 0) return res.status(400).json({ message: 'Error faltan datos para crear el producto' });
         const price = parseFloat(data.price)
         if (isNaN(price) || price < 0) return res.status(400).json({ message: 'Error el precio debe ser un número positivo' });
 
-        const addProduct = await productsService.create({ ...data, price: price, thumbnail: req.file.path.split('public')[1] });
+        const thumbnail = req.file ? req.file.path.split('public')[1] : null;
+        const addProduct = await productsService.create({ ...data, price: price, thumbnail: thumbnail });
 
         return res.status(201).json({ message: 'Producto creado correctamente', payload: addProduct });
     } catch (error) {
@@ -63,13 +62,14 @@ router.post('/', uploader.single('file'), async (req, res) => {
 });
 
 // Ruta para modificar un producto ya existente
-router.put('/:pid', async (req, res) => {
+router.put('/:pid', uploader.single('file'), async (req, res) => {
     try {
         const { pid } = req.params; // Params del producto a modificar (ID)
         const productData = req.body; // Params de la data que se va a modificar del producto
 
         if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' });
         if (!productData || Object.keys(productData).length === 0) return res.status(400).json({ message: 'Datos inválidos para actualizar el producto' });
+        if (req.file) productData.thumbnail = req.file.path.split('public')[1];
 
         const updatedProduct = await productsService.update(pid, productData);
 
@@ -88,9 +88,9 @@ router.delete('/:pid', async (req, res) => {
         if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' });
 
         const deleteProduct = await productsService.delete(pid);
-        if (deleteProduct.deletedCount === 0) return res.status(404).json({ message: 'Producto no encontrado' });
+        if (!deleteProduct || deleteProduct.deletedCount === 0) return res.status(404).json({ message: 'Producto no encontrado' });
 
-        return res.status(200).json({ message: 'Producto eliminado correctamente', payload: deleteProduct });
+        return res.status(200).json({ message: 'Producto eliminado correctamente'});
     } catch (error) {
         return res.status(500).json({ message: 'Error en el servidor no se logro procesar la solicitud eliminar' });
     }
