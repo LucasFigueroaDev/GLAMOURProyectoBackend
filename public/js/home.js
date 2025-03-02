@@ -1,9 +1,18 @@
 const url = 'http://localhost:8080/api/products';
 const containerProducts = document.getElementById('container-products');
+const paginationContainer = document.getElementById('pagination');
+const sortSelect = document.getElementById('sort-order');
+const categorySelect = document.getElementById('category-filter');
 
-const getProducts = async () => {
+let currentPage = 1; 
+let totalPages = 1;
+let currentSort = '';
+let currentCategory = '';
+
+const getProducts = async (page = 1, sort = '', category = '') => {
     try {
-        const response = await axios.get(url);
+        const response = await axios.get(`${url}?page=${page}&sort=${sort}&category=${category}`);
+        totalPages = response.data.totalPages;
         return response.data.payload;  
     } catch (error) {
         console.error('Error al obtener los productos:', error);
@@ -11,8 +20,8 @@ const getProducts = async () => {
     }
 };
 
-const renderProducts = async () => {
-    const products = await getProducts(); 
+const renderProducts = async (page = 1) => {
+    const products = await getProducts(page, currentSort, currentCategory); 
 
     containerProducts.innerHTML = ''; 
 
@@ -56,6 +65,35 @@ const renderProducts = async () => {
         div.appendChild(link);
         containerProducts.appendChild(div);
     });
+    renderPagination();
 };
+
+const renderPagination = () => {
+    paginationContainer.innerHTML = '';
+
+    for (let i = 1; i <= totalPages; i++) {
+        const button = document.createElement('button');
+        button.textContent = i;
+        button.classList.add('pagination-button');
+        if (i === currentPage) button.classList.add('active');
+
+        button.addEventListener('click', () => {
+            currentPage = i;
+            renderProducts(currentPage);
+        });
+
+        paginationContainer.appendChild(button);
+    }
+};
+
+sortSelect.addEventListener('change', () => {
+    currentSort = sortSelect.value;
+    renderProducts(1);
+});
+
+categorySelect.addEventListener('change', () => {
+    currentCategory = categorySelect.value;
+    renderProducts(1);
+});
 
 renderProducts();

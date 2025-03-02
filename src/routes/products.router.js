@@ -10,26 +10,49 @@ const productsService = new Base(productModel);
 // Ruta para obtener todos los productos
 router.get('/', async (req, res) => {
     try {
-        let { limit } = req.query; // Params para limitar la cantidad de productos a retornar
-        let products = await productsService.getAll();
-        if (limit) {
-            limit = parseInt(limit);
-            if (isNaN(limit) || limit <= 0) { // Verificar que es un número y que no sea negativo
-                return res.status(400).json({ message: 'El limite debe ser un número válido y mayor a cero' });
-            }
-            products = products.slice(0, limit);
+        let { limit = 8, page = 1, sort = '', category = '', ...query } = req.query;
+        const sortManager = { 'asc': 1, 'desc': -1 };
+
+        limit = parseInt(limit);
+        page = parseInt(page);
+
+        if (category) {
+            query.category = category;
         }
 
-        return res.status(200).json({payload: products});
+        const options = {
+            limit,
+            page,
+            sort: sort ? { price: sortManager[sort] } : {},
+            customLabels: { docs: 'payload' }
+        };
+
+        const products = await productModel.paginate(query, options);
+        const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}${req.path}`;
+        const queryParams = new URLSearchParams({ limit, sort, category }).toString();
+        const nextPageUrl = products.hasNextPage ? `${baseUrl}?page=${products.nextPage}&${queryParams}` : null;
+        const prevPageUrl = products.hasPrevPage ? `${baseUrl}?page=${products.prevPage}&${queryParams}` : null;
+
+        return res.status(200).json({
+            payload: products.payload,
+            totalPages: products.totalPages,
+            page: products.page,
+            hasPrevPage: products.hasPrevPage,
+            hasNextPage: products.hasNextPage,
+            prevPage: prevPageUrl,
+            nextPage: nextPageUrl
+        });
     } catch (error) {
+        console.error(error);
         return res.status(500).json({ message: 'Error en el servidor al obtener todos los productos' });
     }
 });
 
+
 // Ruta para obtener un producto por su ID
 router.get('/:pid', async (req, res) => {
     try {
-        const { pid } = req.params; // Params del ID del producto a retornar
+        const { pid } = req.params; 
         if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' }); // Validamos el id
 
         const productID = await productsService.getById(pid);
@@ -37,7 +60,7 @@ router.get('/:pid', async (req, res) => {
             return res.status(404).json({ message: 'Producto no existe' });
         }
 
-        return res.status(200).json({payload: productID});
+        return res.status(200).json({ payload: productID });
     } catch (error) {
         return res.status(500).json({ message: 'Error en el servidor al obtener el producto' });
     }
@@ -64,8 +87,8 @@ router.post('/', uploader.single('file'), async (req, res) => {
 // Ruta para modificar un producto ya existente
 router.put('/:pid', uploader.single('file'), async (req, res) => {
     try {
-        const { pid } = req.params; // Params del producto a modificar (ID)
-        const productData = req.body; // Params de la data que se va a modificar del producto
+        const { pid } = req.params;
+        const productData = req.body;
 
         if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' });
         if (!productData || Object.keys(productData).length === 0) return res.status(400).json({ message: 'Datos inválidos para actualizar el producto' });
@@ -90,7 +113,7 @@ router.delete('/:pid', async (req, res) => {
         const deleteProduct = await productsService.delete(pid);
         if (!deleteProduct || deleteProduct.deletedCount === 0) return res.status(404).json({ message: 'Producto no encontrado' });
 
-        return res.status(200).json({ message: 'Producto eliminado correctamente'});
+        return res.status(200).json({ message: 'Producto eliminado correctamente' });
     } catch (error) {
         return res.status(500).json({ message: 'Error en el servidor no se logro procesar la solicitud eliminar' });
     }

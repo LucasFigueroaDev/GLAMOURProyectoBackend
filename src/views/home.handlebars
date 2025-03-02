@@ -1,10 +1,23 @@
 <div class="section-products">
     <h1 class="title">Bienvenido a mi tienda</h1>
-    <div >
+    <div>
         <h2 class="title-secundary">Mis productos</h2>
+        <div class="select-filter">
+            <select id="sort-order" class="sort-order">
+                <option value="">Ordenar por precio</option>
+                <option value="asc">Menor a Mayor</option>
+                <option value="desc">Mayor a Menor</option>
+            </select>
+            <select id="category-filter" class="category-filter">
+                <option value="">Todas las categorías</option>
+                <option value="Hombre">Ropa de hombre</option>
+                <option value="Mujer">Ropa de mujer</option>
+            </select>
+        </div>
         <div class="products" id="container-products">
 
         </div>
+        <div id="pagination" class="pagination"></div>
     </div>
 </div>
 

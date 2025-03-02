@@ -9,18 +9,24 @@ const productsService = new Base(productModel);
 // Ruta para obtener todos los productos
 router.get('/', async (req, res) => {
     try {
-        let { limit } = req.query; // Params para limitar la cantidad de productos a retornar
-        let products = await productsService.getAll();
-        if (limit) {
-            limit = parseInt(limit);
-            if (isNaN(limit) || limit <= 0) { // Verificar que es un número y que no sea negativo
-                return res.status(400).json({ message: 'El limite debe ser un número válido y mayor a cero' });
-            }
-            products = products.slice(0, limit);
-        }
+        let { limit = 8, page = 1, sort = '', category = '', ...query } = req.query; 
+        const sortManager = { 'asc': 1, 'desc': -1 };
+        
+        limit = parseInt(limit);
+        page = parseInt(page);
+
+        const options = {
+            limit,
+            page,
+            sort: sort ? { price: sortManager[sort] } : {}, 
+            customLabels: { docs: 'payload' }
+        };
+
+        const products = await productModel.paginate(query, options);
 
         return res.render('home');
     } catch (error) {
+        console.error(error);
         return res.status(500).json({ message: 'Error en el servidor al obtener todos los productos' });
     }
 });

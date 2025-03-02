@@ -6,6 +6,7 @@
     --color-green-oscuro: #55969e;
     --color-grey: #cccee0;
     --color-texto: #2c3e50;
+    --color-blue: #0056b3;
     --bg: linear-gradient(120deg, #5d99f8 20%, #c2e9fb 100%);
     --bg-ft: rgb(48, 198, 203);
 }
@@ -43,6 +44,20 @@ img {
     text-align: center;
     color: var(--color-green-oscuro);
     margin-bottom: 2rem;
+}
+
+.select-filter {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 3rem 0;
+}
+
+.sort-order,
+.category-filter {
+    padding: 5px 16px;
+    border: 1px solid var(--color-green);
+    border-radius: 20px;
 }
 
 .products {
@@ -141,6 +156,31 @@ img {
     margin-bottom: 15px;
     letter-spacing: 1px;
     color: var(--color-texto);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    background-color: var(--color-green-oscuro);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination-button.active {
+    background-color: var(--color-blue);
+    font-weight: bold;
+}
+
+.pagination-button:hover {
+    background-color: var(--color-blue);
 }
 
 /* Real time */
