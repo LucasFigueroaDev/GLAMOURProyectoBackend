@@ -1,0 +1,28 @@
+<h1>Tú carrito de compras</h1>
+<div id="container-products" data-cart-id={{cart._id}}>
+    <h2>Productos en el carrito</h2>
+    {{#if products.length}}
+    <ul>
+        {{#each products}}
+        <li class="product">
+            <h3>{{this.product.title}}</h3>
+            <div>
+                <p>Cantidad: <span class="product-quantity">{{this.quantity}}</span></p> 
+                <button class="btn-increase" data-product-id={{this.product._id}}>+</button>
+                <button class="btn-decrease" data-product-id={{this.product._id}}>-</button>
+            </div>
+            <p>Precio unitario: ${{this.product.price}}</p>
+            <p>Total: ${{this.total}}</p>
+            <button class="button-delete-product" data-product-id={{this.product._id}}>Eliminar producto</button>
+        </li>
+        {{/each}}
+    </ul>
+    {{else}}
+    <p>No hay productos en el carrito.</p>
+    {{/if}}
+    <button id="empty-cart">Vaciar carrito</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/carts.js"></script>

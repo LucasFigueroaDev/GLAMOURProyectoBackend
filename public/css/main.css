@@ -6,6 +6,7 @@
     --color-green-oscuro: #55969e;
     --color-grey: #cccee0;
     --color-texto: #2c3e50;
+    --color-skyblue: #00a7ff;
     --color-blue: #0056b3;
     --bg: linear-gradient(120deg, #5d99f8 20%, #c2e9fb 100%);
     --bg-ft: rgb(48, 198, 203);
@@ -19,8 +20,40 @@
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
 img {
     max-width: 100%;
+}
+
+.nav-bar {
+    background-color: var(--color-green);
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-cart {
+    font-size: 1.5rem;
+}
+
+.nav-counter {
+    display: none;
+    color: var(--color-black);
+    font-size: 1rem;
+    position: relative;
+    right: 5px;
+    bottom: 20px;
 }
 
 /* Home */
@@ -158,6 +191,33 @@ img {
     color: var(--color-texto);
 }
 
+.detail-button {
+    background-color: var(--color-green);
+    border: 1px solid var(--color-green-oscuro);
+    padding: 5px;
+    width: 15rem;
+    margin: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.detail-button:hover {
+    background-color: var(--color-green-oscuro);
+    color: var(--color-white);
+}
+
+/* Sweet Alert */
+.sweet-popup {
+    width: 20rem;
+}
+
+.sweet-title {
+    font-size: 1rem;
+}
+
+
+/* Botones paginación */
 .pagination {
     display: flex;
     justify-content: center;

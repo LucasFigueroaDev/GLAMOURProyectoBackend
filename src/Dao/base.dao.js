@@ -32,7 +32,7 @@ export class Base {
 
     async update(id, objectUpdate) {
         try {
-            const result = await this.model.findByIdAndUpdate(id, { $set: objectUpdate }, { new: true, runValidators: true });
+            const result = await this.model.findByIdAndUpdate(id, objectUpdate, { new: true, runValidators: true });
             return result
         } catch (error) {
             throw new Error('Error interno del servidor');

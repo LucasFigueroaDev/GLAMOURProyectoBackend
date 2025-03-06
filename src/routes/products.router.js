@@ -10,7 +10,7 @@ const productsService = new Base(productModel);
 // Ruta para obtener todos los productos
 router.get('/', async (req, res) => {
     try {
-        let { limit = 8, page = 1, sort = '', category = '', ...query } = req.query;
+        let { limit = 10, page = 1, sort = '', category = '', ...query } = req.query;
         const sortManager = { 'asc': 1, 'desc': -1 };
 
         limit = parseInt(limit);
@@ -43,7 +43,6 @@ router.get('/', async (req, res) => {
             nextPage: nextPageUrl
         });
     } catch (error) {
-        console.error(error);
         return res.status(500).json({ message: 'Error en el servidor al obtener todos los productos' });
     }
 });
@@ -52,7 +51,7 @@ router.get('/', async (req, res) => {
 // Ruta para obtener un producto por su ID
 router.get('/:pid', async (req, res) => {
     try {
-        const { pid } = req.params; 
+        const { pid } = req.params;
         if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' }); // Validamos el id
 
         const productID = await productsService.getById(pid);
@@ -88,11 +87,13 @@ router.post('/', uploader.single('file'), async (req, res) => {
 router.put('/:pid', uploader.single('file'), async (req, res) => {
     try {
         const { pid } = req.params;
-        const productData = req.body;
+        let productData = req.body;
 
         if (!mongoose.isValidObjectId(pid)) return res.status(400).json({ message: 'ID de producto inválido o inexistente' });
-        if (!productData || Object.keys(productData).length === 0) return res.status(400).json({ message: 'Datos inválidos para actualizar el producto' });
-        if (req.file) productData.thumbnail = req.file.path.split('public')[1];
+
+        if (req.file) productData = { ...productData, thumbnail: req.file.path.split('public')[1] };
+
+        if (!productData || Object.keys(productData).length === 0) return res.status(400).json({ message: 'No se enviaron datos para actualizar el producto' });
 
         const updatedProduct = await productsService.update(pid, productData);
 

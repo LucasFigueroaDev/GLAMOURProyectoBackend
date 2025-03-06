@@ -9,7 +9,11 @@
             <p class="detail-txt">Descripción: {{productID.description}}</p>
             <p class="detail-txt">Stock disponible: {{productID.stock}}</p>
             <p class="detail-txt">${{productID.price}}</p>
-            <button>Agregar al carrito</button>
+            <button class="detail-button" id="detail-button" data-product-id={{productID._id}}>Agregar al carrito</button>
         </div>
     </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/addProductCart.js"></script>
