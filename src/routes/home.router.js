@@ -27,7 +27,7 @@ router.get('/', async (req, res) => {
 
         const products = await productModel.paginate(query, options);
 
-        return res.render('home', { title: 'Mi tienda' });
+        return res.render('home', { title: 'Mi tienda', sectionInfoAndLogos: true });
     } catch (error) {
         console.error(error);
         return res.status(500).json({ message: 'Error en el servidor al obtener todos los productos' });
@@ -46,7 +46,7 @@ router.get('/home/:pid', async (req, res) => {
         }
         productID = productID.toObject();
 
-        return res.render('details', { title: `${productID.title}`, productID });
+        return res.render('details', { title: `${productID.title}`, productID, sectionInfoAndLogos: false });
     } catch (error) {
         return res.status(500).json({ message: 'Error en el servidor al obtener el producto' });
     }
@@ -62,7 +62,6 @@ router.get('/home/cart/:cid', async (req, res) => {
 
         return res.status(200).json(cart);
     } catch (error) {
-        console.error('❌ Error en la consulta del carrito:', error);  // Log de error más detallado
         return res.status(500).json({ message: 'Error en la solicitud del carrito, intentalo de nuevo más tarde' });
     }
 });

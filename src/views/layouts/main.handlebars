@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <title>{{title}}</title>
@@ -16,15 +16,53 @@
 <body>
     <nav class="nav-bar">
         <ul>
-            <li><a class="nav-home" href="/">Home</a></li>
-            <li><a class="nav-cart" id="nav-cart" href="/api/carts/">🛒<span class="nav-counter" id="nav-counter">0</span></a></li>
+            <li><a class="nav-home" href="/">Glamour</a></li>
+            <li><a class="nav-cart" id="nav-cart" href="/api/carts/"><img class="nav-logo" src="/img/logobolsa.png"
+                        alt="logo de bolsa de compra"><span class="nav-counter" id="nav-counter">0</span></a></li>
         </ul>
     </nav>
     {{{body}}}
+    {{#if sectionInfoAndLogos}}
+    <section class="information">
+        <div class="information-box">
+            <h2 class="information-title">INFO ÚTIL</h2>
+            <P class="information-txt">Cómo comprar</P>
+            <p class="information-txt">Política de cambios</p>
+            <p class="information-txt">Preguntas frecuentes</p>
+            <p class="information-txt">Contacto</p>
+        </div>
+        <div class="information-box">
+            <h2 class="information-title">CONTACTO</h2>
+            <p class="information-txt">+54 1234 - 12345678</p>
+            <p class="information-txt">Glamour.tienda@gmail.com</p>
+            <p class="information-txt">Av. glamour 123 - Córdoba - Argentina</p>
+        </div>
+    </section>
+    <section class="logos">
+        <div class="logos-box">
+            <img class="logo" src="/img/entrega-rapida.png" alt="Logo de camion de entrega a domicilio">
+            <h4 class="logos-title">ENVIOS A TODO EL PAIS</h4>
+        </div>
+        <div class="logos-box">
+            <img class="logo" src="/img/etiqueta.png" alt="Logo de etiqueta de descuento">
+            <h4 class="logos-title">15% DE DESCUENTO</h4>
+            <p class="logos-txt">Abonando por transferencia</p>
+        </div>
+        <div class="logos-box">
+            <img class="logo" src="/img/tarjeta-de-credito.png" alt="Logo de tarjeta de credito">
+            <h4 class="logos-title">3 Y 6 CUOTAS SIN INTERES</h4>
+        </div>
+        <div class="logos-box">
+            <img class="logo" src="/img/proteger.png" alt="Logo de compra segura">
+            <h4 class="logos-title">COMPRA SEGURA</h4>
+            <p class="logos-txt">Protegemos todos tus datos</p>
+        </div>
+    </section>
+    {{/if}}
     <footer class="ft">
-        <p class="ft-txt">2025 Todos los derechos reservados. Creado por <strong>Lucas Figueroa</strong></p>
+        <p class="ft-txt">2025 Sitio desarrollado por <strong>Lucas Figueroa</strong></p>
     </footer>
-    <script src="/js/script.js"></script>
+    <script type="module" src="/js/script.js"></script>
 </body>
 
 </html>

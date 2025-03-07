@@ -1,7 +1,10 @@
+import { updateCartCounter } from "./script.js";
+
 const url = 'http://localhost:8080';
 document.addEventListener('DOMContentLoaded', () => {
     const containerProducts = document.getElementById('container-products');
     const cartId = containerProducts.dataset.cartId;
+
 
     // Función para actualizar la cantidad
     const updateQuantity = async (productId, newQuantity) => {
@@ -35,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         icon: 'sweet-icon'
                     }
                 });
+                updateCartCounter();
             } else {
                 Swal.fire({
                     position: "top-end",
@@ -58,7 +62,25 @@ document.addEventListener('DOMContentLoaded', () => {
     // Función para vaciar el carrito
     const emptyCart = async () => {
         try {
-            const response = await axios.delete(`${url}/api/carts/${cartId}`)
+            const getProducts = await axios.get(`${url}/home/cart/${cartId}`);
+            const data = getProducts.data.products;
+            const productCount = data.length;
+            if (productCount < 1) {
+                Swal.fire({
+                    position: "top-end",
+                    title: "El carrito ya está vacío",
+                    showConfirmButton: false,
+                    timer: 2500,
+                    customClass: {
+                        container: 'sweet-container',
+                        popup: 'sweet-popup',
+                        title: 'sweet-title'
+                    }
+                });
+                return;
+            }
+
+            const response = await axios.delete(`${url}/api/carts/${cartId}`);
 
             if (response.status === 200) {
                 Swal.fire({
@@ -73,6 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         icon: 'sweet-icon'
                     }
                 });
+                updateCartCounter();
             } else {
                 Swal.fire({
                     position: "top-end",
@@ -86,8 +109,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
             }
-
             return response.data;
+
         } catch (error) {
             throw new Error("Error en la solicitud para vaciar el carrito", error);
         }

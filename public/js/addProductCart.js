@@ -1,3 +1,5 @@
+import { updateCartCounter } from "./script.js";
+
 const addProduct = document.getElementById('detail-button');
 
 addProduct.addEventListener('click', async (e) => {
@@ -28,6 +30,7 @@ addProduct.addEventListener('click', async (e) => {
                     icon: 'sweet-icon'
                 }
             });
+            updateCartCounter();
         } else {
             Swal.fire({
                 position: "top-end",

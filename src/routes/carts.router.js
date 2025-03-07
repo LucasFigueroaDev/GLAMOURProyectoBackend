@@ -34,11 +34,17 @@ router.get('/:cid', async (req, res) => {
             });
         }
         cart.products = cart.products.map(product => {
-            product.total = product.quantity * product.product.price;
+            product.total = (product.quantity * product.product.price).toFixed(2);
             return product;
         });
 
-        return res.render('carts', { title: 'Mi tienda - Carrito de compras', cart: cart, products: cart.products });
+        const total = cart.products.reduce((acc, item) => {
+            return acc + (item.product.price * item.quantity)
+        }, 0)
+
+        const totalPrice = total.toFixed(2);
+
+        return res.render('carts', { title: 'Mi tienda - Carrito de compras', cart: cart, products: cart.products, totalPrice, sectionInfoAndLogos: false });
     } catch (error) {
         return res.status(500).json({ message: 'Error no se pudo procesar tu solicitud' });
     }
@@ -100,7 +106,7 @@ router.post('/:cid/product/:pid', async (req, res) => {
     }
 });
 
-// Ruta para modificar un carrito <--- revisar
+// Ruta para modificar un carrito
 router.put('/:cid', async (req, res) => {
     const { cid } = req.params;
     const { products } = req.body;

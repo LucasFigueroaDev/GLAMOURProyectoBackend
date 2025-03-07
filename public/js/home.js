@@ -3,8 +3,9 @@ const containerProducts = document.getElementById('container-products');
 const paginationContainer = document.getElementById('pagination');
 const sortSelect = document.getElementById('sort-order');
 const categorySelect = document.getElementById('category-filter');
+const cartId = localStorage.getItem('cartId');
 
-let currentPage = 1; 
+let currentPage = 1;
 let totalPages = 1;
 let currentSort = '';
 let currentCategory = '';
@@ -13,7 +14,7 @@ const getProducts = async (page = 1, sort = '', category = '') => {
     try {
         const response = await axios.get(`${url}?page=${page}&sort=${sort}&category=${category}`);
         totalPages = response.data.totalPages;
-        return response.data.payload;  
+        return response.data.payload;
     } catch (error) {
         console.error('Error al obtener los productos:', error);
         return [];
@@ -21,9 +22,9 @@ const getProducts = async (page = 1, sort = '', category = '') => {
 };
 
 const renderProducts = async (page = 1) => {
-    const products = await getProducts(page, currentSort, currentCategory); 
+    const products = await getProducts(page, currentSort, currentCategory);
 
-    containerProducts.innerHTML = ''; 
+    containerProducts.innerHTML = '';
 
     products.forEach(element => {
         const div = document.createElement('div');
