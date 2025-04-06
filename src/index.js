@@ -10,7 +10,7 @@ import { connectToMongo } from "./connections/mongo.js";
 const app = express();
 
 app.engine('handlebars', handlebars.engine());
-app.set('views', path.join(__dirname, '../views'));
+app.set('views', path.join(__dirname, '../../views'));
 app.set('view engine', 'handlebars');
 
 app.use(express.json());
