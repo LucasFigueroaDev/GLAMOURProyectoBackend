@@ -4,10 +4,17 @@ import productsRouter from "./routes/products.router.js";
 import cartsRouter from "./routes/carts.router.js";
 import homeRouter from "./routes/home.router.js";
 import path from 'node:path';
+import cors from 'cors';
 import { __dirname } from "./utils/utils.js";
 import { connectToMongo } from "./connections/mongo.js";
 
 const app = express();
+
+app.use(cors({
+    origin: 'https://glamour-proyecto-backend.vercel.app/',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    credentials: true
+}));
 
 app.engine('handlebars', handlebars.engine());
 app.set('views', path.join(__dirname, '../views'));
