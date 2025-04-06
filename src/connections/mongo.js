@@ -6,6 +6,7 @@ dotenv.config();
 export const connectToMongo = async () => {
     try {
         await mongoose.connect(process.env.MONGO_KEY, {
+            dbName: 'db-Project-CoderHouse-BackEnd-I',
             serverSelectionTimeoutMS: 10000,
             socketTimeoutMS: 45000,
             maxPoolSize: 10,
