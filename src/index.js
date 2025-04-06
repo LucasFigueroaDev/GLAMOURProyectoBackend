@@ -8,8 +8,6 @@ import { __dirname } from "./utils/utils.js";
 import { connectToMongo } from "./connections/mongo.js";
 
 const app = express();
-const port = 8080;
-
 
 app.engine('handlebars', handlebars.engine());
 app.set('views', path.join(__dirname, '../views'));
@@ -27,7 +25,6 @@ app.use('/api/carts/', cartsRouter);
 
 connectToMongo();
 
-const httpServer = app.listen(port, () => console.log(`Servidor On en http://localhost:${port}`));
-
+export default app;
 
 
