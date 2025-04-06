@@ -1,6 +1,6 @@
 import { updateCartCounter } from "./script.js";
 
-const url = 'http://localhost:8080';
+const url = 'https://glamour-proyecto-backend.vercel.app/';
 document.addEventListener('DOMContentLoaded', () => {
     const containerProducts = document.getElementById('container-products');
     const cartId = containerProducts.dataset.cartId;
