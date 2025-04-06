@@ -1,4 +1,5 @@
-const url = 'https://glamour-proyecto-backend.vercel.app/api/products';
+const isLocal = window.location.hostname === 'localhost';
+const url = isLocal ? 'http://localhost:8080/api/products' : 'https://glamour-proyecto-backend.vercel.app/api/products';
 const containerProducts = document.getElementById('container-products');
 const paginationContainer = document.getElementById('pagination');
 const sortSelect = document.getElementById('sort-order');
