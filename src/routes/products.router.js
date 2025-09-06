@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 import { __dirname, uploader } from '../utils/utils.js';
 import { Router } from "express";
-import { Base } from '../Dao/base.dao.js';
 import { productModel } from '../models/product.model.js';
 
 const router = Router();

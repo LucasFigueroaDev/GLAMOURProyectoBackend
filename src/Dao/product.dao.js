@@ -1,10 +1,14 @@
 import { productModel } from "../models/product.model.js";
-import { MongoDao } from "./mongo.dao.js";
+import { mongoDao } from "./mongo.dao.js";
 
-class ProductDao extends MongoDao {
+class productDao extends MongoDao {
     constructor(model) {
         super(model);
     }
+
+    getProductByTitle = async (title) => {
+        return await this.model.findOne({ title });
+    }
 }
 
-export const productDao = new ProductDao(productModel);
+export const productDao = new productDao(productModel);

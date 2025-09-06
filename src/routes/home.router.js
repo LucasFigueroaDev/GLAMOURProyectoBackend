@@ -1,9 +1,6 @@
 import mongoose from "mongoose";
 import { Router } from "express";
-import { Base } from '../Dao/base.dao.js';
 import { productModel } from '../models/product.model.js';
-import { CartsDao } from "../Dao/carts.dao.js";
-import { cartModel } from "../models/cart.model.js";
 
 const router = Router();
 const productsService = new Base(productModel);

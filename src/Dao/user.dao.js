@@ -1,27 +1,26 @@
-import {userModel} from '../models/user.model.js';
-import { MongoDao } from "./mongo.dao.js";
-
-class UserDao extends MongoDao {
+import { userModel } from '../models/user.model.js';
+import { baseDao } from './base.dao.js';
+class userDao extends baseDao {
     constructor(model) {
         super(model);
     }
 
     getByEmail = async (email) => {
-        try {
-            return await this.model.findOne({ email });
-        } catch (error) {
-            throw new Error(error);
-        }
+        return await this.model.findOne({ email });
     }
 
-    getUserById = async (uid) => {
-        try {
-            return await this.model.findById(uid).populate('cart');
-        } catch (error) {
-            throw new Error(error);
-        }
+    getUserById = async (id) => {
+        return await this.model.findById(id).populate('cart');
+    }
+
+    deleteByEmail = async (email) => {
+        return await this.model.findOneAndDelete({ email });
+    }
+
+    getByUsername = async (username) => {
+        return await this.model.findOne({ username });
     }
 
 }
 
-export const userDao = new UserDao(userModel);
+export const userDao = new userDao(userModel);
