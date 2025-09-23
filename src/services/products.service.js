@@ -2,15 +2,35 @@ import { productRepository } from "../repository/products.repository.js";
 import productDto from "../dto/product.dto.js";
 import CustomError from "../utils/customError.js";
 
-export class productsService {
+export class ProductsService {
     constructor(repository) {
         this.repository = repository;
     }
-    getAllProducts = async () => {
+    getAllProducts = async ({ query, options }) => {
         try {
-            const response = await this.repository.getAllProducts();
+            query.status = true;
+            if (query.minPrice || query.maxPrice) {
+                query.price = {};
+                if (query.minPrice) {
+                    query.price.$gte = query.minPrice; // $gte es mayor o igual
+                }
+                if (query.maxPrice) {
+                    query.price.$lte = query.maxPrice; // $lte es menor o igual
+                }
+                delete query.minPrice;
+                delete query.maxPrice;
+            }
+            const response = await this.repository.getAllProducts(query, options);
             if (!response) throw new CustomError(404, "Error al obtener los productos");
-            return response;
+            return {
+                payload: response.docs,
+                totalPages: response.totalPages,
+                page: response.page,
+                hasPrevPage: response.hasPrevPage,
+                hasNextPage: response.hasNextPage,
+                prevPage: response.hasPrevPage ? response.prevPage : null,
+                nextPage: response.hasNextPage ? response.nextPage : null
+            };
         } catch (error) {
             throw error;
         }
@@ -34,22 +54,78 @@ export class productsService {
         }
     };
     createProduct = async (product) => {
+    try {
+        const allowedTypes = ['image/jpeg', 'image/png', 'image/jpg', 'image/webp'];
+        const maxSize = 4 * 1024 * 1024; // 4MB
+        if (product.fileInfo) {
+            if (!allowedTypes.includes(product.fileInfo.mimetype)) throw new CustomError(400, "El archivo debe ser una imagen");
+            if (product.fileInfo.size > maxSize) throw new CustomError(400, "El archivo debe ser menor a 4MB");
+        }
+        const existProduct = await this.repository.getProductByTitle(product.title);
+        if (existProduct) throw new CustomError(400, "El producto ya existe");
+        const requiredFields = ["title", "description", "price", "code", "stock", "category_id", "supplier_id"];
+        const missingFields = requiredFields.filter(field => !product[field]);
+        if (missingFields.length > 0) 
+            throw new CustomError(400, `Faltan campos obligatorios: ${missingFields.join(', ')}`);
+        if (!product.title.trim()) throw new CustomError(400, "El título no puede estar vacío");
+        if (!product.description.trim()) throw new CustomError(400, "La descripción no puede estar vacía");
+        if (!product.code.trim()) throw new CustomError(400, "El código no puede estar vacío");
+        if (product.stock <= 0) throw new CustomError(400, "El stock debe ser mayor a 0");
+        if (product.price <= 0) throw new CustomError(400, "El precio debe ser mayor a 0");
+        const response = await this.repository.createProduct(product);
+        if (!response) throw new CustomError(500, "Error al crear el producto");
+        return productDto.getProductDto(response);
+    } catch (error) {
+        throw error;
+    }
+};
+
+    insertManyProducts = async (products) => {
         try {
-            const existProduct = await this.repository.getProductByTitle(title);
-            if (existProduct) throw new CustomError(400, "El producto ya existe");
-            const response = await this.repository.createProduct(product);
-            if (!response) throw new CustomError(404, "Error al crear el producto");
+            if(!Array.isArray(products)) throw new CustomError(400, "Los productos deben ser un array");
+            const requiredFields = ["title", "description", "price", "code", "stock", "category_id", "supplier_id"];
+            const invalidFields = products.filter(product => {
+                return requiredFields.some(field => !product[field]);
+            });
+            if (invalidFields.length > 0) throw new CustomError(400, "Los productos deben tener todos los campos requeridos");
+            const titles = products.map(product => product.title);
+            for (const title of titles) {
+                const existProduct = await this.repository.getProductByTitle(title);
+                if (existProduct) throw new CustomError(400, `El producto ${title} ya existe`);
+            }
+            const response = await this.repository.insertManyProducts(products);
+            if (!response) throw new CustomError(404, "Error al crear los productos");
+            return response.map(product => {
+                return productDto.getProductDto(product);
+            })
+        } catch (error) {
+            throw error;
+        }
+    }
+    updateProduct = async (id, update) => {
+        try {
+            const existProduct = await this.getProductById(id);
+            if (Object.keys(update).length === 0) throw new CustomError(400, "Error faltan datos para actualizar el producto");
+            if (update.title && !update.title.trim()) {throw new CustomError(400, "El título no puede estar vacío");}
+            if (update.description && !update.description.trim()) {throw new CustomError(400, "La descripción no puede estar vacía");}
+            if (update.price !== undefined && update.price < 0) {throw new CustomError(400, "El precio debe ser mayor que 0");}
+            if (update.stock !== undefined && update.stock < 0) {throw new CustomError(400, "El stock debe ser mayor que 0 o marcar status false");}
+            if (update.hasOwnProperty("stock") && update.stock === 0) {update.status = false;}
+            if (update.category_id && !update.category_id.trim()) {throw new CustomError(400, "Especificar una categoría válida");}
+            if (update.supplier_id && !update.supplier_id.trim()) {throw new CustomError(400, "Especificar un proveedor válido");}
+            const response = await this.repository.updateProduct(id, update);
+            if (!response) throw new CustomError(404, "Error al actualizar el producto");
             return productDto.getProductDto(response);
         } catch (error) {
             throw error;
         }
     };
-    updateProduct = async (id, product) => {
+    softDeleteProduct = async (id) => {
         try {
             const existProduct = await this.getProductById(id);
-            const response = await this.repository.updateProduct(id, product);
-            if (!response) throw new CustomError(404, "Error al actualizar el producto");
-            return productDto.getProductDto(response);
+            const response = await this.repository.softDeleteProduct(id);
+            if (!response) throw new CustomError(404, "Error al dar de baja el producto");
+            return response;
         } catch (error) {
             throw error;
         }
@@ -66,4 +142,4 @@ export class productsService {
     };
 }
 
-export const productsService = new productsService(productRepository);
+export const productsService = new ProductsService(productRepository);

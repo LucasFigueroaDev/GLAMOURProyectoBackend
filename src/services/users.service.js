@@ -5,7 +5,7 @@ import { usersRepository } from "../repository/users.repository.js";
 import { createHash, passwordValidation } from "../utils/createHash.js";
 import "dotenv/config";
 
-class usersService {
+class UsersService {
     constructor(repository) {
         this.repository = repository
     }
@@ -122,4 +122,4 @@ class usersService {
     }
 }
 
-export const usersService = new usersService(usersRepository);
+export const usersService = new UsersService(usersRepository);

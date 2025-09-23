@@ -1,14 +1,25 @@
 import { productModel } from "../models/product.model.js";
-import { mongoDao } from "./mongo.dao.js";
-
-class productDao extends MongoDao {
+import BaseDao from "./base.dao.js";
+class ProductDao extends BaseDao {
     constructor(model) {
         super(model);
+    }
+
+    getAllProducts = async (query, options) => {
+        return await this.model.paginate(query, options);
     }
 
     getProductByTitle = async (title) => {
         return await this.model.findOne({ title });
     }
+
+    insertManyProducts = async (products) => {
+        return await this.model.insertMany(products);
+    }
+
+    softDeleteProduct = async (id) => {
+        return await this.model.update(id, { status: false, deletedAt: new Date() }, { new: true });
+    }
 }
 
-export const productDao = new productDao(productModel);
+export const productDao = new ProductDao(productModel);

@@ -13,7 +13,9 @@ const productSchema = new Schema({
     supplier_id: {type: Schema.Types.ObjectId, ref: 'suppliers', required: true},
     status: {type: Boolean, default: true},
     thumbnail: {type: String},
-    created_at: {type: Date, default: Date.now}
+    created_at: {type: Date, default: Date.now},
+    updated_at: {type: Date, default: null},
+    deleted_at: {type: Date, default: null}
 });
 
 productSchema.plugin(mongoosePaginate);

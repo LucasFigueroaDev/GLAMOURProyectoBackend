@@ -1,6 +1,6 @@
 import { userModel } from '../models/user.model.js';
-import { baseDao } from './base.dao.js';
-class userDao extends baseDao {
+import BaseDao from './base.dao.js';
+class UserDao extends BaseDao {
     constructor(model) {
         super(model);
     }
@@ -23,4 +23,4 @@ class userDao extends baseDao {
 
 }
 
-export const userDao = new userDao(userModel);
+export const userDao = new UserDao(userModel);

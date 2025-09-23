@@ -1,4 +1,4 @@
-export default class baseDao {
+class BaseDao {
     constructor(model) {
         this.model = model;
     }
@@ -23,3 +23,5 @@ export default class baseDao {
         return await this.model.deleteOne(id);
     }
 }   
+
+export default BaseDao;

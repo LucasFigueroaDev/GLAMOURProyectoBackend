@@ -1,0 +1,48 @@
+[
+    {
+        "name": "mujer",
+        "description": "Ropa y accesorios para mujer, incluyendo tops, remeras, camisas, blazers, camperas y abrigos.",
+        "image": "https://i.ibb.co/dJ3LYg3B/cat-mujer.webp"
+    },
+    {
+        "name": "hombre",
+        "description": "Ropa y accesorios para hombre, incluyendo remeras, camisas, poleras, pantalones y camperas.",
+        "image": "https://i.ibb.co/d4k7hV30/cat-hombre.webp"
+    },
+    {
+        "name": "niños",
+        "description": "Indumentaria y accesorios para bebés y niños, incluyendo conjuntos, remeras, bodies y pantalones.",
+        "image": "https://i.ibb.co/9kXbNh2z/cat-ni-os.webp"
+    },
+    {
+        "name": "zapatillas",
+        "description": "Calzado deportivo y casual para hombres, mujeres y niños, de distintas marcas y estilos.",
+        "image": "https://i.ibb.co/3yP4B5MP/cat-zapatillas.webp"
+    },
+    {
+        "name": "joyas y relojes",
+        "description": "Joyas, relojes y accesorios de moda, incluyendo anillos, pulseras, cadenas, alianzas y smartwatches.",
+        "image": "https://i.ibb.co/gFQL26W0/cat-joyas-relojes.webp"
+    },
+    {
+        "name": "anteojos",
+        "description": "Anteojos y gafas de sol para hombres y mujeres, incluyendo modelos polarizados y de moda.",
+        "image": "https://i.ibb.co/WNzhRYR9/cat-anteojos.webp"
+    },
+    {
+        "name": "camperas y abrigos",
+        "description": "Camperas, tapados, abrigos y blazers para hombres y mujeres, ideales para todas las estaciones.",
+        "image": "https://i.ibb.co/Fq4tv3KX/cat-abrigos-camperas.webp"
+    },
+    {
+        "name": "mochilas",
+        "description": "Mochilas y bolsos para hombres, mujeres y niños, incluyendo modelos urbanos, deportivos y escolares.",
+        "image": "https://i.ibb.co/XrLTy912/cat-mochilas.webp"
+    }
+]
+
+
+
+
+
+

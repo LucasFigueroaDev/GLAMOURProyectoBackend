@@ -1,7 +1,7 @@
-import { userService } from "../services/users.service.js";
+import { usersService } from "../services/users.service.js";
 import { createResponse } from "../utils/createResponse.js";
 
-class usersController {
+class UsersController {
     constructor(service) {
         this.service = service
     }
@@ -86,4 +86,4 @@ class usersController {
     }
 }
 
-export const usersController = new usersController(userService);
+export const usersController = new UsersController(usersService);

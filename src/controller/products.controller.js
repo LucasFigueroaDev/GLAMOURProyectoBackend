@@ -3,19 +3,19 @@ import { createResponse } from "../utils/createResponse.js";
 import { __dirname } from '../utils/utils.js';
 
 
-class productsController {
+class ProductsController {
     constructor(service) {
         this.service = service;
     }
     getAllProducts = async (req, res, next) => {
         try {
-            let { limit = 10, page = 1, sort = '', category = '', ...filters } = req.query;
+            let { limit = 10, page = 1, sort = '', category, minPrice, maxPrice, ...filters } = req.query;
             const sortManager = { 'asc': 1, 'desc': -1 };
             limit = parseInt(limit);
             page = parseInt(page);
-            if (category) {
-                filters.category = category;
-            }
+            if (category) { filters.category = category; }
+            if (minPrice) { filters.minPrice = minPrice; }
+            if (maxPrice) { filters.maxPrice = maxPrice; }
             const options = {
                 limit,
                 page,
@@ -24,13 +24,9 @@ class productsController {
             };
             const products = await this.service.getAllProducts({ query: filters, options });
             const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}${req.path}`;
-            const queryParams = new URLSearchParams({ limit, sort, category }).toString();
-
-            const nextPageUrl = products.hasNextPage
-                ? `${baseUrl}?page=${products.nextPage}&${queryParams}` : null;
-
-            const prevPageUrl = products.hasPrevPage
-                ? `${baseUrl}?page=${products.prevPage}&${queryParams}` : null;
+            const queryParams = new URLSearchParams({ limit, sort, category, minPrice, maxPrice }).toString();
+            const nextPageUrl = products.hasNextPage ? `${baseUrl}?page=${products.nextPage}&${queryParams}` : null;
+            const prevPageUrl = products.hasPrevPage ? `${baseUrl}?page=${products.prevPage}&${queryParams}` : null;
             createResponse(res, 200, {
                 payload: products.payload,
                 totalPages: products.totalPages,
@@ -64,19 +60,43 @@ class productsController {
     };
     createProduct = async (req, res, next) => {
         try {
-            const thumbnail = req.file ? req.file.path.split('public')[1] : null;
-            if (req.file) productData = { ...productData, thumbnail: req.file.path.split('public')[1] };
-            const product = await this.service.createProduct(req.body);
-            createResponse(res, 201, { status: "Exito al crear el producto", payload: product });
+            const productData = { ...req.body };
+            if (req.file) {
+                productData.thumbnail = req.file.path.split('public')[1];
+                productData.fileInfo = {
+                    mimetype: req.file.mimetype,
+                    size: req.file.size
+                };
+            }
+            const product = await this.service.createProduct(productData);
+            createResponse(res, 201, { status: "Producto creado correctamente", payload: product });
         } catch (error) {
             next(error);
         }
     };
+    insertManyProducts = async (req, res, next) => {
+        try {
+            const products = await this.service.insertManyProducts(req.body);
+            createResponse(res, 201, { status: "Exito al crear los productos", payload: products });
+        } catch (error) {
+            next(error);
+        }
+    }
     updateProduct = async (req, res, next) => {
         try {
             const { id } = req.params;
-            const product = await this.service.updateProduct(id, req.body);
+            const data = { ...req.body, thumbnail: req.file ? req.file.path.split('public')[1] : null };
+            const product = await this.service.updateProduct(id, data);
             createResponse(res, 200, { status: "Exito al actualizar el producto", payload: product });
+        } catch (error) {
+            next(error);
+        }
+    };
+    softDeleteProduct = async (req, res, next) => {
+        try {
+            const { id } = req.params;
+            const product = await this.service.softDeleteProduct(id);
+            createResponse(res, 200, { status: "Exito al eliminar el producto", payload: product });
         } catch (error) {
             next(error);
         }
@@ -92,4 +112,4 @@ class productsController {
     };
 }
 
-export const productsController = new productsController(productsService);
+export const productsController = new ProductsController(productsService);
