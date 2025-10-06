@@ -1,9 +1,10 @@
 import CustomError from "../utils/customError.js";
-import userDto from "../dto/user.dto.js";
+import userDto from "../dto/user.dto.js"
 import jwt from "jsonwebtoken";
 import { usersRepository } from "../repository/users.repository.js";
 import { createHash, passwordValidation } from "../utils/createHash.js";
 import "dotenv/config";
+import UserDTO from "../../../backend3-PreEntrega/src/dto/user.dto.js";
 
 class UsersService {
     constructor(repository) {
@@ -33,7 +34,7 @@ class UsersService {
         try {
             const response = await this.repository.getUserById(id);
             if (!response) throw new CustomError(404, 'Error al obtener el usuario por id');
-            return response;
+            return userDto.getUserTokenFrom(response);
         } catch (error) {
             throw error;
         }
@@ -42,33 +43,23 @@ class UsersService {
     getUserByEmail = async (email) => {
         try {
             const response = await this.repository.getUserByEmail(email);
-            return response;
+            return userDto.getUserTokenFrom(response);
         } catch (error) {
             throw error;
         }
     }
 
-    getUserByUsername = async (username) => {
-        try {
-            const response = await this.repository.getUserByUsername(username);
-            return response;
-        } catch (error) {
-            throw error;
-        }
-    }
 
     createUser = async (user) => {
         try {
-            const { email, password, username } = user;
+            const { email, password } = user;
             const existEmail = await this.repository.getUserByEmail(email);
             if (existEmail) throw new CustomError(400, 'El email ya esta en uso');
-            const existUsername = await this.repository.getUserByUsername(username);
-            if (existUsername) throw new CustomError(400, 'El username ya esta en uso');
             const hashedPassword = await createHash(password);
             user.password = hashedPassword;
             const response = await this.repository.createUser(user);
             if (!response) throw new CustomError(400, 'Error al crear el usuario');
-            return response;
+            return userDto.getUserTokenFrom(response);
         } catch (error) {
             throw error;
         }
@@ -76,19 +67,24 @@ class UsersService {
 
     updateUser = async (id, body) => {
         try {
+            const { email } = body;
             const user = await this.getUserById(id);
+            if (user.email !== email) {
+                const existEmail = await this.repository.getUserByEmail(email);
+                if (existEmail) throw new CustomError(404, 'El email ya esta en uso');
+            }
             const response = await this.repository.updateUser(id, body);
             if (!response) throw new CustomError(400, 'Error al actualizar el usuario');
-            return response;
+            return userDto.getUserTokenFrom(response);
         } catch (error) {
             throw error;
         }
     }
 
-    deleteUser = async (id) => {
+    userDelete = async (id) => {
         try {
             const user = await this.getUserById(id);
-            const response = await this.repository.deleteUser(id);
+            const response = await this.repository.userDelete(id);
             if (!response) throw new CustomError(404, 'Error al eliminar el usuario');
             return response;
         } catch (error) {

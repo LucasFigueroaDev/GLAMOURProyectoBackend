@@ -17,10 +17,6 @@ class userRepository {
         return await this.dao.getByEmail(email);
     }
 
-    getUserByUsername = async (username) => {
-        return await this.dao.getByUsername(username);
-    }
-
     createUser = async (user) => {
         return await this.dao.create(user);
     }

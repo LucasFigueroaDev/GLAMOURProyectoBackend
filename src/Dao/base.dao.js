@@ -20,7 +20,7 @@ class BaseDao {
     }
 
     delete = async (id) => {
-        return await this.model.deleteOne(id);
+        return await this.model.findByIdAndDelete(id);
     }
 }   
 

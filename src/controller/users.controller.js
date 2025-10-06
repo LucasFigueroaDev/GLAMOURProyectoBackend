@@ -35,20 +35,10 @@ class UsersController {
         }
     }
 
-    getUserByUsername = async (req, res, next) => {
-        try {
-            const { username } = req.params;
-            const user = await this.service.getUserByUsername(username);
-            createResponse(res, 200, { status: "Exito al obtener el usuario por username", payload: user });
-        } catch (error) {
-            next(error);
-        }
-    }
-
     createUser = async (req, res, next) => {
         try {
             const user = await this.service.createUser(req.body);
-            createResponse(res, 200, { status: "Exito al crear el usuario", payload: user });
+            createResponse(res, 201, { status: "Exito al crear el usuario", payload: user });
         } catch (error) {
             next(error);
         }
@@ -64,10 +54,10 @@ class UsersController {
         }
     }
 
-    deleteUser = async (req, res, next) => {
+    userDelete = async (req, res, next) => {
         try {
             const { id } = req.params;
-            const user = await this.service.deleteUser(id);
+            const user = await this.service.userDelete(id);
             createResponse(res, 200, { status: "Exito al borrar el usuario", payload: user });
         } catch (error) {
             next(error);

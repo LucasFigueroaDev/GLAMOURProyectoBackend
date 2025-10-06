@@ -10,15 +10,11 @@ class UserDao extends BaseDao {
     }
 
     getUserById = async (id) => {
-        return await this.model.findById(id).populate('cart');
+        return await this.model.findById(id);
     }
 
     deleteByEmail = async (email) => {
         return await this.model.findOneAndDelete({ email });
-    }
-
-    getByUsername = async (username) => {
-        return await this.model.findOne({ username });
     }
 
 }
