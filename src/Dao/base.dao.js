@@ -16,7 +16,7 @@ class BaseDao {
     }
 
     update = async (id, body) => {
-        return await this.model.findByIdAndUpdate(id, body, { new: true });
+        return await this.model.findByIdAndUpdate(id, body, {updated_at: new Date(), new: true });
     }
 
     delete = async (id) => {

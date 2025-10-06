@@ -18,7 +18,7 @@ class ProductDao extends BaseDao {
     }
 
     softDeleteProduct = async (id) => {
-        return await this.model.update(id, { status: false, deletedAt: new Date() }, { new: true });
+        return await this.model.findByIdAndUpdate(id, { status: false,updated_at: new Date(), deleted_at: new Date() }, { new: true });
     }
 }
 
