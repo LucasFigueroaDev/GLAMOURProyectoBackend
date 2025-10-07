@@ -1,1224 +1,1036 @@
 [
   {
-    "_id": "672c1f7a91b2f1001a9a1234",
     "title": "Top Corpiño Deportivo Alto Impacto Basset Advance Rosa Viejo",
     "description": "Top Advance\nNuestra Linea Advance, nuestra linea clásica ideal para todo. Con cinturas ultra cómodas y un textil con base de poliamida que nos brinda movilidad en cualquier momento, con una gran sensación de liviandad y suavidad. Prendas de compresión media, son ideales para todo el día.",
     "price": 18999,
     "code": "TOP-ADV-001",
     "stock": 45,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_basset",
     "status": true,
-    "thumbnail": "https://i.ibb.co/wFp8Wyzc/prod01.webp",
-    "created_at": "2025-09-05T17:10:00Z"
+    "thumbnail": "https://i.ibb.co/wFp8Wyzc/prod01.webp"
   },
   {
-    "_id": "672c21f591b2f1001a9a1235",
     "title": "Remera Algodón Teñido Oversize Oregon Lightning Bolt",
     "description": "La remera de algodón teñido Oregon de Lightning Bolt es la elección perfecta para quienes buscan comodidad y estilo en su armario diario. Su diseño oversized y de corte holgado la convierte en una prenda versátil que se adapta a diferentes tipos de cuerpos y estilos personales. Ideal para disfrutar de un look relajado en cualquier ocasión, ya sea para un paseo por la ciudad o una reunión informal con amigos.",
     "price": 15499,
     "code": "REM-ORE-001",
     "stock": 60,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_lightning",
     "status": true,
-    "thumbnail": "https://i.ibb.co/jPKFcrNR/prod02.webp",
-    "created_at": "2025-09-05T17:20:00Z"
+    "thumbnail": "https://i.ibb.co/jPKFcrNR/prod02.webp"
   },
   {
-    "_id": "672c232a91b2f1001a9a1236",
     "title": "Top Giantessa What A Girl Wants Denim Azul",
     "description": "Top estilo dosmilero en denim 100% algodón con costuras a contratono y prelavado. Breteles finos y calce ajustado.",
     "price": 20999,
     "code": "TOP-GIA-001",
     "stock": 38,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_giantessa",
     "status": true,
-    "thumbnail": "https://i.ibb.co/whsLfct4/prod03.webp",
-    "created_at": "2025-09-05T17:25:00Z"
+    "thumbnail": "https://i.ibb.co/whsLfct4/prod03.webp"
   },
   {
-    "_id": "672c24a491b2f1001a9a1237",
     "title": "Polo De Mujer Lacoste",
     "description": "Una nueva visión de la elegancia de Lacoste, los inventores de la polo en 1933. Confeccionado con nuestro emblemático tejido piqué, flexible y transpirable, teñido mediante un proceso único que crea sutiles diferencias entre las prendas. Un diseño llamativo con una insignia de tenis en el pecho.",
     "price": 32999,
     "code": "POL-LAC-001",
     "stock": 25,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_lacoste",
     "status": true,
-    "thumbnail": "https://i.ibb.co/7Jdng6Dn/prod04.webp",
-    "created_at": "2025-09-05T17:30:00Z"
+    "thumbnail": "https://i.ibb.co/7Jdng6Dn/prod04.webp"
   },
   {
-    "_id": "672c25d891b2f1001a9a1238",
     "title": "Camisola Ibiza Customs Ba Mujer Lino Suelta Talles Grandes",
     "description": "Nuestra CAMISOLA IBIZA es de lino elastizada ,es manga 3/4, cuenta con un boton en las mangas para poder arremangarla. Es ideal para usarla tipo vestido, o para la playa. Cuenta con botones de coco a lo largo y con dos bolsillos a la altura de a cadera.",
     "price": 17999,
     "code": "CAM-IBI-001",
     "stock": 32,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_ibiza",
     "status": true,
-    "thumbnail": "https://i.ibb.co/ccTy3m3N/prod05.webp",
-    "created_at": "2025-09-05T17:35:00Z"
+    "thumbnail": "https://i.ibb.co/ccTy3m3N/prod05.webp"
   },
   {
-    "_id": "672c272191b2f1001a9a1239",
     "title": "Remera Billabong Mujer Surf Trip Tee",
     "description": "Con un corte oversize, esta remera Surf Trip te ofrece un ajuste cómodo, ideal para cualquier ocasión casual. Su cuello redondo y las mangas cortas le añaden un toque clásico, mientras que su estampa en delantero le da un aspecto distintivo y creativo.",
     "price": 16499,
     "code": "REM-BIL-001",
     "stock": 41,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_billabong",
     "status": true,
-    "thumbnail": "https://i.ibb.co/Qv4F6m4Y/prod06.webp",
-    "created_at": "2025-09-05T17:40:00Z"
+    "thumbnail": "https://i.ibb.co/Qv4F6m4Y/prod06.webp"
   },
   {
-    "_id": "672c286091b2f1001a9a1240",
     "title": "Remera Rib Cupro Kenny Mujer Desiderata",
     "description": "Desiderata diseña colecciones trendy perdurables, con acentos que aportan carácter y personalidad, inspirada en mujeres que aman la moda.\nLIBERTAD + TENDENCIA + CALIDAD\nEs la ecuación que respetan todas las colecciones de Desiderata.",
     "price": 19499,
     "code": "REM-DES-001",
     "stock": 28,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_desiderata",
     "status": true,
-    "thumbnail": "https://i.ibb.co/4nRCjq4M/prod07.webp",
-    "created_at": "2025-09-05T17:45:00Z"
+    "thumbnail": "https://i.ibb.co/4nRCjq4M/prod07.webp"
   },
   {
-    "_id": "672c29a791b2f1001a9a1241",
     "title": "Remera De Encaje Con Taza Triangular Escote En V Mujer",
     "description": "Remera de encaje de corte entallado con taza triangular. Con escote en V y manga corta. Largo hasta la cintura.",
     "price": 14999,
     "code": "REM-ENC-001",
     "stock": 36,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_generic",
     "status": true,
-    "thumbnail": "https://i.ibb.co/WWPL75x6/prod08.webp",
-    "created_at": "2025-09-05T17:50:00Z"
+    "thumbnail": "https://i.ibb.co/WWPL75x6/prod08.webp"
   },
   {
-    "_id": "672c2aef91b2f1001a9a1242",
     "title": "Campera Kautiva Mujer Lycra Cierre Fit Deportivo Negro Urb",
     "description": "Diseñada para acompañarte en looks urbanos, deportivos o de noche. Esta campera corta de lycra se adapta perfectamente al cuerpo, estilizando la figura. El cuello alto aporta un toque sofisticado, mientras que el cierre frontal completo permite regular el escote a gusto.",
     "price": 25999,
     "code": "CAM-KAU-001",
     "stock": 30,
-    "category_id": "mujer",
+    "category_id": "cat_mujer",
     "supplier_id": "sup_kautiva",
     "status": true,
-    "thumbnail": "https://i.ibb.co/rRM4gcw9/prod09.webp",
-    "created_at": "2025-09-05T17:55:00Z"
+    "thumbnail": "https://i.ibb.co/rRM4gcw9/prod09.webp"
   },
   {
-    "_id": "672c2c5f91b2f1001a9a1243",
     "title": "Camisa Hombre Kevingston Crow Escocesa Beige",
     "description": "CAMISA ROSS\nCamisa manga corta estampada, confeccionada en tela símil lino, una tela super liviana y fresca.",
     "price": 21999,
     "code": "CAM-KEV-001",
     "stock": 40,
-    "category_id": "hombre",
+    "category_id": "cat_hombre",
     "supplier_id": "sup_kevingston",
     "status": true,
-    "thumbnail": "https://i.ibb.co/cSpKV5zX/prod10.webp",
-    "created_at": "2025-09-05T18:00:00Z"
+    "thumbnail": "https://i.ibb.co/cSpKV5zX/prod10.webp"
   },
   {
-    "_id": "672c2d9f91b2f1001a9a1244",
     "title": "Remera Resuelto R-basic Hombre Celeste",
     "description": "La Remera Resuelto R-BASIC para Hombre en color celeste es la elección ideal para quienes buscan comodidad y estilo en su vestimenta diaria. Con un corte recto y un clásico cuello redondo, esta prenda se adapta perfectamente a distintas ocasiones, ya sea un encuentro casual con amigos o una salida informal.",
     "price": 17999,
     "code": "REM-RES-001",
     "stock": 35,
-    "category_id": "hombre",
+    "category_id": "cat_hombre",
     "supplier_id": "sup_resuelto",
     "status": true,
-    "thumbnail": "https://i.ibb.co/vC3FmdLr/prod11.webp",
-    "created_at": "2025-09-05T18:05:00Z"
+    "thumbnail": "https://i.ibb.co/vC3FmdLr/prod11.webp"
   },
   {
-    "_id": "672c2ef591b2f1001a9a1245",
     "title": "Pantalones Jogger Cargo Hombre",
     "description": "Pantalón cargo jogger, diseñado para brindar comodidad, estilo y funcionalidad en el día a día. Su confección en tela resistente y flexible permite libertad de movimiento, mientras que la cintura elástica con cordón ajustable asegura un fit perfecto para todo tipo de cuerpos. Los múltiples bolsillos funcionales permiten llevar objetos de manera segura, combinando practicidad con un diseño moderno y urbano. Ideal tanto para actividades casuales como para salidas o deporte ligero. Un básico versátil que no puede faltar en tu guardarropa.",
     "price": 24999,
     "code": "PAN-JOG-001",
     "stock": 42,
-    "category_id": "hombre",
+    "category_id": "cat_hombre",
     "supplier_id": "sup_generic",
     "status": true,
-    "thumbnail": "https://i.ibb.co/Vc72zzhn/prod12.webp",
-    "created_at": "2025-09-05T18:10:00Z"
+    "thumbnail": "https://i.ibb.co/Vc72zzhn/prod12.webp"
   },
   {
-    "_id": "672c2f9f91b2f1001a9a1246",
     "title": "Camisa Basic Night Hombre Airborn",
     "description": "CAMISA MANGA LARGA POPLIN LISO CUELLO ITALIANO. 100% ALGODÓN PREMIUM 80/1",
     "price": 22999,
     "code": "CAM-AIR-001",
     "stock": 38,
-    "category_id": "hombre",
+    "category_id": "cat_hombre",
     "supplier_id": "sup_airborn",
     "status": true,
-    "thumbnail": "https://i.ibb.co/B5M0NRwK/prod13.webp",
-    "created_at": "2025-09-05T18:15:00Z"
+    "thumbnail": "https://i.ibb.co/B5M0NRwK/prod13.webp"
   },
   {
-    "_id": "672c30bf91b2f1001a9a1247",
     "title": "Remera Marine Andez 100% Algodón",
     "description": "La remera Marine, es un modelo 100% de algodón, con un corte clásico y regular. Posee cuello mao, con estampado a rayas estilo marinero, en color rojo; además de un bordado pequeño en el pecho, con el logo de la marca. Disponible en rojo, negro y azul.",
     "price": 15999,
     "code": "REM-MAR-001",
     "stock": 40,
-    "category_id": "hombre",
+    "category_id": "cat_hombre",
     "supplier_id": "sup_marineandez",
     "status": true,
-    "thumbnail": "https://i.ibb.co/JWGSRTxd/prod14.webp",
-    "created_at": "2025-09-05T18:20:00Z"
+    "thumbnail": "https://i.ibb.co/JWGSRTxd/prod14.webp"
   },
   {
-    "_id": "672c321091b2f1001a9a1248",
     "title": "Camisa Lino Vilo Hombre Sunset Manga Larga",
     "description": "La Camisa Lino Vilo Hombre Sunset Manga Larga es la elección perfecta para el hombre moderno que busca comodidad y estilo. Confeccionada en lino de alta calidad, esta camisa ofrece una sensación fresca y ligera, ideal para climas cálidos y ocasiones informales. Su diseño con cuello Mao aporta un toque distintivo, permitiendo que se adapte a diferentes estilos y preferencias.",
     "price": 23999,
     "code": "CAM-VIL-001",
     "stock": 35,
-    "category_id": "hombre",
+    "category_id": "cat_hombre",
     "supplier_id": "sup_vilo",
     "status": true,
-    "thumbnail": "https://i.ibb.co/ZRdY562t/prod15.webp",
-    "created_at": "2025-09-05T18:25:00Z"
+    "thumbnail": "https://i.ibb.co/ZRdY562t/prod15.webp"
   },
   {
-    "_id": "672c334391b2f1001a9a1249",
     "title": "Polera Hombre Howard Algodón Manga Larga",
     "description": "La Polera Manga Larga Howard es una prenda ideal para hombres adultos que buscan comodidad y estilo. Fabricada con 100% algodón, esta polera ofrece una sensación suave y fresca en contacto con la piel, perfecta para la temporada de Otoño/Invierno. La tela jersey garantiza durabilidad y resistencia. Howard es conocida por su calidad y diseño, esta polera se convierte en una opción elegante y atemporal para el guardarropa masculino. Ya sea para un look casual o más formal.",
     "price": 19999,
     "code": "POL-HOW-001",
     "stock": 37,
-    "category_id": "hombre",
+    "category_id": "cat_hombre",
     "supplier_id": "sup_howard",
     "status": true,
-    "thumbnail": "https://i.ibb.co/NdnrdGh1/prod16.webp",
-    "created_at": "2025-09-05T18:30:00Z"
+    "thumbnail": "https://i.ibb.co/NdnrdGh1/prod16.webp"
   },
   {
-    "_id": "672c347091b2f1001a9a124a",
     "title": "Conjunto Malla Pachibebes Para Niños, Remera Mas Short UV",
     "description": "Conjunto de remera y short con protección UV, sirve para proteger la piel de los más peques contra la exposición al sol. Es un conjunto de excelente calidad de lycra de rápido secado! Puede usarse con o sin pañal. El motivo del conjunto es rayado en composse con liso.",
     "price": 11999,
     "code": "CON-PAC-001",
     "stock": 50,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_pachibebes",
     "status": true,
-    "thumbnail": "https://i.ibb.co/rGst7xJk/prod17.webp",
-    "created_at": "2025-09-05T18:35:00Z"
+    "thumbnail": "https://i.ibb.co/rGst7xJk/prod17.webp"
   },
   {
-    "_id": "672c35a091b2f1001a9a124b",
     "title": "Carters Set 2 Piezas Remera Enterito Floral",
     "description": "Confeccionados en algodón super suave, este set es perfecto para los días soleados. Telas & Cuidado: • 100% algodón • Importado • Lave en lavarropas",
     "price": 13999,
     "code": "SET-CAR-001",
     "stock": 45,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_carters",
     "status": true,
-    "thumbnail": "https://i.ibb.co/xtXCYCYb/prod18.webp",
-    "created_at": "2025-09-05T18:40:00Z"
+    "thumbnail": "https://i.ibb.co/xtXCYCYb/prod18.webp"
   },
   {
-    "_id": "672c36c791b2f1001a9a124c",
     "title": "Carters Set 3 Piezas Bodies Mangas Cortas Pantalon",
     "description": "Este set es perfecto para tu bebé! Diseñado con algodón super suave y 3 prendas haciendo juego, es perfecto para crear outfits.",
     "price": 15999,
     "code": "SET-CAR-002",
     "stock": 48,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_carters",
     "status": true,
-    "thumbnail": "https://i.ibb.co/0yLgtmj4/prod19.webp",
-    "created_at": "2025-09-05T18:45:00Z"
+    "thumbnail": "https://i.ibb.co/0yLgtmj4/prod19.webp"
   },
   {
-    "_id": "672c37f291b2f1001a9a124d",
     "title": "Carters Pack 2 Pantalones Volados",
     "description": "Confeccionado en algodón extra suave, estos pantalones suaves como la seda cuentan con detalles de volados y puños acanalados.",
     "price": 12999,
     "code": "PAN-CAR-001",
     "stock": 52,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_carters",
     "status": true,
-    "thumbnail": "https://i.ibb.co/20QRQF67/prod20.webp",
-    "created_at": "2025-09-05T18:50:00Z"
+    "thumbnail": "https://i.ibb.co/20QRQF67/prod20.webp"
   },
   {
-    "_id": "672c391091b2f1001a9a124e",
     "title": "Carter´s Set 2 Piezas Body Mangas Cortas Pantalon",
     "description": "Confeccionado en suave algodón, este set es perfecto para tu pequeño.",
     "price": 13999,
     "code": "SET-CAR-003",
     "stock": 46,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_carters",
     "status": true,
-    "thumbnail": "https://i.ibb.co/Xxw7MHqh/prod21.webp",
-    "created_at": "2025-09-05T18:55:00Z"
+    "thumbnail": "https://i.ibb.co/Xxw7MHqh/prod21.webp"
   },
   {
-    "_id": "672c3a2091b2f1001a9a124f",
     "title": "Remera Térmica Frisada Unisex Para Bebés",
     "description": "Remera para bebés unisex térmica, calce clásico, super abrigadas.",
     "price": 12999,
     "code": "REM-BEB-001",
     "stock": 50,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_generic",
     "status": true,
-    "thumbnail": "https://i.ibb.co/Y7bb5DCG/prod22.webp",
-    "created_at": "2025-09-05T19:00:00Z"
+    "thumbnail": "https://i.ibb.co/Y7bb5DCG/prod22.webp"
   },
   {
-    "_id": "672c3b4091b2f1001a9a1250",
     "title": "Jean Elastizado Bebe Varón",
     "description": "El jean de todos los días que aguanta el ritmo de tu hijo: cómodo, canchero y listo para salir a jugar o ir al jardín.",
     "price": 14999,
     "code": "JEAN-BEB-001",
     "stock": 48,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_generic",
     "status": true,
-    "thumbnail": "https://i.ibb.co/7JQhLKhd/prod23.webp",
-    "created_at": "2025-09-05T19:05:00Z"
+    "thumbnail": "https://i.ibb.co/7JQhLKhd/prod23.webp"
   },
   {
-    "_id": "672c3c6091b2f1001a9a1251",
     "title": "Bikini Niñas Combinada, Pachibebes",
     "description": "Malla dos piezas, top largo con volado en la parte inferior y breteles, haciendo juego con la bombacha, son de una excelente lycra y tienen protección UV.",
     "price": 16999,
     "code": "BIK-PAC-001",
     "stock": 42,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_pachibebes",
     "status": true,
-    "thumbnail": "https://i.ibb.co/C3fyWWtq/prod24.webp",
-    "created_at": "2025-09-05T19:10:00Z"
+    "thumbnail": "https://i.ibb.co/C3fyWWtq/prod24.webp"
   },
   {
-    "_id": "672c3d8091b2f1001a9a1252",
     "title": "Remera Manga Larga Pachibebes De Algodón",
     "description": "Remera de jersey rayado, algodón 100% super suave y confortable, es manga larga lo que la hace ideal para cualquier estación del año. Tiene una estampa super canchera.",
     "price": 12999,
     "code": "REM-PAC-002",
     "stock": 50,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_pachibebes",
     "status": true,
-    "thumbnail": "https://i.ibb.co/DfqWM0kP/prod25.webp",
-    "created_at": "2025-09-05T19:15:00Z"
+    "thumbnail": "https://i.ibb.co/DfqWM0kP/prod25.webp"
   },
   {
-    "_id": "672c3eb091b2f1001a9a1253",
     "title": "Babero Stp Denis U Cheeky Crudo",
     "description": "Babero estampado con broches que permiten regular el contorno del escote para un ajuste seguro y cómodo. Ideal para proteger la ropa del bebé.",
     "price": 7999,
     "code": "BAB-CHE-001",
     "stock": 55,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_cheeky",
     "status": true,
-    "thumbnail": "https://i.ibb.co/ccGLH4mL/prod26.webp",
-    "created_at": "2025-09-05T19:20:00Z"
+    "thumbnail": "https://i.ibb.co/ccGLH4mL/prod26.webp"
   },
   {
-    "_id": "672c3fdc91b2f1001a9a1254",
     "title": "Conjunto De Remera Con Gran Estampa Animales Y Short",
     "description": "Conjunto super canchero, compuesto de 2 piezas, remera mangas cortas rayada con gran estampa + short liso con cordón en la cintura, ideal para verano.",
     "price": 13999,
     "code": "CON-KID-001",
     "stock": 48,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_generic",
     "status": true,
-    "thumbnail": "https://i.ibb.co/JWDRDgbB/prod27.webp",
-    "created_at": "2025-09-05T19:25:00Z"
+    "thumbnail": "https://i.ibb.co/JWDRDgbB/prod27.webp"
   },
   {
-    "_id": "672c411a91b2f1001a9a1255",
     "title": "Body Estampado Anclas Snk 100% Algodón Pima Packx5 Unidades",
     "description": "Indumentaria SNK. Fábrica de Indumentaria Básica. Body estampado de excelente calidad.",
     "price": 24999,
     "code": "BODY-SNK-001",
     "stock": 40,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_snk",
     "status": true,
-    "thumbnail": "https://i.ibb.co/PsHMQPnX/prod28.webp",
-    "created_at": "2025-09-05T19:30:00Z"
+    "thumbnail": "https://i.ibb.co/PsHMQPnX/prod28.webp"
   },
   {
-    "_id": "672c425091b2f1001a9a1256",
     "title": "Pack 3 Ranita Medio Osito Gamise 100% Algodón Liso Bebes",
     "description": "Pack por 3 unidades de pantalón MEDIO OSITO RANITA marca GAMISE. Modelo con pie cerrado, de elástico suave que no ajusta. Es tela 100% algodón, la marca GAMISE es ideal para el bebé ya que cuenta con tejido de excelente calidad.",
     "price": 19999,
     "code": "RAN-GAM-001",
     "stock": 45,
-    "category_id": "niños",
+    "category_id": "cat_niños",
     "supplier_id": "sup_gamise",
     "status": true,
-    "thumbnail": "https://i.ibb.co/Zpf1kZXy/prod29.webp",
-    "created_at": "2025-09-05T19:35:00Z"
+    "thumbnail": "https://i.ibb.co/Zpf1kZXy/prod29.webp"
   },
   {
-    "_id": "672c438091b2f1001a9a1257",
     "title": "Zapatillas Para Hombre Nike Air Max Excee Moda Negro",
     "description": "Entra en ambiente con el calzado Nike Air Max Excee y los sutiles toques de colores nuevos que brindan un estilo que desafía el tiempo. Inspirado en el Nike Air Max 90, este calzado le da un toque moderno a un ícono legendario a través de líneas de diseño alargadas y proporciones distorsionadas.",
     "price": 59999,
     "code": "ZAP-NIK-001",
     "stock": 30,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_nike",
     "status": true,
-    "thumbnail": "https://i.ibb.co/9HVgtd6T/prod30.webp",
-    "created_at": "2025-09-05T19:40:00Z"
+    "thumbnail": "https://i.ibb.co/9HVgtd6T/prod30.webp"
   },
   {
-    "_id": "672c44b291b2f1001a9a1258",
     "title": "Zapatilla Fila Daily Femenino Mujer Negro",
     "description": "Las Zapatillas Fila Daily para mujeres son la elección perfecta para quienes buscan estilo y comodidad en su día a día. Diseñadas específicamente para un uso lifestyle, estas zapatillas ofrecen un look moderno y versátil que se adapta fácilmente a diversas ocasiones, ya sea para un paseo casual, una salida con amigos o simplemente para disfrutar de un día relajado.",
     "price": 49999,
     "code": "ZAP-FIL-001",
     "stock": 28,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_fila",
     "status": true,
-    "thumbnail": "https://i.ibb.co/W4cTNFW0/prod31.webp",
-    "created_at": "2025-09-05T19:45:00Z"
+    "thumbnail": "https://i.ibb.co/W4cTNFW0/prod31.webp"
   },
   {
-    "_id": "672c45e091b2f1001a9a1259",
     "title": "Zapatillas New Balance 430 Hombre Negro",
     "description": "Zapatilla de estilo retro-running con aire técnico. Upper de mesh liviano con refuerzos sintéticos bien integrados, diseño limpio y urbano. Contiene entresuela de EVA que ofrece buena amortiguación, más acolchonada que dura.",
     "price": 52999,
     "code": "ZAP-NB-001",
     "stock": 32,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_newbalance",
     "status": true,
-    "thumbnail": "https://i.ibb.co/x8KjfB6b/prod32.webp",
-    "created_at": "2025-09-05T19:50:00Z"
+    "thumbnail": "https://i.ibb.co/x8KjfB6b/prod32.webp"
   },
   {
-    "_id": "672c471091b2f1001a9a125a",
     "title": "Zapatillas Mujer Sneakers Zapatos Plataformas Moda Livianas",
     "description": "Zapatillas combinadas y confeccionadas en cuero ecológico de la marca SOUTH-ONE. Ideales para todo tipo de temporadas, ya que las puedes combinar con todo tipo de outfits. Poseen una base de goma antideslizante y su ajuste es mediante cordones, además, su plantilla es acolchonada por lo que podrás usarlas todos los días sin dejar de lado la comodidad al andar. Son muy cómodas, livianas y cancheras.",
     "price": 59999,
     "code": "ZAP-SOU-001",
     "stock": 27,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_southone",
     "status": true,
-    "thumbnail": "https://i.ibb.co/60sWRk3G/prod33.webp",
-    "created_at": "2025-09-05T19:55:00Z"
+    "thumbnail": "https://i.ibb.co/60sWRk3G/prod33.webp"
   },
   {
-    "_id": "672c484091b2f1001a9a125b",
     "title": "Zapatilla Topper T.350 Mesh Negro / Magnet / Beige Humus",
     "description": "Un clásico de running del '87 que volvió renovado! Capellada de descarne sintético y mesh. Suela de EVA fresada y goma antideslizante.",
     "price": 48999,
     "code": "ZAP-TOP-001",
     "stock": 33,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_topper",
     "status": true,
-    "thumbnail": "https://i.ibb.co/gFJvdCH8/prod34.webp",
-    "created_at": "2025-09-05T20:00:00Z"
+    "thumbnail": "https://i.ibb.co/gFJvdCH8/prod34.webp"
   },
   {
-    "_id": "672c497091b2f1001a9a125c",
     "title": "Zapatillas adidas Grand Court Td Lifestyle Court Casual",
     "description": "Zapatillas que perduran en el tiempo. Las zapatillas adidas Grand Court nos han acompañado desde los años 70. Una vez tengás la versión actualizada de este clásico en tu colección, no vas a querer usar otras zapatillas. Las 3 Tiras le confieren un toque deportivo a cualquier outfit.",
     "price": 53999,
     "code": "ZAP-ADI-001",
     "stock": 29,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_adidas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/yFHF95mK/prod35.webp",
-    "created_at": "2025-09-05T20:05:00Z"
+    "thumbnail": "https://i.ibb.co/yFHF95mK/prod35.webp"
   },
   {
-    "_id": "672c4aa091b2f1001a9a125d",
     "title": "Zapatilla Fila Tennis 88 Masculino Negro",
     "description": "Presentamos la Zapatilla Fila Tennis 88 Sport Masculino en un elegante color negro, diseñada especialmente para el hombre moderno que busca estilo y comodidad en su día a día. Con su línea Lifestyle, este modelo combina un diseño clásico con la actualidad, permitiendo que cada paso sea un reflejo de tu personalidad.",
     "price": 49999,
     "code": "ZAP-FIL-002",
     "stock": 31,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_fila",
     "status": true,
-    "thumbnail": "https://i.ibb.co/qYg8s8HV/prod36.webp",
-    "created_at": "2025-09-05T20:10:00Z"
+    "thumbnail": "https://i.ibb.co/qYg8s8HV/prod36.webp"
   },
   {
-    "_id": "672c4bd091b2f1001a9a125e",
     "title": "Zapatillas Busted De Hombre Mujer",
     "description": "Zapatilla estilo urbano de cuero ecológico en combinación con gamuzas a tono.",
     "price": 45999,
     "code": "ZAP-BUS-001",
     "stock": 34,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_busted",
     "status": true,
-    "thumbnail": "https://i.ibb.co/5gmSLZGy/prod37.webp",
-    "created_at": "2025-09-05T20:15:00Z"
+    "thumbnail": "https://i.ibb.co/5gmSLZGy/prod37.webp"
   },
   {
-    "_id": "672c4d9091b2f1001a9a125f",
     "title": "Zapatillas Converse Omega Trainer Ox Unisex Moda Blanco",
     "description": "Zapatillas Converse Omega Trainer Ox en color blanco, un clásico moderno que combina estilo y comodidad. Su diseño unisex permite usarlas tanto para hombre como para mujer, con suela de goma antideslizante y upper de lona resistente. Ideales para uso diario y looks casuales con un toque urbano y deportivo.",
     "price": 52999,
     "code": "ZAP-CON-001",
     "stock": 28,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_converse",
     "status": true,
-    "thumbnail": "https://i.ibb.co/XkVwxDp2/prod38.webp",
-    "created_at": "2025-09-05T20:20:00Z"
+    "thumbnail": "https://i.ibb.co/XkVwxDp2/prod38.webp"
   },
   {
-    "_id": "672c4eb091b2f1001a9a1260",
     "title": "Zapatilla Puma Club Ll Era Alpine",
     "description": "Salí a la calle con un estilo de inspiración retro. Las zapatillas PUMA Club II Era combinan herencia futbolística y la moda usada en las tribunas con un diseño moderno de gamuza y cuero. Una amortiguación superior y una entresuela texturizada proporcionan máxima comodidad para que conquistes las calles de la ciudad. Movete rápido, estas zapas unisex fueron hechas para llamar la atención.",
     "price": 54999,
     "code": "ZAP-PUM-001",
     "stock": 30,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_puma",
     "status": true,
-    "thumbnail": "https://i.ibb.co/dwqCRC8j/prod39.webp",
-    "created_at": "2025-09-05T20:25:00Z"
+    "thumbnail": "https://i.ibb.co/dwqCRC8j/prod39.webp"
   },
   {
-    "_id": "672c500091b2f1001a9a1261",
     "title": "Zapatilla Fila Euro Jogger Sport",
     "description": "La Zapatilla Fila Euro Jogger Sport para hombre en color gris combina estilo y comodidad en un diseño versátil ideal para el día a día. Su línea lifestyle destaca por su estética moderna, haciendo de este calzado una opción perfecta para quienes buscan un look relajado pero atractivo.",
     "price": 48999,
     "code": "ZAP-FIL-003",
     "stock": 32,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_fila",
     "status": true,
-    "thumbnail": "https://i.ibb.co/PvLfbFg9/prod40.webp",
-    "created_at": "2025-09-05T20:30:00Z"
+    "thumbnail": "https://i.ibb.co/PvLfbFg9/prod40.webp"
   },
   {
-    "_id": "672c513091b2f1001a9a1262",
     "title": "Zapatillas Puma Caven 2.0",
     "description": "Zapatillas Puma Caven 2.0 ADP unisex, combinan estilo urbano y comodidad para el día a día. Perfectas para un look casual y moderno, con diseño duradero y versátil para cualquier ocasión.",
     "price": 52999,
     "code": "ZAP-PUM-002",
     "stock": 28,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_puma",
     "status": true,
-    "thumbnail": "https://i.ibb.co/9kXNVRR2/prod41.webp",
-    "created_at": "2025-09-05T20:35:00Z"
+    "thumbnail": "https://i.ibb.co/9kXNVRR2/prod41.webp"
   },
   {
-    "_id": "672c526091b2f1001a9a1263",
     "title": "Zapatilla Vizzano Mujer Urbana Blanca",
     "description": "La Zapatilla Vizzano Urbana para mujer en color blanco es un modelo clásico y versátil que combina comodidad, estilo y diseño moderno, ideal para looks casuales y de uso diario.",
     "price": 45999,
     "code": "ZAP-VIZ-001",
     "stock": 30,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_vizzano",
     "status": true,
-    "thumbnail": "https://i.ibb.co/2058Qf6J/prod42.webp",
-    "created_at": "2025-09-05T20:40:00Z"
+    "thumbnail": "https://i.ibb.co/2058Qf6J/prod42.webp"
   },
   {
-    "_id": "672c539091b2f1001a9a1264",
     "title": "Zapatillas adidas Casual Barreda",
     "description": "Bareeda es un nuevo modelo de zapatillas adidas para hombre, diseñado para un estilo casual y urbano. Combina comodidad y durabilidad, ideal para el día a día o actividades ligeras.",
     "price": 52999,
     "code": "ZAP-ADI-002",
     "stock": 27,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_adidas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/9Hmn22mM/prod43.webp",
-    "created_at": "2025-09-05T20:45:00Z"
+    "thumbnail": "https://i.ibb.co/9Hmn22mM/prod43.webp"
   },
   {
-    "_id": "672c54c091b2f1001a9a1265",
     "title": "Zapatillas Bibi Con Luces Rosa Kids",
     "description": "Las zapatillas ligeras para niños de la línea Bibi son un calzado versátil, diseñado para combinar perfectamente con todas las ocasiones. Confeccionadas con elastano, un material transpirable y fácil de limpiar, proporcionan un excelente ajuste a los pies de los más pequeños.",
     "price": 39999,
     "code": "ZAP-BIB-001",
     "stock": 35,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_bibi",
     "status": true,
-    "thumbnail": "https://i.ibb.co/3H9vXCt/prod44.webp",
-    "created_at": "2025-09-05T20:50:00Z"
+    "thumbnail": "https://i.ibb.co/3H9vXCt/prod44.webp"
   },
   {
-    "_id": "672c55f091b2f1001a9a1266",
     "title": "Zapatillas Rave",
     "description": "Zapatillas Rave unisex de estilo urbano, diseñadas para quienes buscan comodidad y un look moderno. Confeccionadas con materiales ligeros y resistentes, poseen suela antideslizante y plantilla acolchonada para un uso diario seguro y confortable.",
     "price": 47999,
     "code": "ZAP-RAV-001",
     "stock": 30,
-    "category_id": "zapatillas",
+    "category_id": "cat_zapatillas",
     "supplier_id": "sup_rave",
     "status": true,
-    "thumbnail": "https://i.ibb.co/ccbMrH8d/prod45.webp",
-    "created_at": "2025-09-05T20:55:00Z"
+    "thumbnail": "https://i.ibb.co/ccbMrH8d/prod45.webp"
   },
   {
-    "_id": "672c572091b2f1001a9a1267",
     "title": "Reloj Montreal Hombre Agujas Luminosas Malla Silicona",
     "description": "Reloj pulsera Montreal para hombre. Caja y aro superior de metal con acabado brillante, correa de silicona y hebilla de acero inoxidable. Resistente al agua hasta 30 metros (3 ATM). Incluye agujas luminiscentes, cristal mineral plano y batería de óxido de plata reciclable. Funciona con mecanismo análogo japonés de alta precisión. Origen: China.",
     "price": 61999,
     "code": "REL-MON-001",
     "stock": 25,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_montreal",
     "status": true,
-    "thumbnail": "https://i.ibb.co/JjQyqMSN/prod46.webp",
-    "created_at": "2025-09-05T21:00:00Z"
+    "thumbnail": "https://i.ibb.co/JjQyqMSN/prod46.webp"
   },
   {
-    "_id": "672c585091b2f1001a9a1268",
     "title": "Pulsera Carmín Mystery De Plata 925 Baño Dorado Ss",
     "description": "Elegante pulsera Carmín con el emblemático dije en forma de candado, símbolo de amor profundo. Confeccionada en Plata 925 con baño dorado y decorada con zirconias blancas, es una pieza sofisticada que atrae todas las miradas.",
     "price": 45999,
     "code": "PUL-CAR-001",
     "stock": 30,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_carmin",
     "status": true,
-    "thumbnail": "https://i.ibb.co/ccDKyD7B/prod47.webp",
-    "created_at": "2025-09-05T21:05:00Z"
+    "thumbnail": "https://i.ibb.co/ccDKyD7B/prod47.webp"
   },
   {
-    "_id": "672c598091b2f1001a9a1269",
     "title": "Smartwatch Montreal SWM008-N GPS Mapas Brújula Altímetro",
     "description": "Smartwatch Montreal SWM008-N con pantalla AMOLED de 1.43 pulgadas y resolución 466x466. Incluye llamadas por Bluetooth, corona digital giratoria, GPS incorporado compatible con GPS, Galileo, BeiDou y Glonass. Altímetro, barómetro, brújula y mapas precargados de Argentina y Chile. Permite crear y elegir cuadrantes desde la App, más de 130 modos multideporte, control de música y cámara del celular, asistente de voz Google y Siri, medición de oxígeno en sangre y ritmo cardíaco, monitor de actividad diaria, ciclo del sueño y menstrual. Resistente al polvo y agua (IP68), micrófono y parlante incorporado. Compatible con Android 8.0+ / iOS 12+. Batería de litio 300 mAh: hasta 6 días con Bluetooth, 12 horas con GPS, 20 días en Stand By y 3 días en Modo Siempre Encendido.",
     "price": 89999,
     "code": "SW-MON-001",
     "stock": 22,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_montreal",
     "status": true,
-    "thumbnail": "https://i.ibb.co/chjhBBN9/prod48.webp",
-    "created_at": "2025-09-05T21:10:00Z"
+    "thumbnail": "https://i.ibb.co/chjhBBN9/prod48.webp"
   },
   {
-    "_id": "672c5ab091b2f1001a9a126a",
     "title": "Reloj Tommy Hilfiger",
     "description": "Reloj Tommy Hilfiger para hombre, elegante y moderno, con caja de acero inoxidable y correa de cuero genuino. Cuenta con mecanismo análogo de alta precisión, resistencia al agua hasta 50 metros y diseño clásico con detalle del logo de la marca en la esfera. Ideal para uso diario y ocasiones formales.",
     "price": 75999,
     "code": "REL-TH-001",
     "stock": 25,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_tommyhilfiger",
     "status": true,
-    "thumbnail": "https://i.ibb.co/39v6kbz2/prod49.webp",
-    "created_at": "2025-09-05T21:15:00Z"
+    "thumbnail": "https://i.ibb.co/39v6kbz2/prod49.webp"
   },
   {
-    "_id": "672c5bd091b2f1001a9a126b",
     "title": "Alianzas Plata 925 y Oro 18",
     "description": "Elegantes alianzas confeccionadas en Plata 925 y Oro 18K, perfectas para matrimonios o compromisos. Diseñadas con acabado pulido y detalles sofisticados que combinan tradición y estilo moderno.",
     "price": 129999,
     "code": "AL-PL-001",
     "stock": 20,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/qYxdwWVK/prod50.webp",
-    "created_at": "2025-09-05T21:20:00Z"
+    "thumbnail": "https://i.ibb.co/qYxdwWVK/prod50.webp"
   },
   {
-    "_id": "672c5d0091b2f1001a9a126c",
     "title": "Cadena y Dije Estetoscopio de Plata y Oro",
     "description": "Elegante cadena con dije en forma de estetoscopio, confeccionada en Plata 925 con detalles en Oro 18K. Una pieza ideal para profesionales de la salud o como regalo simbólico que combina estilo, durabilidad y sofisticación.",
     "price": 69999,
     "code": "DIJ-PL-001",
     "stock": 28,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/WvkyjMvS/prod51.webp",
-    "created_at": "2025-09-05T21:25:00Z"
+    "thumbnail": "https://i.ibb.co/WvkyjMvS/prod51.webp"
   },
   {
-    "_id": "672c5e2091b2f1001a9a126d",
     "title": "Combo Alianzas Plata y Oro 18 + Solitario Casamiento Boda",
     "description": "Elegante combo de alianzas de Plata 925 y Oro 18K, acompañado de un solitario diseñado especialmente para casamientos y bodas. Una opción perfecta para quienes buscan combinar tradición, estilo y sofisticación en una sola compra, con acabados pulidos y atención a los detalles.",
     "price": 189999,
     "code": "COM-AL-001",
     "stock": 15,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/HDSyVpgX/prod52.webp",
-    "created_at": "2025-09-05T21:30:00Z"
+    "thumbnail": "https://i.ibb.co/HDSyVpgX/prod52.webp"
   },
   {
-    "_id": "672c5f4091b2f1001a9a126e",
     "title": "Cadena Con Dije Barra Plata 925 Grabado Barrita Nombre Frase",
     "description": "Conjunto de cadena y dije en forma de barrita, confeccionado en Plata 925, personalizable con nombres, frases, fechas o iniciales. Una pieza elegante y moderna que permite expresar estilo y significado personal en cada detalle.",
     "price": 54999,
     "code": "CAD-PL-001",
     "stock": 32,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/W89L9Wq/prod53.webp",
-    "created_at": "2025-09-05T21:35:00Z"
+    "thumbnail": "https://i.ibb.co/W89L9Wq/prod53.webp"
   },
   {
-    "_id": "672c606091b2f1001a9a126f",
     "title": "Conjunto Cadena y Dije Cupido Plata 925 Alas Ángel Flecha",
     "description": "Conjunto de cadena y dije en Plata 925 con diseño de Cupido, alas de ángel y flecha. Una pieza delicada y romántica, ideal para regalar o para uso diario, que combina elegancia y simbolismo en cada detalle.",
     "price": 62999,
     "code": "CON-CUP-001",
     "stock": 28,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/rfQJDnNg/prod54.webp",
-    "created_at": "2025-09-05T21:40:00Z"
+    "thumbnail": "https://i.ibb.co/rfQJDnNg/prod54.webp"
   },
   {
-    "_id": "672c619091b2f1001a9a1270",
     "title": "Anillo Solitario Plata y Oro Piedra Central Boda Compromiso",
     "description": "Elegante anillo solitario confeccionado en Plata 925 y Oro 18K, con una piedra central brillante que simboliza amor y compromiso. Perfecto para bodas o compromisos, combina diseño clásico y sofisticación en una pieza atemporal.",
     "price": 109999,
     "code": "ANI-SOL-001",
     "stock": 20,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/g1tppcJ/prod55.webp",
-    "created_at": "2025-09-05T21:45:00Z"
+    "thumbnail": "https://i.ibb.co/g1tppcJ/prod55.webp"
   },
   {
-    "_id": "672c62c091b2f1001a9a1271",
     "title": "Anillo Solitario Compromiso Plata y Oro Cintillo Casamiento",
     "description": "Anillo solitario de compromiso confeccionado en Plata 925 y Oro 18K, con diseño de cintillo elegante y piedra central brillante. Ideal para bodas y compromisos, combina estilo clásico con un toque moderno, ofreciendo durabilidad y sofisticación en una sola pieza.",
     "price": 114999,
     "code": "ANI-SOL-002",
     "stock": 18,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/n8Pg2fwW/prod56.webp",
-    "created_at": "2025-09-05T21:50:00Z"
+    "thumbnail": "https://i.ibb.co/n8Pg2fwW/prod56.webp"
   },
   {
-    "_id": "672c63f091b2f1001a9a1272",
     "title": "Anillo Cruz De Plata Y Oro Horizontal Religioso Mujer",
     "description": "Elegante anillo para mujer con cruz horizontal, confeccionado en Plata 925 y detalles en Oro 18K. Una pieza con significado religioso y diseño sofisticado, ideal para uso diario o como regalo especial.",
     "price": 64999,
     "code": "ANI-CRU-001",
     "stock": 22,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/tMwBvcVW/prod57.webp",
-    "created_at": "2025-09-05T21:55:00Z"
+    "thumbnail": "https://i.ibb.co/tMwBvcVW/prod57.webp"
   },
   {
-    "_id": "672c652091b2f1001a9a1273",
     "title": "Anillo Alas Ángel Demonio Plata 925 Murciélago Duki Diablo",
     "description": "Anillo audaz y moderno de Plata 925 con diseño de alas de ángel y demonio, incorporando un pequeño murciélago como detalle central. Inspirado en estilos urbanos y música contemporánea, es ideal para quienes buscan una pieza llamativa y con carácter.",
     "price": 72999,
     "code": "ANI-ALD-001",
     "stock": 20,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/rKXDQ07X/prod58.webp",
-    "created_at": "2025-09-05T22:00:00Z"
+    "thumbnail": "https://i.ibb.co/rKXDQ07X/prod58.webp"
   },
   {
-    "_id": "672c665091b2f1001a9a1274",
     "title": "Aros Argolla Con Línea De Piedras Y Corazones Plata 925",
     "description": "Elegantes aros tipo argolla confeccionados en Plata 925, decorados con una línea de pequeñas piedras brillantes y detalles de corazones. Una pieza sofisticada y femenina, perfecta para uso diario o ocasiones especiales.",
     "price": 53999,
     "code": "ARO-ARG-001",
     "stock": 26,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/PGV4bbL8/prod59.webp",
-    "created_at": "2025-09-05T22:05:00Z"
+    "thumbnail": "https://i.ibb.co/PGV4bbL8/prod59.webp"
   },
   {
-    "_id": "672c678091b2f1001a9a1275",
     "title": "Collar Estancias Chiripa Soleil",
     "description": "Collar elegante de la colección Estancias Chiripa Soleil, confeccionado en metal de alta calidad con baño dorado y detalles delicados que aportan sofisticación. Ideal para complementar looks diarios o de ocasión especial.",
     "price": 64999,
     "code": "COL-EST-001",
     "stock": 24,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/jkFw6dtP/prod60.webp",
-    "created_at": "2025-09-05T22:10:00Z"
+    "thumbnail": "https://i.ibb.co/jkFw6dtP/prod60.webp"
   },
   {
-    "_id": "672c68b091b2f1001a9a1276",
     "title": "Anillo Corazón Con Piedra Central Plata 925 Regalo Amor Novia",
     "description": "Anillo romántico de Plata 925 con diseño de corazón y piedra central brillante. Perfecto como regalo de amor para novias, combina elegancia, delicadeza y simbolismo en una pieza atemporal que destaca en cualquier ocasión.",
     "price": 58999,
     "code": "ANI-COR-001",
     "stock": 30,
-    "category_id": "joyas y relojes",
+    "category_id": "cat_joyas_relojes",
     "supplier_id": "sup_joyas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/ccGbV8Gt/prod61.webp",
-    "created_at": "2025-09-05T22:15:00Z"
+    "thumbnail": "https://i.ibb.co/ccGbV8Gt/prod61.webp"
   },
   {
-    "_id": "672c69f091b2f1001a9a1277",
     "title": "Anteojos De Sol Hardem Eyewear Ottawa Sun C4 Negro Brillo",
     "description": "Anteojos de sol Hardem Eyewear modelo Ottawa Sun C4 en color negro brillo, con diseño moderno y elegante. Lentes polarizados que protegen contra los rayos UV, estructura liviana y resistente, perfectos para uso diario y actividades al aire libre.",
     "price": 42999,
     "code": "ANT-HAR-001",
     "stock": 35,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_hardem",
     "status": true,
-    "thumbnail": "https://i.ibb.co/b5vgdS3g/prod62.webp",
-    "created_at": "2025-09-05T22:20:00Z"
+    "thumbnail": "https://i.ibb.co/b5vgdS3g/prod62.webp"
   },
   {
-    "_id": "672c6b1091b2f1001a9a1278",
     "title": "Anteojos Sol Infinit V12 Carey Lente Tostado",
     "description": "Anteojos de sol Infinit V12 con montura carey y lentes color tostado. Diseño moderno y cómodo, con protección UV400 que cuida tus ojos de los rayos solares. Estructura liviana y resistente, ideal para uso diario y actividades al aire libre.",
     "price": 37999,
     "code": "ANT-INF-001",
     "stock": 40,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_infinit",
     "status": true,
-    "thumbnail": "https://i.ibb.co/DfWnX7Fw/prod63.webp",
-    "created_at": "2025-09-05T22:25:00Z"
+    "thumbnail": "https://i.ibb.co/DfWnX7Fw/prod63.webp"
   },
   {
-    "_id": "672c6c3091b2f1001a9a1279",
     "title": "Lentes De Sol B+D Dybe Protección UV 400 Nude Lente Marrón",
     "description": "Lentes de sol B+D Dybe con protección UV400, montura color nude y lentes marrones. Diseño elegante y ligero, ideal para uso diario y actividades al aire libre, proporcionando máxima protección y comodidad visual.",
     "price": 32999,
     "code": "ANT-BD-001",
     "stock": 38,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_bd",
     "status": true,
-    "thumbnail": "https://i.ibb.co/fVwyM0sc/prod64.webp",
-    "created_at": "2025-09-05T22:30:00Z"
+    "thumbnail": "https://i.ibb.co/fVwyM0sc/prod64.webp"
   },
   {
-    "_id": "672c6d5091b2f1001a9a127a",
     "title": "Lentes Sol Anteojos Ona Saez Polarizados Airport",
     "description": "Lentes de sol Ona Saez modelo Airport con tecnología de lentes polarizados que reducen el deslumbramiento y protegen contra rayos UV. Montura moderna y liviana, ideal para uso urbano y actividades al aire libre, combinando estilo y comodidad.",
     "price": 44999,
     "code": "ANT-OSA-001",
     "stock": 36,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_ona_saez",
     "status": true,
-    "thumbnail": "https://i.ibb.co/GQjB4ryR/prod65.webp",
-    "created_at": "2025-09-05T22:35:00Z"
+    "thumbnail": "https://i.ibb.co/GQjB4ryR/prod65.webp"
   },
   {
-    "_id": "672c6e7091b2f1001a9a127b",
     "title": "Anteojos De Sol Hardem Fiji Sun Signature C1",
     "description": "Anteojos de sol Hardem Eyewear modelo Fiji Sun Signature C1, con diseño moderno y elegante en color negro mate. Lentes polarizados que ofrecen protección UV400 y reducción de deslumbramiento. Montura liviana y resistente, perfecta para uso diario y actividades al aire libre.",
     "price": 43999,
     "code": "ANT-HAR-002",
     "stock": 34,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_hardem",
     "status": true,
-    "thumbnail": "https://i.ibb.co/8gpcTHWR/prod66.webp",
-    "created_at": "2025-09-05T22:40:00Z"
+    "thumbnail": "https://i.ibb.co/8gpcTHWR/prod66.webp"
   },
   {
-    "_id": "672c6fa091b2f1001a9a127c",
     "title": "Anteojos de Sol Polarizados Rusty Terdey",
     "description": "Anteojos de sol Rusty Terdey unisex, con armazón y varillas G-Flex en color MBLK/S10. Lentes polarizados con protección UV400 que reducen el deslumbramiento y cuidan la vista. Diseño moderno, liviano y resistente, ideal para uso diario y actividades al aire libre.",
     "price": 46999,
     "code": "ANT-RUS-001",
     "stock": 40,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_rusty",
     "status": true,
-    "thumbnail": "https://i.ibb.co/gbzRgLzL/prod67.webp",
-    "created_at": "2025-09-05T22:45:00Z"
+    "thumbnail": "https://i.ibb.co/gbzRgLzL/prod67.webp"
   },
   {
-    "_id": "672c70f091b2f1001a9a127d",
     "title": "Anteojos Gafas De Sol Retro Metálicos Hombre Mujer Premium",
     "description": "Gafas de sol de estilo retro con armazón metálico, diseñadas para hombres y mujeres que buscan elegancia y estilo atemporal. Lentes de alta calidad con protección UV400, ligeras y resistentes, perfectas para uso diario y actividades al aire libre con un toque premium.",
     "price": 39999,
     "code": "ANT-RET-001",
     "stock": 42,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_retro",
     "status": true,
-    "thumbnail": "https://i.ibb.co/B5Lq8SJj/prod68.webp",
-    "created_at": "2025-09-05T22:50:00Z"
+    "thumbnail": "https://i.ibb.co/B5Lq8SJj/prod68.webp"
   },
   {
-    "_id": "672c723091b2f1001a9a127e",
     "title": "Anteojos de Sol Polarizados Rusty Modelo Blozon",
     "description": "Anteojos de sol Rusty Blozon unisex, con lente color mblue/r. blue y estructura de material G-Flex, ofreciendo flexibilidad y resistencia. Lentes polarizados con protección UV400 que reducen el deslumbramiento y protegen la vista. Perfectos para uso diario y actividades al aire libre con estilo moderno.",
     "price": 47999,
     "code": "ANT-RUS-002",
     "stock": 37,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_rusty",
     "status": true,
-    "thumbnail": "https://i.ibb.co/dsNbF90t/prod69.webp",
-    "created_at": "2025-09-05T22:55:00Z"
+    "thumbnail": "https://i.ibb.co/dsNbF90t/prod69.webp"
   },
   {
-    "_id": "672c736091b2f1001a9a127f",
     "title": "Anteojos de Sol Polarizados Rusty Blozon Lente SBLK/S10",
     "description": "Anteojos de sol Rusty Blozon unisex, con lentes SBLK/S10 y armazón flexible G-Flex. Lentes polarizados con protección UV400 que reducen el deslumbramiento y cuidan la vista. Diseño moderno y liviano, ideal para uso diario y actividades al aire libre con estilo urbano.",
     "price": 47999,
     "code": "ANT-RUS-003",
     "stock": 36,
-    "category_id": "anteojos",
+    "category_id": "cat_anteojos",
     "supplier_id": "sup_rusty",
     "status": true,
-    "thumbnail": "https://i.ibb.co/1JnS35Jb/prod70.webp",
-    "created_at": "2025-09-05T23:00:00Z"
+    "thumbnail": "https://i.ibb.co/1JnS35Jb/prod70.webp"
   },
   {
-    "_id": "672c749091b2f1001a9a1280",
     "title": "Campera Puffer Con Brillo Reciclada Gris Mujer Portsaid",
     "description": "Campera puffer de mujer Portsaid en color gris con acabado brillante, confeccionada con materiales reciclados. Diseñada para brindar calidez, comodidad y estilo urbano, cuenta con cierre frontal, bolsillos laterales y capucha opcional. Ideal para protegerse del frío con un toque moderno y sustentable.",
     "price": 85999,
     "code": "CAM-PUF-001",
     "stock": 28,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_portsaid",
     "status": true,
-    "thumbnail": "https://i.ibb.co/SXtHz81k/prod71.webp",
-    "created_at": "2025-09-05T23:05:00Z"
+    "thumbnail": "https://i.ibb.co/SXtHz81k/prod71.webp"
   },
   {
-    "_id": "672c75d091b2f1001a9a1281",
     "title": "Campera Mercedes - AMG Petronas F1 Team JX0751 Adidas",
     "description": "Campera oficial Mercedes-AMG Petronas F1 Team modelo JX0751 de Adidas. Confeccionada con materiales resistentes y de alta calidad, ofrece comodidad, estilo deportivo y abrigo en días fríos. Cuenta con cierre frontal, bolsillos laterales y detalles oficiales del equipo de Fórmula 1. Perfecta para fanáticos del deporte motor y para uso urbano con estilo deportivo.",
     "price": 124999,
     "code": "CAM-MER-001",
     "stock": 22,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_adidas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/S4QZtCj3/prod72.webp",
-    "created_at": "2025-09-05T23:10:00Z"
+    "thumbnail": "https://i.ibb.co/S4QZtCj3/prod72.webp"
   },
   {
-    "_id": "672c76f091b2f1001a9a1282",
     "title": "Campera Liviana Matelaseada Con Capucha Mujer Portsaid",
     "description": "Campera liviana matelaseada de mujer Portsaid, con capucha ajustable y cierre frontal. Confeccionada con materiales suaves y resistentes, ideal para la temporada de transición. Brinda abrigo y comodidad sin perder estilo, perfecta para uso urbano o actividades al aire libre.",
     "price": 74999,
     "code": "CAM-LIV-001",
     "stock": 30,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_portsaid",
     "status": true,
-    "thumbnail": "https://i.ibb.co/LXF0VJ2h/prod73.webp",
-    "created_at": "2025-09-05T23:15:00Z"
+    "thumbnail": "https://i.ibb.co/LXF0VJ2h/prod73.webp"
   },
   {
-    "_id": "672c781091b2f1001a9a1283",
     "title": "Parka Tyler Negra Verde Hombre Airborn",
     "description": "Parka Tyler de hombre en color negro y verde de Airborn, diseñada para brindar abrigo y protección en climas fríos. Confeccionada con materiales resistentes al viento y al agua, cuenta con cierre frontal, bolsillos con solapa y capucha ajustable. Ideal para uso diario, actividades al aire libre y estilo urbano.",
     "price": 104999,
     "code": "PARK-TYL-001",
     "stock": 25,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_airborn",
     "status": true,
-    "thumbnail": "https://i.ibb.co/cc6qVGvw/prod74.webp",
-    "created_at": "2025-09-05T23:20:00Z"
+    "thumbnail": "https://i.ibb.co/cc6qVGvw/prod74.webp"
   },
   {
-    "_id": "672c793091b2f1001a9a1284",
     "title": "Campera River Plate All-Weather 24/25",
     "description": "Campera oficial River Plate All-Weather edición 24/25, diseñada para brindar protección contra lluvia y viento. Confeccionada con materiales livianos, resistentes al agua y de secado rápido. Cuenta con cierre frontal, bolsillos laterales y capucha ajustable, ideal para fanáticos del club y para uso urbano diario.",
     "price": 114999,
     "code": "CAM-RIV-001",
     "stock": 27,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_river",
     "status": true,
-    "thumbnail": "https://i.ibb.co/VYM79vrJ/prod75.webp",
-    "created_at": "2025-09-05T23:25:00Z"
+    "thumbnail": "https://i.ibb.co/VYM79vrJ/prod75.webp"
   },
   {
-    "_id": "672c7a9091b2f1001a9a1285",
     "title": "Tapado Pitahaya Sastrero Abrigo De Paño Invierno Mujer Sweet",
     "description": "Tapado sastrero Pitahaya de Sweet, confeccionado en paño de alta calidad para brindar calidez y elegancia durante el invierno. Diseño clásico con corte entallado, botones frontales y bolsillos laterales. Ideal para combinar con looks formales o urbanos, aportando sofisticación y estilo.",
     "price": 129999,
     "code": "TAP-PIT-001",
     "stock": 20,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_sweet",
     "status": true,
-    "thumbnail": "https://i.ibb.co/Rp0tkCKt/prod76.webp",
-    "created_at": "2025-09-05T23:30:00Z"
+    "thumbnail": "https://i.ibb.co/Rp0tkCKt/prod76.webp"
   },
   {
-    "_id": "672c7bb091b2f1001a9a1286",
     "title": "Campera Rompeviento Deportiva Hombre Combinada Ravish",
     "description": "Campera rompeviento deportiva para hombre de Ravish, combinada en colores modernos y confeccionada con materiales livianos y resistentes al viento. Cuenta con cierre frontal, capucha ajustable y bolsillos laterales. Ideal para actividades deportivas al aire libre y para uso urbano en días ventosos o lluviosos.",
     "price": 69999,
     "code": "CAM-ROM-001",
     "stock": 33,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_ravish",
     "status": true,
-    "thumbnail": "https://i.ibb.co/35z2MqPm/prod77.webp",
-    "created_at": "2025-09-05T23:35:00Z"
+    "thumbnail": "https://i.ibb.co/35z2MqPm/prod77.webp"
   },
   {
-    "_id": "672c7cd091b2f1001a9a1287",
     "title": "Campera Bonded Trown",
     "description": "Campera Bonded Trown confeccionada con materiales de alta calidad que combinan resistencia y comodidad. Diseño moderno y versátil, ideal para uso urbano y actividades al aire libre. Cuenta con cierre frontal, bolsillos funcionales y capucha opcional, ofreciendo abrigo y estilo durante la temporada fría.",
     "price": 95999,
     "code": "CAM-BON-001",
     "stock": 24,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_trown",
     "status": true,
-    "thumbnail": "https://i.ibb.co/PvWVLnH1/prod78.webp",
-    "created_at": "2025-09-05T23:40:00Z"
+    "thumbnail": "https://i.ibb.co/PvWVLnH1/prod78.webp"
   },
   {
-    "_id": "672c7df091b2f1001a9a1288",
     "title": "Campera Hombre Importada Impermeable Abrigada Con Capucha",
     "description": "Campera importada para hombre, impermeable y abrigada, ideal para enfrentar días de lluvia y frío. Confeccionada con materiales de alta calidad, cuenta con cierre frontal, capucha ajustable y bolsillos laterales. Perfecta para uso urbano, actividades al aire libre y viajes, combinando funcionalidad y estilo.",
     "price": 109999,
     "code": "CAM-IMP-001",
     "stock": 26,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_importada",
     "status": true,
-    "thumbnail": "https://i.ibb.co/VYh2HRXh/prod79.webp",
-    "created_at": "2025-09-05T23:45:00Z"
+    "thumbnail": "https://i.ibb.co/VYh2HRXh/prod79.webp"
   },
   {
-    "_id": "672c7f0091b2f1001a9a1289",
     "title": "Blazer Recto De Lyocell Relajado Mujer Portsaid",
     "description": "Blazer recto de lyocell de Portsaid, con corte relajado y confección suave, ideal para mujeres que buscan comodidad y estilo elegante. Cuenta con solapas clásicas, cierre frontal opcional y bolsillos laterales. Perfecto para looks formales, oficinas o combinaciones urbanas sofisticadas.",
     "price": 84999,
     "code": "BLA-LYO-001",
     "stock": 32,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_portsaid",
     "status": true,
-    "thumbnail": "https://i.ibb.co/nNzjDn5g/prod80.webp",
-    "created_at": "2025-09-05T23:50:00Z"
+    "thumbnail": "https://i.ibb.co/nNzjDn5g/prod80.webp"
   },
   {
-    "_id": "672c802091b2f1001a9a128a",
     "title": "Campera Lotto Rome Sent Mujer | Dexter",
     "description": "Campera deportiva Lotto Rome Sent para mujer, confeccionada con materiales livianos y resistentes, ideal para actividades al aire libre y uso urbano. Diseño moderno con cierre frontal, capucha ajustable y bolsillos laterales. Comodidad y estilo para acompañarte en cualquier ocasión.",
     "price": 75999,
     "code": "CAM-LOT-001",
     "stock": 29,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_dexter",
     "status": true,
-    "thumbnail": "https://i.ibb.co/JwLh6Fmc/prod81.webp",
-    "created_at": "2025-09-05T23:55:00Z"
+    "thumbnail": "https://i.ibb.co/JwLh6Fmc/prod81.webp"
   },
   {
-    "_id": "672c815091b2f1001a9a128b",
     "title": "Blazer Saco Mujer Ajustado Anna Yagmour",
     "description": "Blazer saco ajustado de mujer de Anna Yagmour, confeccionado con materiales suaves y de alta calidad. Diseño entallado que realza la silueta, con solapas clásicas y cierre frontal. Ideal para combinar en looks formales, oficinas o eventos especiales, aportando elegancia y sofisticación.",
     "price": 89999,
     "code": "BLA-ANN-001",
     "stock": 31,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_yagmour",
     "status": true,
-    "thumbnail": "https://i.ibb.co/whL6kWvN/prod82.webp",
-    "created_at": "2025-09-06T00:00:00Z"
+    "thumbnail": "https://i.ibb.co/whL6kWvN/prod82.webp"
   },
   {
-    "_id": "672c828091b2f1001a9a128c",
     "title": "Abrigo A Cuadros De Paño Camisaco Beige Mujer Desiderata",
     "description": "Abrigo camisaco de paño a cuadros en tono beige para mujer, de la marca Desiderata. Confeccionado con materiales cálidos y resistentes, cuenta con corte recto, botones frontales y bolsillos laterales. Ideal para invierno y días fríos, combina elegancia, confort y estilo urbano sofisticado.",
     "price": 114999,
     "code": "ABR-DES-001",
     "stock": 22,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_desiderata",
     "status": true,
-    "thumbnail": "https://i.ibb.co/KpKycCC4/prod83.webp",
-    "created_at": "2025-09-06T00:05:00Z"
+    "thumbnail": "https://i.ibb.co/KpKycCC4/prod83.webp"
   },
   {
-    "_id": "672c83b091b2f1001a9a128d",
     "title": "Tapado Recto Espiga Con Botones Negro Mujer Portsaid",
     "description": "Tapado recto de mujer Portsaid en tejido espiga negro, confeccionado con materiales cálidos y de alta calidad. Diseño clásico con botones frontales, solapas tradicionales y bolsillos laterales. Ideal para combinar con looks formales o urbanos, ofreciendo abrigo y estilo durante el invierno.",
     "price": 119999,
     "code": "TAP-ESP-001",
     "stock": 19,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_portsaid",
     "status": true,
-    "thumbnail": "https://i.ibb.co/jZ68NC6R/prod84.webp",
-    "created_at": "2025-09-06T00:10:00Z"
+    "thumbnail": "https://i.ibb.co/jZ68NC6R/prod84.webp"
   },
   {
-    "_id": "672c84e091b2f1001a9a128e",
     "title": "Buzo Primo 3 Polartec® Thermal Pro® Versátil Hombre Ansilta",
     "description": "Buzo Primo 3 de Ansilta, confeccionado con Polartec® Thermal Pro® para brindar abrigo y confort en climas fríos. Versátil y liviano, ideal para actividades al aire libre, trekking o uso urbano. Cuenta con cuello alto, cierre parcial frontal y bolsillos funcionales, ofreciendo máxima comodidad y protección contra el frío.",
     "price": 99999,
     "code": "BUZ-ANS-001",
     "stock": 28,
-    "category_id": "camperas y abrigos",
+    "category_id": "cat_camperas_abrigos",
     "supplier_id": "sup_ansilta",
     "status": true,
-    "thumbnail": "https://i.ibb.co/6dnFd83/prod85.webp",
-    "created_at": "2025-09-06T00:15:00Z"
+    "thumbnail": "https://i.ibb.co/6dnFd83/prod85.webp"
   },
   {
-    "_id": "672c861091b2f1001a9a128f",
     "title": "Mochila Aeryn Grande Para Viaje En Avion Mujer Juanita Jo",
     "description": "Mochila Aeryn de Juanita Jo, grande y espaciosa, diseñada especialmente para viajes en avión. Confeccionada con materiales resistentes y livianos, cuenta con múltiples compartimentos internos, bolsillo frontal con cierre y correas ajustables para máxima comodidad. Perfecta para transportar tus pertenencias de manera organizada y segura durante tus viajes.",
     "price": 45999,
     "code": "MOCH-JJ-001",
     "stock": 35,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_juanita_jo",
     "status": true,
-    "thumbnail": "https://i.ibb.co/v4jFnyCw/prod86.webp",
-    "created_at": "2025-09-06T00:20:00Z"
+    "thumbnail": "https://i.ibb.co/v4jFnyCw/prod86.webp"
   },
   {
-    "_id": "672c874091b2f1001a9a1290",
     "title": "Mochila Cecchini Porta Notebook Reforzada Con USB",
     "description": "Mochila Cecchini diseñada para portar notebooks de forma segura, con compartimento acolchado y reforzado. Incluye puerto USB externo para carga de dispositivos y múltiples bolsillos organizadores. Confeccionada con materiales resistentes al desgaste, ideal para el día a día, viajes y uso profesional.",
     "price": 52999,
     "code": "MOCH-CEC-001",
     "stock": 40,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_cecchini",
     "status": true,
-    "thumbnail": "https://i.ibb.co/0RRHWqGm/prod87.webp",
-    "created_at": "2025-09-06T00:25:00Z"
+    "thumbnail": "https://i.ibb.co/0RRHWqGm/prod87.webp"
   },
   {
-    "_id": "672c887091b2f1001a9a1291",
     "title": "Mochila Wasted De Nylon Efecto Gastado 47 Street Color Gris Medio",
     "description": "Mochila Wasted de 47 Street, confeccionada en nylon con efecto gastado, color gris medio. Cuenta con compartimento principal espacioso, bolsillo frontal con cierre y correas ajustables para mayor comodidad. Ideal para uso urbano, escuela o viajes cortos, combinando estilo moderno y funcionalidad.",
     "price": 39999,
     "code": "MOCH-47S-001",
     "stock": 38,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_47street",
     "status": true,
-    "thumbnail": "https://i.ibb.co/PzZbNDKv/prod88.webp",
-    "created_at": "2025-09-06T00:30:00Z"
+    "thumbnail": "https://i.ibb.co/PzZbNDKv/prod88.webp"
   },
   {
-    "_id": "672c89a091b2f1001a9a1292",
     "title": "Mochila Deportiva adidas IP9878 Color Negro 24 L",
     "description": "Mochila deportiva adidas modelo IP9878 en color negro, con capacidad de 24 litros. Confeccionada con materiales duraderos y resistentes al desgaste, cuenta con compartimento principal amplio, bolsillo frontal con cierre y correas acolchonadas ajustables. Ideal para entrenamiento, gimnasio o uso diario urbano.",
     "price": 64999,
     "code": "MOCH-ADI-001",
     "stock": 42,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_adidas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/mVNxfkY2/prod89.webp",
-    "created_at": "2025-09-06T00:35:00Z"
+    "thumbnail": "https://i.ibb.co/mVNxfkY2/prod89.webp"
   },
   {
-    "_id": "672c8ad091b2f1001a9a1293",
     "title": "Mochila Adidas Casual Disney Minnie Mouse Niños JM1828 Violeta Talle Único",
     "description": "Mochila Adidas casual para niños, edición Disney Minnie Mouse, color violeta, talle único. Confeccionada con materiales resistentes y livianos, cuenta con compartimento principal, bolsillo frontal con cierre y correas ajustables acolchonadas para mayor comodidad. Ideal para la escuela, salidas y actividades diarias de los más pequeños.",
     "price": 49999,
     "code": "MOCH-ADI-002",
     "stock": 36,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_adidas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/zVyx505x/prod90.webp",
-    "created_at": "2025-09-06T00:40:00Z"
+    "thumbnail": "https://i.ibb.co/zVyx505x/prod90.webp"
   },
   {
-    "_id": "672c8c0091b2f1001a9a1294",
     "title": "Mochila Terrex Multi Climacool 20 L JM0464 adidas",
     "description": "Mochila Terrex Multi Climacool de adidas, con capacidad de 20 litros, diseñada para actividades al aire libre y deporte. Confeccionada con materiales resistentes y transpirables, cuenta con compartimento principal amplio, bolsillos laterales, sistema de ventilación Climacool y correas ajustables acolchonadas. Ideal para trekking, running o uso urbano.",
     "price": 74999,
     "code": "MOCH-ADI-003",
     "stock": 30,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_adidas",
     "status": true,
-    "thumbnail": "https://i.ibb.co/F4F0HnTN/prod91.webp",
-    "created_at": "2025-09-06T00:45:00Z"
+    "thumbnail": "https://i.ibb.co/F4F0HnTN/prod91.webp"
   },
   {
-    "_id": "672c8d2091b2f1001a9a1295",
     "title": "Mochila Nike Heritage Urbano Negro",
     "description": "Mochila Nike Heritage en color negro, ideal para uso urbano y diario. Confeccionada con materiales duraderos, cuenta con compartimento principal espacioso, bolsillo frontal con cierre y correas acolchonadas ajustables. Perfecta para la escuela, trabajo, gimnasio o actividades cotidianas, combinando funcionalidad y estilo deportivo.",
     "price": 59999,
     "code": "MOCH-NIK-001",
     "stock": 44,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_nike",
     "status": true,
-    "thumbnail": "https://i.ibb.co/Bxrhzs4/prod92.webp",
-    "created_at": "2025-09-06T00:50:00Z"
+    "thumbnail": "https://i.ibb.co/Bxrhzs4/prod92.webp"
   },
   {
-    "_id": "672c8e3091b2f1001a9a1296",
     "title": "Mochila Nike Air Max Heritage Negro",
     "description": "Mochila Nike Air Max Heritage en color negro, diseñada para uso urbano y deportivo. Confeccionada con materiales resistentes, cuenta con compartimento principal amplio, bolsillo frontal con cierre, correas acolchonadas ajustables y detalles con el icónico logo Air Max. Ideal para escuela, gimnasio o actividades diarias, combinando estilo y funcionalidad.",
     "price": 64999,
     "code": "MOCH-NIK-002",
     "stock": 38,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_nike",
     "status": true,
-    "thumbnail": "https://i.ibb.co/TB0QC6M4/prod93.webp",
-    "created_at": "2025-09-06T00:55:00Z"
+    "thumbnail": "https://i.ibb.co/TB0QC6M4/prod93.webp"
   },
   {
-    "_id": "672c8f4091b2f1001a9a1297",
     "title": "Mochila Nike Hoops Elite DX9786-010",
     "description": "Mochila Nike Hoops Elite DX9786-010, diseñada para uso deportivo y urbano. Confeccionada con materiales duraderos y resistentes, cuenta con compartimento principal amplio, bolsillo frontal con cierre y correas acolchonadas ajustables. Ideal para transportar ropa deportiva, accesorios y objetos personales con estilo y comodidad.",
     "price": 69999,
     "code": "MOCH-NIK-003",
     "stock": 36,
-    "category_id": "mochilas",
+    "category_id": "cat_mochilas",
     "supplier_id": "sup_nike",
     "status": true,
-    "thumbnail": "https://i.ibb.co/B2V5PtD4/prod94.webp",
-    "created_at": "2025-09-06T01:00:00Z"
+    "thumbnail": "https://i.ibb.co/B2V5PtD4/prod94.webp"
   }
 ]

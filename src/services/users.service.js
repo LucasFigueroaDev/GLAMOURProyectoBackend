@@ -4,7 +4,6 @@ import jwt from "jsonwebtoken";
 import { usersRepository } from "../repository/users.repository.js";
 import { createHash, passwordValidation } from "../utils/createHash.js";
 import "dotenv/config";
-import UserDTO from "../../../backend3-PreEntrega/src/dto/user.dto.js";
 
 class UsersService {
     constructor(repository) {
@@ -53,6 +52,7 @@ class UsersService {
     createUser = async (user) => {
         try {
             const { email, password } = user;
+            if(!email || !password) throw new CustomError(400, 'Faltan datos');
             const existEmail = await this.repository.getUserByEmail(email);
             if (existEmail) throw new CustomError(400, 'El email ya esta en uso');
             const hashedPassword = await createHash(password);

@@ -38,7 +38,6 @@ describe('products router', () => {
 
     before(async () => {
         const response = await request(app).post('/api/products/create').send(testProductData);
-        console.log('Response:', response.status, response.body);
         expect(response.status).to.equal(201);
         testProductId = response.body.data.payload.id;
         console.log(`[SETUP] Producto creado con ID: ${testProductId}`);
@@ -77,7 +76,6 @@ describe('products router', () => {
 
     it('PUT /api/products/delete/:id We hope to decommission a product with status code 200', async () => {
         const response = await request(app).put(`/api/products/delete/${testProductId}`);
-        console.log('Response softdeleteproduct:', response.status, response.body);
         expect(response.status).to.equal(200);
         expect(response.body).to.be.an('object');
     })
