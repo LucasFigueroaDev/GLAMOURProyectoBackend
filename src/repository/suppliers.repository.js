@@ -4,7 +4,6 @@ class SupplierRepository {
     constructor(dao) {
         this.dao = dao;
     }
-
     getAllSuppliers = async () => {
         return await this.dao.getAll();
     }

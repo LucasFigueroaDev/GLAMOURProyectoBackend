@@ -6,7 +6,7 @@
     "code": "TOP-ADV-001",
     "stock": 45,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_basset",
+    "supplier_id": "68f16071d06a414bf7aa7e38",
     "status": true,
     "thumbnail": "https://i.ibb.co/wFp8Wyzc/prod01.webp"
   },
@@ -17,7 +17,7 @@
     "code": "REM-ORE-001",
     "stock": 60,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_lightning",
+    "supplier_id": "68f16071d06a414bf7aa7e39",
     "status": true,
     "thumbnail": "https://i.ibb.co/jPKFcrNR/prod02.webp"
   },
@@ -28,7 +28,7 @@
     "code": "TOP-GIA-001",
     "stock": 38,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_giantessa",
+    "supplier_id": "68f16071d06a414bf7aa7e3a",
     "status": true,
     "thumbnail": "https://i.ibb.co/whsLfct4/prod03.webp"
   },
@@ -39,7 +39,7 @@
     "code": "POL-LAC-001",
     "stock": 25,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_lacoste",
+    "supplier_id": "68f16071d06a414bf7aa7e3b",
     "status": true,
     "thumbnail": "https://i.ibb.co/7Jdng6Dn/prod04.webp"
   },
@@ -50,7 +50,7 @@
     "code": "CAM-IBI-001",
     "stock": 32,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_ibiza",
+    "supplier_id": "68f16071d06a414bf7aa7e3c",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccTy3m3N/prod05.webp"
   },
@@ -61,7 +61,7 @@
     "code": "REM-BIL-001",
     "stock": 41,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_billabong",
+    "supplier_id": "68f16071d06a414bf7aa7e3d",
     "status": true,
     "thumbnail": "https://i.ibb.co/Qv4F6m4Y/prod06.webp"
   },
@@ -72,7 +72,7 @@
     "code": "REM-DES-001",
     "stock": 28,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_desiderata",
+    "supplier_id": "68f16071d06a414bf7aa7e3e",
     "status": true,
     "thumbnail": "https://i.ibb.co/4nRCjq4M/prod07.webp"
   },
@@ -83,7 +83,7 @@
     "code": "REM-ENC-001",
     "stock": 36,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_generic",
+    "supplier_id": "68f16071d06a414bf7aa7e3f",
     "status": true,
     "thumbnail": "https://i.ibb.co/WWPL75x6/prod08.webp"
   },
@@ -94,7 +94,7 @@
     "code": "CAM-KAU-001",
     "stock": 30,
     "category_id": "68f022ca57e4e992611ed1ba",
-    "supplier_id": "sup_kautiva",
+    "supplier_id": "68f16071d06a414bf7aa7e40",
     "status": true,
     "thumbnail": "https://i.ibb.co/rRM4gcw9/prod09.webp"
   },
@@ -105,7 +105,7 @@
     "code": "CAM-KEV-001",
     "stock": 40,
     "category_id": "68f0230d57e4e992611ed1bd",
-    "supplier_id": "sup_kevingston",
+    "supplier_id": "68f16071d06a414bf7aa7e41",
     "status": true,
     "thumbnail": "https://i.ibb.co/cSpKV5zX/prod10.webp"
   },
@@ -116,7 +116,7 @@
     "code": "REM-RES-001",
     "stock": 35,
     "category_id": "68f0230d57e4e992611ed1bd",
-    "supplier_id": "sup_resuelto",
+    "supplier_id": "68f16071d06a414bf7aa7e42",
     "status": true,
     "thumbnail": "https://i.ibb.co/vC3FmdLr/prod11.webp"
   },
@@ -127,7 +127,7 @@
     "code": "PAN-JOG-001",
     "stock": 42,
     "category_id": "68f0230d57e4e992611ed1bd",
-    "supplier_id": "sup_generic",
+    "supplier_id": "68f16071d06a414bf7aa7e3f",
     "status": true,
     "thumbnail": "https://i.ibb.co/Vc72zzhn/prod12.webp"
   },
@@ -138,7 +138,7 @@
     "code": "CAM-AIR-001",
     "stock": 38,
     "category_id": "68f0230d57e4e992611ed1bd",
-    "supplier_id": "sup_airborn",
+    "supplier_id": "68f16071d06a414bf7aa7e43",
     "status": true,
     "thumbnail": "https://i.ibb.co/B5M0NRwK/prod13.webp"
   },
@@ -149,7 +149,7 @@
     "code": "REM-MAR-001",
     "stock": 40,
     "category_id": "68f0230d57e4e992611ed1bd",
-    "supplier_id": "sup_marineandez",
+    "supplier_id": "68f16071d06a414bf7aa7e44",
     "status": true,
     "thumbnail": "https://i.ibb.co/JWGSRTxd/prod14.webp"
   },
@@ -160,7 +160,7 @@
     "code": "CAM-VIL-001",
     "stock": 35,
     "category_id": "68f0230d57e4e992611ed1bd",
-    "supplier_id": "sup_vilo",
+    "supplier_id": "68f16071d06a414bf7aa7e45",
     "status": true,
     "thumbnail": "https://i.ibb.co/ZRdY562t/prod15.webp"
   },
@@ -171,7 +171,7 @@
     "code": "POL-HOW-001",
     "stock": 37,
     "category_id": "68f0230d57e4e992611ed1bd",
-    "supplier_id": "sup_howard",
+    "supplier_id": "68f16071d06a414bf7aa7e46",
     "status": true,
     "thumbnail": "https://i.ibb.co/NdnrdGh1/prod16.webp"
   },
@@ -182,7 +182,7 @@
     "code": "CON-PAC-001",
     "stock": 50,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_pachibebes",
+    "supplier_id": "68f16071d06a414bf7aa7e47",
     "status": true,
     "thumbnail": "https://i.ibb.co/rGst7xJk/prod17.webp"
   },
@@ -193,7 +193,7 @@
     "code": "SET-CAR-001",
     "stock": 45,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_carters",
+    "supplier_id": "68f16071d06a414bf7aa7e48",
     "status": true,
     "thumbnail": "https://i.ibb.co/xtXCYCYb/prod18.webp"
   },
@@ -204,7 +204,7 @@
     "code": "SET-CAR-002",
     "stock": 48,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_carters",
+    "supplier_id": "68f16071d06a414bf7aa7e48",
     "status": true,
     "thumbnail": "https://i.ibb.co/0yLgtmj4/prod19.webp"
   },
@@ -215,7 +215,7 @@
     "code": "PAN-CAR-001",
     "stock": 52,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_carters",
+    "supplier_id": "68f16071d06a414bf7aa7e48",
     "status": true,
     "thumbnail": "https://i.ibb.co/20QRQF67/prod20.webp"
   },
@@ -226,7 +226,7 @@
     "code": "SET-CAR-003",
     "stock": 46,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_carters",
+    "supplier_id": "68f16071d06a414bf7aa7e48",
     "status": true,
     "thumbnail": "https://i.ibb.co/Xxw7MHqh/prod21.webp"
   },
@@ -237,7 +237,7 @@
     "code": "REM-BEB-001",
     "stock": 50,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_generic",
+    "supplier_id": "68f16071d06a414bf7aa7e3f",
     "status": true,
     "thumbnail": "https://i.ibb.co/Y7bb5DCG/prod22.webp"
   },
@@ -248,7 +248,7 @@
     "code": "JEAN-BEB-001",
     "stock": 48,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_generic",
+    "supplier_id": "68f16071d06a414bf7aa7e3f",
     "status": true,
     "thumbnail": "https://i.ibb.co/7JQhLKhd/prod23.webp"
   },
@@ -259,7 +259,7 @@
     "code": "BIK-PAC-001",
     "stock": 42,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_pachibebes",
+    "supplier_id": "68f16071d06a414bf7aa7e47",
     "status": true,
     "thumbnail": "https://i.ibb.co/C3fyWWtq/prod24.webp"
   },
@@ -270,7 +270,7 @@
     "code": "REM-PAC-002",
     "stock": 50,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_pachibebes",
+    "supplier_id": "68f16071d06a414bf7aa7e47",
     "status": true,
     "thumbnail": "https://i.ibb.co/DfqWM0kP/prod25.webp"
   },
@@ -281,7 +281,7 @@
     "code": "BAB-CHE-001",
     "stock": 55,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_cheeky",
+    "supplier_id": "68f16071d06a414bf7aa7e49",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccGLH4mL/prod26.webp"
   },
@@ -292,7 +292,7 @@
     "code": "CON-KID-001",
     "stock": 48,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_generic",
+    "supplier_id": "68f16071d06a414bf7aa7e3f",
     "status": true,
     "thumbnail": "https://i.ibb.co/JWDRDgbB/prod27.webp"
   },
@@ -303,7 +303,7 @@
     "code": "BODY-SNK-001",
     "stock": 40,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_snk",
+    "supplier_id": "68f16071d06a414bf7aa7e4a",
     "status": true,
     "thumbnail": "https://i.ibb.co/PsHMQPnX/prod28.webp"
   },
@@ -314,7 +314,7 @@
     "code": "RAN-GAM-001",
     "stock": 45,
     "category_id": "68f0232757e4e992611ed1c0",
-    "supplier_id": "sup_gamise",
+    "supplier_id": "68f16071d06a414bf7aa7e4b",
     "status": true,
     "thumbnail": "https://i.ibb.co/Zpf1kZXy/prod29.webp"
   },
@@ -325,7 +325,7 @@
     "code": "ZAP-NIK-001",
     "stock": 30,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_nike",
+    "supplier_id": "68f16071d06a414bf7aa7e4c",
     "status": true,
     "thumbnail": "https://i.ibb.co/9HVgtd6T/prod30.webp"
   },
@@ -336,7 +336,7 @@
     "code": "ZAP-FIL-001",
     "stock": 28,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_fila",
+    "supplier_id": "68f16071d06a414bf7aa7e4d",
     "status": true,
     "thumbnail": "https://i.ibb.co/W4cTNFW0/prod31.webp"
   },
@@ -347,7 +347,7 @@
     "code": "ZAP-NB-001",
     "stock": 32,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_newbalance",
+    "supplier_id": "68f16071d06a414bf7aa7e4e",
     "status": true,
     "thumbnail": "https://i.ibb.co/x8KjfB6b/prod32.webp"
   },
@@ -358,7 +358,7 @@
     "code": "ZAP-SOU-001",
     "stock": 27,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_southone",
+    "supplier_id": "68f16071d06a414bf7aa7e4f",
     "status": true,
     "thumbnail": "https://i.ibb.co/60sWRk3G/prod33.webp"
   },
@@ -369,7 +369,7 @@
     "code": "ZAP-TOP-001",
     "stock": 33,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_topper",
+    "supplier_id": "68f16071d06a414bf7aa7e50",
     "status": true,
     "thumbnail": "https://i.ibb.co/gFJvdCH8/prod34.webp"
   },
@@ -380,7 +380,7 @@
     "code": "ZAP-ADI-001",
     "stock": 29,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_adidas",
+    "supplier_id": "68f16071d06a414bf7aa7e51",
     "status": true,
     "thumbnail": "https://i.ibb.co/yFHF95mK/prod35.webp"
   },
@@ -391,7 +391,7 @@
     "code": "ZAP-FIL-002",
     "stock": 31,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_fila",
+    "supplier_id": "68f16071d06a414bf7aa7e4d",
     "status": true,
     "thumbnail": "https://i.ibb.co/qYg8s8HV/prod36.webp"
   },
@@ -402,7 +402,7 @@
     "code": "ZAP-BUS-001",
     "stock": 34,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_busted",
+    "supplier_id": "68f16071d06a414bf7aa7e52",
     "status": true,
     "thumbnail": "https://i.ibb.co/5gmSLZGy/prod37.webp"
   },
@@ -413,7 +413,7 @@
     "code": "ZAP-CON-001",
     "stock": 28,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_converse",
+    "supplier_id": "68f16071d06a414bf7aa7e53",
     "status": true,
     "thumbnail": "https://i.ibb.co/XkVwxDp2/prod38.webp"
   },
@@ -424,7 +424,7 @@
     "code": "ZAP-PUM-001",
     "stock": 30,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_puma",
+    "supplier_id": "68f16071d06a414bf7aa7e54",
     "status": true,
     "thumbnail": "https://i.ibb.co/dwqCRC8j/prod39.webp"
   },
@@ -435,7 +435,7 @@
     "code": "ZAP-FIL-003",
     "stock": 32,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_fila",
+    "supplier_id": "68f16071d06a414bf7aa7e4d",
     "status": true,
     "thumbnail": "https://i.ibb.co/PvLfbFg9/prod40.webp"
   },
@@ -446,7 +446,7 @@
     "code": "ZAP-PUM-002",
     "stock": 28,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_puma",
+    "supplier_id": "68f16071d06a414bf7aa7e54",
     "status": true,
     "thumbnail": "https://i.ibb.co/9kXNVRR2/prod41.webp"
   },
@@ -457,7 +457,7 @@
     "code": "ZAP-VIZ-001",
     "stock": 30,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_vizzano",
+    "supplier_id": "68f16071d06a414bf7aa7e55",
     "status": true,
     "thumbnail": "https://i.ibb.co/2058Qf6J/prod42.webp"
   },
@@ -468,7 +468,7 @@
     "code": "ZAP-ADI-002",
     "stock": 27,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_adidas",
+    "supplier_id": "68f16071d06a414bf7aa7e51",
     "status": true,
     "thumbnail": "https://i.ibb.co/9Hmn22mM/prod43.webp"
   },
@@ -479,7 +479,7 @@
     "code": "ZAP-BIB-001",
     "stock": 35,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_bibi",
+    "supplier_id": "68f16071d06a414bf7aa7e56",
     "status": true,
     "thumbnail": "https://i.ibb.co/3H9vXCt/prod44.webp"
   },
@@ -490,7 +490,7 @@
     "code": "ZAP-RAV-001",
     "stock": 30,
     "category_id": "68f0233157e4e992611ed1c3",
-    "supplier_id": "sup_rave",
+    "supplier_id": "68f16071d06a414bf7aa7e57",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccbMrH8d/prod45.webp"
   },
@@ -501,7 +501,7 @@
     "code": "REL-MON-001",
     "stock": 25,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_montreal",
+    "supplier_id": "68f16071d06a414bf7aa7e58",
     "status": true,
     "thumbnail": "https://i.ibb.co/JjQyqMSN/prod46.webp"
   },
@@ -512,7 +512,7 @@
     "code": "PUL-CAR-001",
     "stock": 30,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_carmin",
+    "supplier_id": "68f16071d06a414bf7aa7e59",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccDKyD7B/prod47.webp"
   },
@@ -523,7 +523,7 @@
     "code": "SW-MON-001",
     "stock": 22,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_montreal",
+    "supplier_id": "68f16071d06a414bf7aa7e58",
     "status": true,
     "thumbnail": "https://i.ibb.co/chjhBBN9/prod48.webp"
   },
@@ -534,7 +534,7 @@
     "code": "REL-TH-001",
     "stock": 25,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_tommyhilfiger",
+    "supplier_id": "68f16071d06a414bf7aa7e5a",
     "status": true,
     "thumbnail": "https://i.ibb.co/39v6kbz2/prod49.webp"
   },
@@ -545,7 +545,7 @@
     "code": "AL-PL-001",
     "stock": 20,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/qYxdwWVK/prod50.webp"
   },
@@ -556,7 +556,7 @@
     "code": "DIJ-PL-001",
     "stock": 28,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/WvkyjMvS/prod51.webp"
   },
@@ -567,7 +567,7 @@
     "code": "COM-AL-001",
     "stock": 15,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/HDSyVpgX/prod52.webp"
   },
@@ -578,7 +578,7 @@
     "code": "CAD-PL-001",
     "stock": 32,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/W89L9Wq/prod53.webp"
   },
@@ -589,7 +589,7 @@
     "code": "CON-CUP-001",
     "stock": 28,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/rfQJDnNg/prod54.webp"
   },
@@ -600,7 +600,7 @@
     "code": "ANI-SOL-001",
     "stock": 20,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/g1tppcJ/prod55.webp"
   },
@@ -611,7 +611,7 @@
     "code": "ANI-SOL-002",
     "stock": 18,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/n8Pg2fwW/prod56.webp"
   },
@@ -622,7 +622,7 @@
     "code": "ANI-CRU-001",
     "stock": 22,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/tMwBvcVW/prod57.webp"
   },
@@ -633,7 +633,7 @@
     "code": "ANI-ALD-001",
     "stock": 20,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/rKXDQ07X/prod58.webp"
   },
@@ -644,7 +644,7 @@
     "code": "ARO-ARG-001",
     "stock": 26,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/PGV4bbL8/prod59.webp"
   },
@@ -655,7 +655,7 @@
     "code": "COL-EST-001",
     "stock": 24,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/jkFw6dtP/prod60.webp"
   },
@@ -666,7 +666,7 @@
     "code": "ANI-COR-001",
     "stock": 30,
     "category_id": "68f0233757e4e992611ed1c6",
-    "supplier_id": "sup_joyas",
+    "supplier_id": "68f16071d06a414bf7aa7e5b",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccGbV8Gt/prod61.webp"
   },
@@ -677,7 +677,7 @@
     "code": "ANT-HAR-001",
     "stock": 35,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_hardem",
+    "supplier_id": "68f16071d06a414bf7aa7e5c",
     "status": true,
     "thumbnail": "https://i.ibb.co/b5vgdS3g/prod62.webp"
   },
@@ -688,7 +688,7 @@
     "code": "ANT-INF-001",
     "stock": 40,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_infinit",
+    "supplier_id": "68f16071d06a414bf7aa7e5d",
     "status": true,
     "thumbnail": "https://i.ibb.co/DfWnX7Fw/prod63.webp"
   },
@@ -699,7 +699,7 @@
     "code": "ANT-BD-001",
     "stock": 38,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_bd",
+    "supplier_id": "68f16071d06a414bf7aa7e5e",
     "status": true,
     "thumbnail": "https://i.ibb.co/fVwyM0sc/prod64.webp"
   },
@@ -710,7 +710,7 @@
     "code": "ANT-OSA-001",
     "stock": 36,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_ona_saez",
+    "supplier_id": "68f16071d06a414bf7aa7e5f",
     "status": true,
     "thumbnail": "https://i.ibb.co/GQjB4ryR/prod65.webp"
   },
@@ -721,7 +721,7 @@
     "code": "ANT-HAR-002",
     "stock": 34,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_hardem",
+    "supplier_id": "68f16071d06a414bf7aa7e5c",
     "status": true,
     "thumbnail": "https://i.ibb.co/8gpcTHWR/prod66.webp"
   },
@@ -732,7 +732,7 @@
     "code": "ANT-RUS-001",
     "stock": 40,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_rusty",
+    "supplier_id": "68f16071d06a414bf7aa7e60",
     "status": true,
     "thumbnail": "https://i.ibb.co/gbzRgLzL/prod67.webp"
   },
@@ -743,7 +743,7 @@
     "code": "ANT-RET-001",
     "stock": 42,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_retro",
+    "supplier_id": "68f16071d06a414bf7aa7e61",
     "status": true,
     "thumbnail": "https://i.ibb.co/B5Lq8SJj/prod68.webp"
   },
@@ -754,7 +754,7 @@
     "code": "ANT-RUS-002",
     "stock": 37,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_rusty",
+    "supplier_id": "68f16071d06a414bf7aa7e60",
     "status": true,
     "thumbnail": "https://i.ibb.co/dsNbF90t/prod69.webp"
   },
@@ -765,7 +765,7 @@
     "code": "ANT-RUS-003",
     "stock": 36,
     "category_id": "68f0233d57e4e992611ed1c9",
-    "supplier_id": "sup_rusty",
+    "supplier_id": "68f16071d06a414bf7aa7e60",
     "status": true,
     "thumbnail": "https://i.ibb.co/1JnS35Jb/prod70.webp"
   },
@@ -776,7 +776,7 @@
     "code": "CAM-PUF-001",
     "stock": 28,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_portsaid",
+    "supplier_id": "68f16071d06a414bf7aa7e62",
     "status": true,
     "thumbnail": "https://i.ibb.co/SXtHz81k/prod71.webp"
   },
@@ -787,7 +787,7 @@
     "code": "CAM-MER-001",
     "stock": 22,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_adidas",
+    "supplier_id": "68f16071d06a414bf7aa7e51",
     "status": true,
     "thumbnail": "https://i.ibb.co/S4QZtCj3/prod72.webp"
   },
@@ -798,7 +798,7 @@
     "code": "CAM-LIV-001",
     "stock": 30,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_portsaid",
+    "supplier_id": "68f16071d06a414bf7aa7e62",
     "status": true,
     "thumbnail": "https://i.ibb.co/LXF0VJ2h/prod73.webp"
   },
@@ -809,7 +809,7 @@
     "code": "PARK-TYL-001",
     "stock": 25,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_airborn",
+    "supplier_id": "68f16071d06a414bf7aa7e43",
     "status": true,
     "thumbnail": "https://i.ibb.co/cc6qVGvw/prod74.webp"
   },
@@ -820,7 +820,7 @@
     "code": "CAM-RIV-001",
     "stock": 27,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_river",
+    "supplier_id": "68f16071d06a414bf7aa7e63",
     "status": true,
     "thumbnail": "https://i.ibb.co/VYM79vrJ/prod75.webp"
   },
@@ -831,7 +831,7 @@
     "code": "TAP-PIT-001",
     "stock": 20,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_sweet",
+    "supplier_id": "68f16071d06a414bf7aa7e64",
     "status": true,
     "thumbnail": "https://i.ibb.co/Rp0tkCKt/prod76.webp"
   },
@@ -842,7 +842,7 @@
     "code": "CAM-ROM-001",
     "stock": 33,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_ravish",
+    "supplier_id": "68f16071d06a414bf7aa7e65",
     "status": true,
     "thumbnail": "https://i.ibb.co/35z2MqPm/prod77.webp"
   },
@@ -853,7 +853,7 @@
     "code": "CAM-BON-001",
     "stock": 24,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_trown",
+    "supplier_id": "68f16071d06a414bf7aa7e66",
     "status": true,
     "thumbnail": "https://i.ibb.co/PvWVLnH1/prod78.webp"
   },
@@ -864,7 +864,7 @@
     "code": "CAM-IMP-001",
     "stock": 26,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_importada",
+    "supplier_id": "68f16071d06a414bf7aa7e67",
     "status": true,
     "thumbnail": "https://i.ibb.co/VYh2HRXh/prod79.webp"
   },
@@ -875,7 +875,7 @@
     "code": "BLA-LYO-001",
     "stock": 32,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_portsaid",
+    "supplier_id": "68f16071d06a414bf7aa7e62",
     "status": true,
     "thumbnail": "https://i.ibb.co/nNzjDn5g/prod80.webp"
   },
@@ -886,7 +886,7 @@
     "code": "CAM-LOT-001",
     "stock": 29,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_dexter",
+    "supplier_id": "68f16071d06a414bf7aa7e68",
     "status": true,
     "thumbnail": "https://i.ibb.co/JwLh6Fmc/prod81.webp"
   },
@@ -897,7 +897,7 @@
     "code": "BLA-ANN-001",
     "stock": 31,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_yagmour",
+    "supplier_id": "68f16071d06a414bf7aa7e69",
     "status": true,
     "thumbnail": "https://i.ibb.co/whL6kWvN/prod82.webp"
   },
@@ -908,7 +908,7 @@
     "code": "ABR-DES-001",
     "stock": 22,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_desiderata",
+    "supplier_id": "68f16071d06a414bf7aa7e3e",
     "status": true,
     "thumbnail": "https://i.ibb.co/KpKycCC4/prod83.webp"
   },
@@ -919,7 +919,7 @@
     "code": "TAP-ESP-001",
     "stock": 19,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_portsaid",
+    "supplier_id": "68f16071d06a414bf7aa7e62",
     "status": true,
     "thumbnail": "https://i.ibb.co/jZ68NC6R/prod84.webp"
   },
@@ -930,7 +930,7 @@
     "code": "BUZ-ANS-001",
     "stock": 28,
     "category_id": "68f0234357e4e992611ed1cc",
-    "supplier_id": "sup_ansilta",
+    "supplier_id": "68f16071d06a414bf7aa7e6a",
     "status": true,
     "thumbnail": "https://i.ibb.co/6dnFd83/prod85.webp"
   },
@@ -941,7 +941,7 @@
     "code": "MOCH-JJ-001",
     "stock": 35,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_juanita_jo",
+    "supplier_id": "68f16071d06a414bf7aa7e6b",
     "status": true,
     "thumbnail": "https://i.ibb.co/v4jFnyCw/prod86.webp"
   },
@@ -952,7 +952,7 @@
     "code": "MOCH-CEC-001",
     "stock": 40,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_cecchini",
+    "supplier_id": "68f16071d06a414bf7aa7e6c",
     "status": true,
     "thumbnail": "https://i.ibb.co/0RRHWqGm/prod87.webp"
   },
@@ -963,7 +963,7 @@
     "code": "MOCH-47S-001",
     "stock": 38,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_47street",
+    "supplier_id": "68f16071d06a414bf7aa7e6d",
     "status": true,
     "thumbnail": "https://i.ibb.co/PzZbNDKv/prod88.webp"
   },
@@ -974,7 +974,7 @@
     "code": "MOCH-ADI-001",
     "stock": 42,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_adidas",
+    "supplier_id": "68f16071d06a414bf7aa7e51",
     "status": true,
     "thumbnail": "https://i.ibb.co/mVNxfkY2/prod89.webp"
   },
@@ -985,7 +985,7 @@
     "code": "MOCH-ADI-002",
     "stock": 36,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_adidas",
+    "supplier_id": "68f16071d06a414bf7aa7e51",
     "status": true,
     "thumbnail": "https://i.ibb.co/zVyx505x/prod90.webp"
   },
@@ -996,7 +996,7 @@
     "code": "MOCH-ADI-003",
     "stock": 30,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_adidas",
+    "supplier_id": "68f16071d06a414bf7aa7e51",
     "status": true,
     "thumbnail": "https://i.ibb.co/F4F0HnTN/prod91.webp"
   },
@@ -1007,7 +1007,7 @@
     "code": "MOCH-NIK-001",
     "stock": 44,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_nike",
+    "supplier_id": "68f16071d06a414bf7aa7e4c",
     "status": true,
     "thumbnail": "https://i.ibb.co/Bxrhzs4/prod92.webp"
   },
@@ -1018,7 +1018,7 @@
     "code": "MOCH-NIK-002",
     "stock": 38,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_nike",
+    "supplier_id": "68f16071d06a414bf7aa7e4c",
     "status": true,
     "thumbnail": "https://i.ibb.co/TB0QC6M4/prod93.webp"
   },
@@ -1029,7 +1029,7 @@
     "code": "MOCH-NIK-003",
     "stock": 36,
     "category_id": "68f0234857e4e992611ed1cf",
-    "supplier_id": "sup_nike",
+    "supplier_id": "68f16071d06a414bf7aa7e4c",
     "status": true,
     "thumbnail": "https://i.ibb.co/B2V5PtD4/prod94.webp"
   }

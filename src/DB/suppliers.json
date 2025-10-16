@@ -4,431 +4,377 @@
         "contact": "Mariano Gómez",
         "email": "contacto@basset.com",
         "phone": "+54 9 11 2456-8790",
-        "address": "Av. Corrientes 1234, Buenos Aires, Argentina",
-        "created_at": "2025-01-10T12:00:00Z"
+        "address": "Av. Corrientes 1234, Buenos Aires, Argentina"
     },
     {
         "name": "sup_lightning",
         "contact": "Laura Fernández",
         "email": "ventas@lightning.com",
         "phone": "+54 9 11 3987-5621",
-        "address": "San Martín 540, Córdoba, Argentina",
-        "created_at": "2025-02-02T12:00:00Z"
+        "address": "San Martín 540, Córdoba, Argentina"
     },
     {
         "name": "sup_giantessa",
         "contact": "Carlos Ruiz",
         "email": "info@giantessa.com",
         "phone": "+54 9 11 4777-0098",
-        "address": "Belgrano 980, Rosario, Argentina",
-        "created_at": "2025-02-15T12:00:00Z"
+        "address": "Belgrano 980, Rosario, Argentina"
     },
     {
         "name": "sup_lacoste",
         "contact": "Sofía Pérez",
         "email": "contact@lacoste.com",
         "phone": "+54 9 11 2345-8800",
-        "address": "Av. Santa Fe 2345, Buenos Aires, Argentina",
-        "created_at": "2025-03-01T12:00:00Z"
+        "address": "Av. Santa Fe 2345, Buenos Aires, Argentina"
     },
     {
         "name": "sup_ibiza",
         "contact": "Diego Morales",
         "email": "ventas@ibiza.com",
         "phone": "+54 9 11 4856-7761",
-        "address": "Colón 333, Mendoza, Argentina",
-        "created_at": "2025-03-05T12:00:00Z"
+        "address": "Colón 333, Mendoza, Argentina"
     },
     {
         "name": "sup_billabong",
         "contact": "Valentina Arias",
         "email": "info@billabong.com",
         "phone": "+54 9 223 455-9812",
-        "address": "Av. Constitución 7789, Mar del Plata, Argentina",
-        "created_at": "2025-03-08T12:00:00Z"
+        "address": "Av. Constitución 7789, Mar del Plata, Argentina"
     },
     {
         "name": "sup_desiderata",
         "contact": "María López",
         "email": "ventas@desiderata.com",
         "phone": "+54 9 11 2987-5550",
-        "address": "Rivadavia 3456, Buenos Aires, Argentina",
-        "created_at": "2025-03-09T12:00:00Z"
+        "address": "Rivadavia 3456, Buenos Aires, Argentina"
     },
     {
         "name": "sup_generic",
         "contact": "Fernando Cabrera",
         "email": "info@generic.com",
         "phone": "+54 9 11 4567-8901",
-        "address": "Mitre 123, Tucumán, Argentina",
-        "created_at": "2025-03-10T12:00:00Z"
+        "address": "Mitre 123, Tucumán, Argentina"
     },
     {
         "name": "sup_kautiva",
         "contact": "Lucía Ortega",
         "email": "ventas@kautiva.com",
         "phone": "+54 9 11 4111-5699",
-        "address": "Av. Roca 234, Salta, Argentina",
-        "created_at": "2025-03-11T12:00:00Z"
+        "address": "Av. Roca 234, Salta, Argentina"
     },
     {
         "name": "sup_kevingston",
         "contact": "Pablo Medina",
         "email": "contact@kevingston.com",
         "phone": "+54 9 11 4111-1222",
-        "address": "Florida 890, Buenos Aires, Argentina",
-        "created_at": "2025-03-12T12:00:00Z"
+        "address": "Florida 890, Buenos Aires, Argentina"
     },
     {
         "name": "sup_resuelto",
         "contact": "Cintia Paredes",
         "email": "info@resuelto.com",
         "phone": "+54 9 381 555-9988",
-        "address": "Sarmiento 456, Tucumán, Argentina",
-        "created_at": "2025-03-13T12:00:00Z"
+        "address": "Sarmiento 456, Tucumán, Argentina"
     },
     {
         "name": "sup_airborn",
         "contact": "Leandro Torres",
         "email": "ventas@airborn.com",
         "phone": "+54 9 11 3214-5566",
-        "address": "Lavalle 1200, Buenos Aires, Argentina",
-        "created_at": "2025-03-14T12:00:00Z"
+        "address": "Lavalle 1200, Buenos Aires, Argentina"
     },
     {
         "name": "sup_marineandez",
         "contact": "Florencia Díaz",
         "email": "contact@marineandez.com",
         "phone": "+54 9 11 4556-7733",
-        "address": "San Lorenzo 234, Rosario, Argentina",
-        "created_at": "2025-03-15T12:00:00Z"
+        "address": "San Lorenzo 234, Rosario, Argentina"
     },
     {
         "name": "sup_vilo",
         "contact": "Ignacio Blanco",
         "email": "ventas@vilo.com",
         "phone": "+54 9 11 4789-1234",
-        "address": "9 de Julio 900, Córdoba, Argentina",
-        "created_at": "2025-03-16T12:00:00Z"
+        "address": "9 de Julio 900, Córdoba, Argentina"
     },
     {
         "name": "sup_howard",
         "contact": "Esteban Ramírez",
         "email": "info@howard.com",
         "phone": "+54 9 11 4900-5678",
-        "address": "Bv. Oroño 2500, Rosario, Argentina",
-        "created_at": "2025-03-17T12:00:00Z"
+        "address": "Bv. Oroño 2500, Rosario, Argentina"
     },
     {
         "name": "sup_pachibebes",
         "contact": "Rocío Gutiérrez",
         "email": "ventas@pachibebes.com",
         "phone": "+54 9 11 4234-7766",
-        "address": "Catamarca 1020, Santa Fe, Argentina",
-        "created_at": "2025-03-18T12:00:00Z"
+        "address": "Catamarca 1020, Santa Fe, Argentina"
     },
     {
         "name": "sup_carters",
         "contact": "Federico Sánchez",
         "email": "info@carters.com",
         "phone": "+54 9 11 4000-1100",
-        "address": "Av. Pellegrini 555, Rosario, Argentina",
-        "created_at": "2025-03-19T12:00:00Z"
+        "address": "Av. Pellegrini 555, Rosario, Argentina"
     },
     {
         "name": "sup_cheeky",
         "contact": "Agustina Herrera",
         "email": "contact@cheeky.com",
         "phone": "+54 9 11 5000-2211",
-        "address": "Av. Santa Fe 3400, Buenos Aires, Argentina",
-        "created_at": "2025-03-20T12:00:00Z"
+        "address": "Av. Santa Fe 3400, Buenos Aires, Argentina"
     },
     {
         "name": "sup_snk",
         "contact": "Rodrigo Benítez",
         "email": "ventas@snk.com",
         "phone": "+54 9 11 4333-9900",
-        "address": "Mitre 345, Córdoba, Argentina",
-        "created_at": "2025-03-21T12:00:00Z"
+        "address": "Mitre 345, Córdoba, Argentina"
     },
     {
         "name": "sup_gamise",
         "contact": "Julieta Castro",
         "email": "info@gamise.com",
         "phone": "+54 9 11 6000-1111",
-        "address": "Av. Alem 220, Buenos Aires, Argentina",
-        "created_at": "2025-03-22T12:00:00Z"
+        "address": "Av. Alem 220, Buenos Aires, Argentina"
     },
     {
         "name": "sup_nike",
         "contact": "Martín Silva",
         "email": "ventas@nike.com",
         "phone": "+54 9 11 6111-3344",
-        "address": "Av. Independencia 560, Buenos Aires, Argentina",
-        "created_at": "2025-03-23T12:00:00Z"
+        "address": "Av. Independencia 560, Buenos Aires, Argentina"
     },
     {
         "name": "sup_fila",
         "contact": "Carolina Romero",
         "email": "info@fila.com",
         "phone": "+54 9 11 6222-4455",
-        "address": "Córdoba 1020, Córdoba, Argentina",
-        "created_at": "2025-03-24T12:00:00Z"
+        "address": "Córdoba 1020, Córdoba, Argentina"
     },
     {
         "name": "sup_newbalance",
         "contact": "Gustavo Molina",
         "email": "contact@newbalance.com",
         "phone": "+54 9 11 6333-5566",
-        "address": "Av. Belgrano 780, Buenos Aires, Argentina",
-        "created_at": "2025-03-25T12:00:00Z"
+        "address": "Av. Belgrano 780, Buenos Aires, Argentina"
     },
     {
         "name": "sup_southone",
         "contact": "Micaela Torres",
         "email": "ventas@southone.com",
         "phone": "+54 9 11 6444-6677",
-        "address": "Av. Mitre 1200, Rosario, Argentina",
-        "created_at": "2025-03-26T12:00:00Z"
+        "address": "Av. Mitre 1200, Rosario, Argentina"
     },
     {
         "name": "sup_topper",
         "contact": "Facundo Herrera",
         "email": "info@topper.com",
         "phone": "+54 9 11 6555-7788",
-        "address": "San Martín 500, Buenos Aires, Argentina",
-        "created_at": "2025-03-27T12:00:00Z"
+        "address": "San Martín 500, Buenos Aires, Argentina"
     },
     {
         "name": "sup_adidas",
         "contact": "Natalia López",
         "email": "contact@adidas.com",
         "phone": "+54 9 11 6666-8899",
-        "address": "Av. Rivadavia 780, Buenos Aires, Argentina",
-        "created_at": "2025-03-28T12:00:00Z"
+        "address": "Av. Rivadavia 780, Buenos Aires, Argentina"
     },
     {
         "name": "sup_busted",
         "contact": "Tomás García",
         "email": "ventas@busted.com",
         "phone": "+54 9 11 6777-9900",
-        "address": "Belgrano 1120, Córdoba, Argentina",
-        "created_at": "2025-03-29T12:00:00Z"
+        "address": "Belgrano 1120, Córdoba, Argentina"
     },
     {
         "name": "sup_converse",
         "contact": "Paula Rojas",
         "email": "info@converse.com",
         "phone": "+54 9 11 6888-1010",
-        "address": "Av. Santa Fe 1230, Buenos Aires, Argentina",
-        "created_at": "2025-03-30T12:00:00Z"
+        "address": "Av. Santa Fe 1230, Buenos Aires, Argentina"
     },
     {
         "name": "sup_puma",
         "contact": "Diego Castro",
         "email": "contact@puma.com",
         "phone": "+54 9 11 6999-1122",
-        "address": "Av. Córdoba 980, Córdoba, Argentina",
-        "created_at": "2025-03-31T12:00:00Z"
+        "address": "Av. Córdoba 980, Córdoba, Argentina"
     },
     {
         "name": "sup_vizzano",
         "contact": "Valeria Mendoza",
         "email": "ventas@vizzano.com",
         "phone": "+54 9 11 7000-2233",
-        "address": "Av. Alem 450, Buenos Aires, Argentina",
-        "created_at": "2025-04-01T12:00:00Z"
+        "address": "Av. Alem 450, Buenos Aires, Argentina"
     },
     {
         "name": "sup_bibi",
         "contact": "Lucas Fernández",
         "email": "info@bibi.com",
         "phone": "+54 9 11 7111-3344",
-        "address": "Av. Belgrano 600, Buenos Aires, Argentina",
-        "created_at": "2025-04-02T12:00:00Z"
+        "address": "Av. Belgrano 600, Buenos Aires, Argentina"
     },
     {
         "name": "sup_rave",
         "contact": "Martina Aguirre",
         "email": "contact@rave.com",
         "phone": "+54 9 11 7222-4455",
-        "address": "San Martín 1450, Rosario, Argentina",
-        "created_at": "2025-04-03T12:00:00Z"
+        "address": "San Martín 1450, Rosario, Argentina"
     },
     {
         "name": "sup_montreal",
         "contact": "Agustín Díaz",
         "email": "ventas@montreal.com",
         "phone": "+54 9 11 7333-5566",
-        "address": "Av. Rivadavia 900, Buenos Aires, Argentina",
-        "created_at": "2025-04-04T12:00:00Z"
+        "address": "Av. Rivadavia 900, Buenos Aires, Argentina"
     },
     {
         "name": "sup_carmin",
         "contact": "Camila López",
         "email": "info@carmin.com",
         "phone": "+54 9 11 7444-6677",
-        "address": "Av. Córdoba 1230, Córdoba, Argentina",
-        "created_at": "2025-04-05T12:00:00Z"
+        "address": "Av. Córdoba 1230, Córdoba, Argentina"
     },
     {
         "name": "sup_tommyhilfiger",
         "contact": "Santiago Ramírez",
         "email": "contact@tommyhilfiger.com",
         "phone": "+54 9 11 7555-7788",
-        "address": "Av. Santa Fe 900, Buenos Aires, Argentina",
-        "created_at": "2025-04-06T12:00:00Z"
+        "address": "Av. Santa Fe 900, Buenos Aires, Argentina"
     },
     {
         "name": "sup_joyas",
         "contact": "Isabella Torres",
         "email": "ventas@joyas.com",
         "phone": "+54 9 11 7666-8899",
-        "address": "Av. Mitre 780, Rosario, Argentina",
-        "created_at": "2025-04-07T12:00:00Z"
+        "address": "Av. Mitre 780, Rosario, Argentina"
     },
     {
         "name": "sup_hardem",
         "contact": "Mateo Fernández",
         "email": "info@hardem.com",
         "phone": "+54 9 11 7777-9900",
-        "address": "Av. Belgrano 500, Buenos Aires, Argentina",
-        "created_at": "2025-04-08T12:00:00Z"
+        "address": "Av. Belgrano 500, Buenos Aires, Argentina"
     },
     {
         "name": "sup_infinit",
         "contact": "Camila Torres",
         "email": "contact@infinit.com",
         "phone": "+54 9 11 7888-1010",
-        "address": "Av. Corrientes 123, Buenos Aires, Argentina",
-        "created_at": "2025-04-09T12:00:00Z"
+        "address": "Av. Corrientes 123, Buenos Aires, Argentina"
     },
     {
         "name": "sup_bd",
         "contact": "Luciano Gutiérrez",
         "email": "ventas@bd.com",
         "phone": "+54 9 11 7999-1122",
-        "address": "San Martín 333, Córdoba, Argentina",
-        "created_at": "2025-04-10T12:00:00Z"
+        "address": "San Martín 333, Córdoba, Argentina"
     },
     {
         "name": "sup_ona_saez",
         "contact": "Victoria Rojas",
         "email": "info@ona_saez.com",
         "phone": "+54 9 11 8000-2233",
-        "address": "Av. Alem 450, Buenos Aires, Argentina",
-        "created_at": "2025-04-11T12:00:00Z"
+        "address": "Av. Alem 450, Buenos Aires, Argentina"
     },
     {
         "name": "sup_rusty",
         "contact": "Bruno Castro",
         "email": "contact@rusty.com",
         "phone": "+54 9 11 8111-3344",
-        "address": "Av. Rivadavia 600, Buenos Aires, Argentina",
-        "created_at": "2025-04-12T12:00:00Z"
+        "address": "Av. Rivadavia 600, Buenos Aires, Argentina"
     },
     {
         "name": "sup_retro",
         "contact": "Agustina Mendoza",
         "email": "ventas@retro.com",
         "phone": "+54 9 11 8222-4455",
-        "address": "Av. Belgrano 1000, Córdoba, Argentina",
-        "created_at": "2025-04-13T12:00:00Z"
+        "address": "Av. Belgrano 1000, Córdoba, Argentina"
     },
     {
         "name": "sup_portsaid",
         "contact": "Nicolás Ramírez",
         "email": "info@portsaid.com",
         "phone": "+54 9 11 8333-5566",
-        "address": "Av. Santa Fe 560, Buenos Aires, Argentina",
-        "created_at": "2025-04-14T12:00:00Z"
+        "address": "Av. Santa Fe 560, Buenos Aires, Argentina"
     },
     {
         "name": "sup_river",
         "contact": "Valentina Aguirre",
         "email": "contact@river.com",
         "phone": "+54 9 11 8444-6677",
-        "address": "Av. Mitre 890, Rosario, Argentina",
-        "created_at": "2025-04-15T12:00:00Z"
+        "address": "Av. Mitre 890, Rosario, Argentina"
     },
     {
         "name": "sup_sweet",
         "contact": "Lucas Fernández",
         "email": "ventas@sweet.com",
         "phone": "+54 9 11 8555-7788",
-        "address": "Av. Córdoba 123, Córdoba, Argentina",
-        "created_at": "2025-04-16T12:00:00Z"
+        "address": "Av. Córdoba 123, Córdoba, Argentina"
     },
     {
         "name": "sup_ravish",
         "contact": "Camila López",
         "email": "info@ravish.com",
         "phone": "+54 9 11 8666-8899",
-        "address": "Av. Santa Fe 780, Buenos Aires, Argentina",
-        "created_at": "2025-04-17T12:00:00Z"
+        "address": "Av. Santa Fe 780, Buenos Aires, Argentina"
     },
     {
         "name": "sup_trown",
         "contact": "Santiago Ramírez",
         "email": "contact@trown.com",
         "phone": "+54 9 11 8777-9900",
-        "address": "Av. Rivadavia 450, Buenos Aires, Argentina",
-        "created_at": "2025-04-18T12:00:00Z"
+        "address": "Av. Rivadavia 450, Buenos Aires, Argentina"
     },
     {
         "name": "sup_importada",
         "contact": "Isabella Torres",
         "email": "ventas@importada.com",
         "phone": "+54 9 11 8888-1010",
-        "address": "Av. Mitre 1230, Rosario, Argentina",
-        "created_at": "2025-04-19T12:00:00Z"
+        "address": "Av. Mitre 1230, Rosario, Argentina"
     },
     {
         "name": "sup_dexter",
         "contact": "Mateo Fernández",
         "email": "info@dexter.com",
         "phone": "+54 9 11 8999-1122",
-        "address": "Av. Belgrano 560, Buenos Aires, Argentina",
-        "created_at": "2025-04-20T12:00:00Z"
+        "address": "Av. Belgrano 560, Buenos Aires, Argentina"
     },
     {
         "name": "sup_yagmour",
         "contact": "Camila Torres",
         "email": "contact@yagmour.com",
         "phone": "+54 9 11 9000-2233",
-        "address": "Av. Corrientes 450, Buenos Aires, Argentina",
-        "created_at": "2025-04-21T12:00:00Z"
+        "address": "Av. Corrientes 450, Buenos Aires, Argentina"
     },
     {
         "name": "sup_ansilta",
         "contact": "Luciano Gutiérrez",
         "email": "ventas@ansilta.com",
         "phone": "+54 9 11 9111-3344",
-        "address": "San Martín 123, Córdoba, Argentina",
-        "created_at": "2025-04-22T12:00:00Z"
+        "address": "San Martín 123, Córdoba, Argentina"
     },
     {
         "name": "sup_juanita_jo",
         "contact": "Victoria Rojas",
         "email": "info@juanita_jo.com",
         "phone": "+54 9 11 9222-4455",
-        "address": "Av. Alem 890, Buenos Aires, Argentina",
-        "created_at": "2025-04-23T12:00:00Z"
+        "address": "Av. Alem 890, Buenos Aires, Argentina"
     },
     {
         "name": "sup_cecchini",
         "contact": "Bruno Castro",
         "email": "contact@cecchini.com",
         "phone": "+54 9 11 9333-5566",
-        "address": "Av. Rivadavia 780, Buenos Aires, Argentina",
-        "created_at": "2025-04-24T12:00:00Z"
+        "address": "Av. Rivadavia 780, Buenos Aires, Argentina"
     },
     {
         "name": "sup_47street",
         "contact": "Agustina Mendoza",
         "email": "ventas@47street.com",
         "phone": "+54 9 11 9444-6677",
-        "address": "Av. Santa Fe 560, Buenos Aires, Argentina",
-        "created_at": "2025-04-25T12:00:00Z"
+        "address": "Av. Santa Fe 560, Buenos Aires, Argentina"
     }
 ]

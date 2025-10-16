@@ -83,10 +83,8 @@ export class ProductsService {
         try {
             if (!Array.isArray(products)) throw new CustomError(400, "Los productos deben ser un array");
             const requiredFields = ["title", "description", "price", "code", "stock", "category_id", "supplier_id"];
-            const invalidFields = products.filter(product => {
-                return requiredFields.some(field => !product[field]);
-            });
-            if (invalidFields.length > 0) throw new CustomError(400, "Los productos deben tener todos los campos requeridos");
+            const invalidFields = products.filter(product => { return requiredFields.some(field => !product[field]); });
+            if (invalidFields.length > 0) throw new CustomError(400, `Los productos deben tener los campos obligatorios: ${invalidFields.map(product => product.title).join(', ')}`);
             const titles = products.map(product => product.title);
             for (const title of titles) {
                 const existProduct = await this.repository.getProductByTitle(title);
