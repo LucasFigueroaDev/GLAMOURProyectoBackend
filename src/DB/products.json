@@ -5,7 +5,7 @@
     "price": 18999,
     "code": "TOP-ADV-001",
     "stock": 45,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_basset",
     "status": true,
     "thumbnail": "https://i.ibb.co/wFp8Wyzc/prod01.webp"
@@ -16,7 +16,7 @@
     "price": 15499,
     "code": "REM-ORE-001",
     "stock": 60,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_lightning",
     "status": true,
     "thumbnail": "https://i.ibb.co/jPKFcrNR/prod02.webp"
@@ -27,7 +27,7 @@
     "price": 20999,
     "code": "TOP-GIA-001",
     "stock": 38,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_giantessa",
     "status": true,
     "thumbnail": "https://i.ibb.co/whsLfct4/prod03.webp"
@@ -38,7 +38,7 @@
     "price": 32999,
     "code": "POL-LAC-001",
     "stock": 25,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_lacoste",
     "status": true,
     "thumbnail": "https://i.ibb.co/7Jdng6Dn/prod04.webp"
@@ -49,7 +49,7 @@
     "price": 17999,
     "code": "CAM-IBI-001",
     "stock": 32,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_ibiza",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccTy3m3N/prod05.webp"
@@ -60,7 +60,7 @@
     "price": 16499,
     "code": "REM-BIL-001",
     "stock": 41,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_billabong",
     "status": true,
     "thumbnail": "https://i.ibb.co/Qv4F6m4Y/prod06.webp"
@@ -71,7 +71,7 @@
     "price": 19499,
     "code": "REM-DES-001",
     "stock": 28,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_desiderata",
     "status": true,
     "thumbnail": "https://i.ibb.co/4nRCjq4M/prod07.webp"
@@ -82,7 +82,7 @@
     "price": 14999,
     "code": "REM-ENC-001",
     "stock": 36,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_generic",
     "status": true,
     "thumbnail": "https://i.ibb.co/WWPL75x6/prod08.webp"
@@ -93,7 +93,7 @@
     "price": 25999,
     "code": "CAM-KAU-001",
     "stock": 30,
-    "category_id": "cat_mujer",
+    "category_id": "68f022ca57e4e992611ed1ba",
     "supplier_id": "sup_kautiva",
     "status": true,
     "thumbnail": "https://i.ibb.co/rRM4gcw9/prod09.webp"
@@ -104,7 +104,7 @@
     "price": 21999,
     "code": "CAM-KEV-001",
     "stock": 40,
-    "category_id": "cat_hombre",
+    "category_id": "68f0230d57e4e992611ed1bd",
     "supplier_id": "sup_kevingston",
     "status": true,
     "thumbnail": "https://i.ibb.co/cSpKV5zX/prod10.webp"
@@ -115,7 +115,7 @@
     "price": 17999,
     "code": "REM-RES-001",
     "stock": 35,
-    "category_id": "cat_hombre",
+    "category_id": "68f0230d57e4e992611ed1bd",
     "supplier_id": "sup_resuelto",
     "status": true,
     "thumbnail": "https://i.ibb.co/vC3FmdLr/prod11.webp"
@@ -126,7 +126,7 @@
     "price": 24999,
     "code": "PAN-JOG-001",
     "stock": 42,
-    "category_id": "cat_hombre",
+    "category_id": "68f0230d57e4e992611ed1bd",
     "supplier_id": "sup_generic",
     "status": true,
     "thumbnail": "https://i.ibb.co/Vc72zzhn/prod12.webp"
@@ -137,7 +137,7 @@
     "price": 22999,
     "code": "CAM-AIR-001",
     "stock": 38,
-    "category_id": "cat_hombre",
+    "category_id": "68f0230d57e4e992611ed1bd",
     "supplier_id": "sup_airborn",
     "status": true,
     "thumbnail": "https://i.ibb.co/B5M0NRwK/prod13.webp"
@@ -148,7 +148,7 @@
     "price": 15999,
     "code": "REM-MAR-001",
     "stock": 40,
-    "category_id": "cat_hombre",
+    "category_id": "68f0230d57e4e992611ed1bd",
     "supplier_id": "sup_marineandez",
     "status": true,
     "thumbnail": "https://i.ibb.co/JWGSRTxd/prod14.webp"
@@ -159,7 +159,7 @@
     "price": 23999,
     "code": "CAM-VIL-001",
     "stock": 35,
-    "category_id": "cat_hombre",
+    "category_id": "68f0230d57e4e992611ed1bd",
     "supplier_id": "sup_vilo",
     "status": true,
     "thumbnail": "https://i.ibb.co/ZRdY562t/prod15.webp"
@@ -170,7 +170,7 @@
     "price": 19999,
     "code": "POL-HOW-001",
     "stock": 37,
-    "category_id": "cat_hombre",
+    "category_id": "68f0230d57e4e992611ed1bd",
     "supplier_id": "sup_howard",
     "status": true,
     "thumbnail": "https://i.ibb.co/NdnrdGh1/prod16.webp"
@@ -181,7 +181,7 @@
     "price": 11999,
     "code": "CON-PAC-001",
     "stock": 50,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_pachibebes",
     "status": true,
     "thumbnail": "https://i.ibb.co/rGst7xJk/prod17.webp"
@@ -192,7 +192,7 @@
     "price": 13999,
     "code": "SET-CAR-001",
     "stock": 45,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_carters",
     "status": true,
     "thumbnail": "https://i.ibb.co/xtXCYCYb/prod18.webp"
@@ -203,7 +203,7 @@
     "price": 15999,
     "code": "SET-CAR-002",
     "stock": 48,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_carters",
     "status": true,
     "thumbnail": "https://i.ibb.co/0yLgtmj4/prod19.webp"
@@ -214,7 +214,7 @@
     "price": 12999,
     "code": "PAN-CAR-001",
     "stock": 52,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_carters",
     "status": true,
     "thumbnail": "https://i.ibb.co/20QRQF67/prod20.webp"
@@ -225,7 +225,7 @@
     "price": 13999,
     "code": "SET-CAR-003",
     "stock": 46,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_carters",
     "status": true,
     "thumbnail": "https://i.ibb.co/Xxw7MHqh/prod21.webp"
@@ -236,7 +236,7 @@
     "price": 12999,
     "code": "REM-BEB-001",
     "stock": 50,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_generic",
     "status": true,
     "thumbnail": "https://i.ibb.co/Y7bb5DCG/prod22.webp"
@@ -247,7 +247,7 @@
     "price": 14999,
     "code": "JEAN-BEB-001",
     "stock": 48,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_generic",
     "status": true,
     "thumbnail": "https://i.ibb.co/7JQhLKhd/prod23.webp"
@@ -258,7 +258,7 @@
     "price": 16999,
     "code": "BIK-PAC-001",
     "stock": 42,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_pachibebes",
     "status": true,
     "thumbnail": "https://i.ibb.co/C3fyWWtq/prod24.webp"
@@ -269,7 +269,7 @@
     "price": 12999,
     "code": "REM-PAC-002",
     "stock": 50,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_pachibebes",
     "status": true,
     "thumbnail": "https://i.ibb.co/DfqWM0kP/prod25.webp"
@@ -280,7 +280,7 @@
     "price": 7999,
     "code": "BAB-CHE-001",
     "stock": 55,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_cheeky",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccGLH4mL/prod26.webp"
@@ -291,7 +291,7 @@
     "price": 13999,
     "code": "CON-KID-001",
     "stock": 48,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_generic",
     "status": true,
     "thumbnail": "https://i.ibb.co/JWDRDgbB/prod27.webp"
@@ -302,7 +302,7 @@
     "price": 24999,
     "code": "BODY-SNK-001",
     "stock": 40,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_snk",
     "status": true,
     "thumbnail": "https://i.ibb.co/PsHMQPnX/prod28.webp"
@@ -313,7 +313,7 @@
     "price": 19999,
     "code": "RAN-GAM-001",
     "stock": 45,
-    "category_id": "cat_niños",
+    "category_id": "68f0232757e4e992611ed1c0",
     "supplier_id": "sup_gamise",
     "status": true,
     "thumbnail": "https://i.ibb.co/Zpf1kZXy/prod29.webp"
@@ -324,7 +324,7 @@
     "price": 59999,
     "code": "ZAP-NIK-001",
     "stock": 30,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_nike",
     "status": true,
     "thumbnail": "https://i.ibb.co/9HVgtd6T/prod30.webp"
@@ -335,7 +335,7 @@
     "price": 49999,
     "code": "ZAP-FIL-001",
     "stock": 28,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_fila",
     "status": true,
     "thumbnail": "https://i.ibb.co/W4cTNFW0/prod31.webp"
@@ -346,7 +346,7 @@
     "price": 52999,
     "code": "ZAP-NB-001",
     "stock": 32,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_newbalance",
     "status": true,
     "thumbnail": "https://i.ibb.co/x8KjfB6b/prod32.webp"
@@ -357,7 +357,7 @@
     "price": 59999,
     "code": "ZAP-SOU-001",
     "stock": 27,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_southone",
     "status": true,
     "thumbnail": "https://i.ibb.co/60sWRk3G/prod33.webp"
@@ -368,7 +368,7 @@
     "price": 48999,
     "code": "ZAP-TOP-001",
     "stock": 33,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_topper",
     "status": true,
     "thumbnail": "https://i.ibb.co/gFJvdCH8/prod34.webp"
@@ -379,7 +379,7 @@
     "price": 53999,
     "code": "ZAP-ADI-001",
     "stock": 29,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_adidas",
     "status": true,
     "thumbnail": "https://i.ibb.co/yFHF95mK/prod35.webp"
@@ -390,7 +390,7 @@
     "price": 49999,
     "code": "ZAP-FIL-002",
     "stock": 31,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_fila",
     "status": true,
     "thumbnail": "https://i.ibb.co/qYg8s8HV/prod36.webp"
@@ -401,7 +401,7 @@
     "price": 45999,
     "code": "ZAP-BUS-001",
     "stock": 34,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_busted",
     "status": true,
     "thumbnail": "https://i.ibb.co/5gmSLZGy/prod37.webp"
@@ -412,7 +412,7 @@
     "price": 52999,
     "code": "ZAP-CON-001",
     "stock": 28,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_converse",
     "status": true,
     "thumbnail": "https://i.ibb.co/XkVwxDp2/prod38.webp"
@@ -423,7 +423,7 @@
     "price": 54999,
     "code": "ZAP-PUM-001",
     "stock": 30,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_puma",
     "status": true,
     "thumbnail": "https://i.ibb.co/dwqCRC8j/prod39.webp"
@@ -434,7 +434,7 @@
     "price": 48999,
     "code": "ZAP-FIL-003",
     "stock": 32,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_fila",
     "status": true,
     "thumbnail": "https://i.ibb.co/PvLfbFg9/prod40.webp"
@@ -445,7 +445,7 @@
     "price": 52999,
     "code": "ZAP-PUM-002",
     "stock": 28,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_puma",
     "status": true,
     "thumbnail": "https://i.ibb.co/9kXNVRR2/prod41.webp"
@@ -456,7 +456,7 @@
     "price": 45999,
     "code": "ZAP-VIZ-001",
     "stock": 30,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_vizzano",
     "status": true,
     "thumbnail": "https://i.ibb.co/2058Qf6J/prod42.webp"
@@ -467,7 +467,7 @@
     "price": 52999,
     "code": "ZAP-ADI-002",
     "stock": 27,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_adidas",
     "status": true,
     "thumbnail": "https://i.ibb.co/9Hmn22mM/prod43.webp"
@@ -478,7 +478,7 @@
     "price": 39999,
     "code": "ZAP-BIB-001",
     "stock": 35,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_bibi",
     "status": true,
     "thumbnail": "https://i.ibb.co/3H9vXCt/prod44.webp"
@@ -489,7 +489,7 @@
     "price": 47999,
     "code": "ZAP-RAV-001",
     "stock": 30,
-    "category_id": "cat_zapatillas",
+    "category_id": "68f0233157e4e992611ed1c3",
     "supplier_id": "sup_rave",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccbMrH8d/prod45.webp"
@@ -500,7 +500,7 @@
     "price": 61999,
     "code": "REL-MON-001",
     "stock": 25,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_montreal",
     "status": true,
     "thumbnail": "https://i.ibb.co/JjQyqMSN/prod46.webp"
@@ -511,7 +511,7 @@
     "price": 45999,
     "code": "PUL-CAR-001",
     "stock": 30,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_carmin",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccDKyD7B/prod47.webp"
@@ -522,7 +522,7 @@
     "price": 89999,
     "code": "SW-MON-001",
     "stock": 22,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_montreal",
     "status": true,
     "thumbnail": "https://i.ibb.co/chjhBBN9/prod48.webp"
@@ -533,7 +533,7 @@
     "price": 75999,
     "code": "REL-TH-001",
     "stock": 25,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_tommyhilfiger",
     "status": true,
     "thumbnail": "https://i.ibb.co/39v6kbz2/prod49.webp"
@@ -544,7 +544,7 @@
     "price": 129999,
     "code": "AL-PL-001",
     "stock": 20,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/qYxdwWVK/prod50.webp"
@@ -555,7 +555,7 @@
     "price": 69999,
     "code": "DIJ-PL-001",
     "stock": 28,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/WvkyjMvS/prod51.webp"
@@ -566,7 +566,7 @@
     "price": 189999,
     "code": "COM-AL-001",
     "stock": 15,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/HDSyVpgX/prod52.webp"
@@ -577,7 +577,7 @@
     "price": 54999,
     "code": "CAD-PL-001",
     "stock": 32,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/W89L9Wq/prod53.webp"
@@ -588,7 +588,7 @@
     "price": 62999,
     "code": "CON-CUP-001",
     "stock": 28,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/rfQJDnNg/prod54.webp"
@@ -599,7 +599,7 @@
     "price": 109999,
     "code": "ANI-SOL-001",
     "stock": 20,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/g1tppcJ/prod55.webp"
@@ -610,7 +610,7 @@
     "price": 114999,
     "code": "ANI-SOL-002",
     "stock": 18,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/n8Pg2fwW/prod56.webp"
@@ -621,7 +621,7 @@
     "price": 64999,
     "code": "ANI-CRU-001",
     "stock": 22,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/tMwBvcVW/prod57.webp"
@@ -632,7 +632,7 @@
     "price": 72999,
     "code": "ANI-ALD-001",
     "stock": 20,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/rKXDQ07X/prod58.webp"
@@ -643,7 +643,7 @@
     "price": 53999,
     "code": "ARO-ARG-001",
     "stock": 26,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/PGV4bbL8/prod59.webp"
@@ -654,7 +654,7 @@
     "price": 64999,
     "code": "COL-EST-001",
     "stock": 24,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/jkFw6dtP/prod60.webp"
@@ -665,7 +665,7 @@
     "price": 58999,
     "code": "ANI-COR-001",
     "stock": 30,
-    "category_id": "cat_joyas_relojes",
+    "category_id": "68f0233757e4e992611ed1c6",
     "supplier_id": "sup_joyas",
     "status": true,
     "thumbnail": "https://i.ibb.co/ccGbV8Gt/prod61.webp"
@@ -676,7 +676,7 @@
     "price": 42999,
     "code": "ANT-HAR-001",
     "stock": 35,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_hardem",
     "status": true,
     "thumbnail": "https://i.ibb.co/b5vgdS3g/prod62.webp"
@@ -687,7 +687,7 @@
     "price": 37999,
     "code": "ANT-INF-001",
     "stock": 40,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_infinit",
     "status": true,
     "thumbnail": "https://i.ibb.co/DfWnX7Fw/prod63.webp"
@@ -698,7 +698,7 @@
     "price": 32999,
     "code": "ANT-BD-001",
     "stock": 38,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_bd",
     "status": true,
     "thumbnail": "https://i.ibb.co/fVwyM0sc/prod64.webp"
@@ -709,7 +709,7 @@
     "price": 44999,
     "code": "ANT-OSA-001",
     "stock": 36,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_ona_saez",
     "status": true,
     "thumbnail": "https://i.ibb.co/GQjB4ryR/prod65.webp"
@@ -720,7 +720,7 @@
     "price": 43999,
     "code": "ANT-HAR-002",
     "stock": 34,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_hardem",
     "status": true,
     "thumbnail": "https://i.ibb.co/8gpcTHWR/prod66.webp"
@@ -731,7 +731,7 @@
     "price": 46999,
     "code": "ANT-RUS-001",
     "stock": 40,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_rusty",
     "status": true,
     "thumbnail": "https://i.ibb.co/gbzRgLzL/prod67.webp"
@@ -742,7 +742,7 @@
     "price": 39999,
     "code": "ANT-RET-001",
     "stock": 42,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_retro",
     "status": true,
     "thumbnail": "https://i.ibb.co/B5Lq8SJj/prod68.webp"
@@ -753,7 +753,7 @@
     "price": 47999,
     "code": "ANT-RUS-002",
     "stock": 37,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_rusty",
     "status": true,
     "thumbnail": "https://i.ibb.co/dsNbF90t/prod69.webp"
@@ -764,7 +764,7 @@
     "price": 47999,
     "code": "ANT-RUS-003",
     "stock": 36,
-    "category_id": "cat_anteojos",
+    "category_id": "68f0233d57e4e992611ed1c9",
     "supplier_id": "sup_rusty",
     "status": true,
     "thumbnail": "https://i.ibb.co/1JnS35Jb/prod70.webp"
@@ -775,7 +775,7 @@
     "price": 85999,
     "code": "CAM-PUF-001",
     "stock": 28,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_portsaid",
     "status": true,
     "thumbnail": "https://i.ibb.co/SXtHz81k/prod71.webp"
@@ -786,7 +786,7 @@
     "price": 124999,
     "code": "CAM-MER-001",
     "stock": 22,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_adidas",
     "status": true,
     "thumbnail": "https://i.ibb.co/S4QZtCj3/prod72.webp"
@@ -797,7 +797,7 @@
     "price": 74999,
     "code": "CAM-LIV-001",
     "stock": 30,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_portsaid",
     "status": true,
     "thumbnail": "https://i.ibb.co/LXF0VJ2h/prod73.webp"
@@ -808,7 +808,7 @@
     "price": 104999,
     "code": "PARK-TYL-001",
     "stock": 25,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_airborn",
     "status": true,
     "thumbnail": "https://i.ibb.co/cc6qVGvw/prod74.webp"
@@ -819,7 +819,7 @@
     "price": 114999,
     "code": "CAM-RIV-001",
     "stock": 27,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_river",
     "status": true,
     "thumbnail": "https://i.ibb.co/VYM79vrJ/prod75.webp"
@@ -830,7 +830,7 @@
     "price": 129999,
     "code": "TAP-PIT-001",
     "stock": 20,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_sweet",
     "status": true,
     "thumbnail": "https://i.ibb.co/Rp0tkCKt/prod76.webp"
@@ -841,7 +841,7 @@
     "price": 69999,
     "code": "CAM-ROM-001",
     "stock": 33,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_ravish",
     "status": true,
     "thumbnail": "https://i.ibb.co/35z2MqPm/prod77.webp"
@@ -852,7 +852,7 @@
     "price": 95999,
     "code": "CAM-BON-001",
     "stock": 24,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_trown",
     "status": true,
     "thumbnail": "https://i.ibb.co/PvWVLnH1/prod78.webp"
@@ -863,7 +863,7 @@
     "price": 109999,
     "code": "CAM-IMP-001",
     "stock": 26,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_importada",
     "status": true,
     "thumbnail": "https://i.ibb.co/VYh2HRXh/prod79.webp"
@@ -874,7 +874,7 @@
     "price": 84999,
     "code": "BLA-LYO-001",
     "stock": 32,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_portsaid",
     "status": true,
     "thumbnail": "https://i.ibb.co/nNzjDn5g/prod80.webp"
@@ -885,7 +885,7 @@
     "price": 75999,
     "code": "CAM-LOT-001",
     "stock": 29,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_dexter",
     "status": true,
     "thumbnail": "https://i.ibb.co/JwLh6Fmc/prod81.webp"
@@ -896,7 +896,7 @@
     "price": 89999,
     "code": "BLA-ANN-001",
     "stock": 31,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_yagmour",
     "status": true,
     "thumbnail": "https://i.ibb.co/whL6kWvN/prod82.webp"
@@ -907,7 +907,7 @@
     "price": 114999,
     "code": "ABR-DES-001",
     "stock": 22,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_desiderata",
     "status": true,
     "thumbnail": "https://i.ibb.co/KpKycCC4/prod83.webp"
@@ -918,7 +918,7 @@
     "price": 119999,
     "code": "TAP-ESP-001",
     "stock": 19,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_portsaid",
     "status": true,
     "thumbnail": "https://i.ibb.co/jZ68NC6R/prod84.webp"
@@ -929,7 +929,7 @@
     "price": 99999,
     "code": "BUZ-ANS-001",
     "stock": 28,
-    "category_id": "cat_camperas_abrigos",
+    "category_id": "68f0234357e4e992611ed1cc",
     "supplier_id": "sup_ansilta",
     "status": true,
     "thumbnail": "https://i.ibb.co/6dnFd83/prod85.webp"
@@ -940,7 +940,7 @@
     "price": 45999,
     "code": "MOCH-JJ-001",
     "stock": 35,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_juanita_jo",
     "status": true,
     "thumbnail": "https://i.ibb.co/v4jFnyCw/prod86.webp"
@@ -951,7 +951,7 @@
     "price": 52999,
     "code": "MOCH-CEC-001",
     "stock": 40,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_cecchini",
     "status": true,
     "thumbnail": "https://i.ibb.co/0RRHWqGm/prod87.webp"
@@ -962,7 +962,7 @@
     "price": 39999,
     "code": "MOCH-47S-001",
     "stock": 38,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_47street",
     "status": true,
     "thumbnail": "https://i.ibb.co/PzZbNDKv/prod88.webp"
@@ -973,7 +973,7 @@
     "price": 64999,
     "code": "MOCH-ADI-001",
     "stock": 42,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_adidas",
     "status": true,
     "thumbnail": "https://i.ibb.co/mVNxfkY2/prod89.webp"
@@ -984,7 +984,7 @@
     "price": 49999,
     "code": "MOCH-ADI-002",
     "stock": 36,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_adidas",
     "status": true,
     "thumbnail": "https://i.ibb.co/zVyx505x/prod90.webp"
@@ -995,7 +995,7 @@
     "price": 74999,
     "code": "MOCH-ADI-003",
     "stock": 30,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_adidas",
     "status": true,
     "thumbnail": "https://i.ibb.co/F4F0HnTN/prod91.webp"
@@ -1006,7 +1006,7 @@
     "price": 59999,
     "code": "MOCH-NIK-001",
     "stock": 44,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_nike",
     "status": true,
     "thumbnail": "https://i.ibb.co/Bxrhzs4/prod92.webp"
@@ -1017,7 +1017,7 @@
     "price": 64999,
     "code": "MOCH-NIK-002",
     "stock": 38,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_nike",
     "status": true,
     "thumbnail": "https://i.ibb.co/TB0QC6M4/prod93.webp"
@@ -1028,7 +1028,7 @@
     "price": 69999,
     "code": "MOCH-NIK-003",
     "stock": 36,
-    "category_id": "cat_mochilas",
+    "category_id": "68f0234857e4e992611ed1cf",
     "supplier_id": "sup_nike",
     "status": true,
     "thumbnail": "https://i.ibb.co/B2V5PtD4/prod94.webp"
