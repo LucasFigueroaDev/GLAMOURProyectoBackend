@@ -1,4 +1,5 @@
 import { productRepository } from "../repository/products.repository.js";
+import { categoriesService } from "./categories.service.js";
 import productDto from "../dto/product.dto.js";
 import CustomError from "../utils/customError.js";
 
@@ -23,7 +24,7 @@ export class ProductsService {
             const response = await this.repository.getAllProducts(query, options);
             if (!response) throw new CustomError(404, "Error al obtener los productos");
             return {
-                payload: response.docs,
+                payload: response.payload,
                 totalPages: response.totalPages,
                 page: response.page,
                 hasPrevPage: response.hasPrevPage,
@@ -48,6 +49,16 @@ export class ProductsService {
         try {
             const response = await this.repository.getProductByTitle(title);
             if (!response) throw new CustomError(404, "Error al obtener el producto por titulo");
+            return response;
+        } catch (error) {
+            throw error;
+        }
+    };
+    getProductsByCategory = async (category) => {
+        try {
+            const existCategory = await categoriesService.getCategoryById(category);
+            const response = await this.repository.getProductsByCategory(category);
+            if (!response) throw new CustomError(404, "Error al obtener los productos por categoria");
             return response;
         } catch (error) {
             throw error;

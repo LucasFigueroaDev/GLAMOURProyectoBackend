@@ -13,12 +13,16 @@ class ProductDao extends BaseDao {
         return await this.model.findOne({ title });
     }
 
+    getProductsByCategory = async (categoryId) => {
+        return await this.model.find({ category_id: categoryId });
+    }
+
     insertManyProducts = async (products) => {
         return await this.model.insertMany(products);
     }
 
     softDeleteProduct = async (id) => {
-        return await this.model.findByIdAndUpdate(id, { status: false,updated_at: new Date(), deleted_at: new Date() }, { new: true });
+        return await this.model.findByIdAndUpdate(id, { status: false, updated_at: new Date(), deleted_at: new Date() }, { new: true });
     }
 }
 

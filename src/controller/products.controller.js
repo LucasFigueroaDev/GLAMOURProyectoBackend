@@ -40,6 +40,36 @@ class ProductsController {
             next(error);
         }
     };
+    getNewArrivals = async (req, res, next) => {
+        try {
+            const limit = 12;
+            const page = 1;
+            const getNewArrivalsOptions = {
+                limit,
+                page,
+                sort: { created_at: -1 },
+                customLabels: { docs: 'payload' }
+            };
+            const filter = { status: true };
+            const products = await this.service.getAllProducts({ query: filter, options: getNewArrivalsOptions });
+            if (!products.payload || products.payload.length === 0) {
+                return createResponse(res, 200, { status: "No hay productos nuevos", payload: [] });
+            } else {
+                return createResponse(res, 200, { status: "Exito al obtener los productos nuevos", payload: products.payload });
+            }
+        } catch (error) {
+            next(error);
+        }
+    };
+    getProductsByCategory = async (req, res, next) => {
+        try {
+            const { category } = req.params;
+            const products = await this.service.getProductsByCategory(category);
+            createResponse(res, 200, { status: "Exito al obtener los productos por categoria", payload: products });
+        } catch (error) {
+            next(error);
+        }
+    };
     getProductById = async (req, res, next) => {
         try {
             const { id } = req.params;
