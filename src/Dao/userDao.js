@@ -1,5 +1,5 @@
 import { userModel } from '../models/user.model.js';
-import BaseDao from './base.dao.js';
+import BaseDao from './baseDao.js';
 class UserDao extends BaseDao {
     constructor(model) {
         super(model);
