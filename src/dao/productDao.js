@@ -1,4 +1,4 @@
-import { productModel } from "../models/product.model.js";
+import { productModel } from "../models/productModel.js";
 import BaseDao from "./base.dao.js";
 class ProductDao extends BaseDao {
     constructor(model) {

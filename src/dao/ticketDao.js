@@ -1,4 +1,4 @@
-import { ticketModel } from "../models/ticket.model.js";
+import { ticketModel } from "../models/ticketModel.js";
 import { MongoDao } from "./mongo.dao.js";
 
 class TicketDao extends MongoDao {

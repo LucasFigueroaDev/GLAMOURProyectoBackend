@@ -1,4 +1,4 @@
-import { categoriesService } from "../services/categories.service.js";
+import { categoriesService } from "../services/categoriesService.js";
 import { createResponse } from "../utils/createResponse.js";
 
 class CategoryController {

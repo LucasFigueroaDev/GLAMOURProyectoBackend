@@ -1,4 +1,4 @@
-import { suppliersService } from "../services/suppliers.service.js";
+import { suppliersService } from "../services/suppliersService.js";
 import { createResponse } from "../utils/createResponse.js";
 
 class SuppliersController {

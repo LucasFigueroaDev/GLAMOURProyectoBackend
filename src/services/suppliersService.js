@@ -1,4 +1,4 @@
-import { supplierRepository } from "../repository/suppliers.repository.js";
+import { supplierRepository } from "../repository/suppliersRepository.js";
 import customError from "../utils/customError.js";
 
 class SuppliersService {

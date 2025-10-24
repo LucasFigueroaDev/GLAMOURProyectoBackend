@@ -1,5 +1,5 @@
 import CustomError from "../utils/customError.js";
-import { categoriesRepository } from "../repository/categories.repository.js";
+import { categoriesRepository } from "../repository/categoriesRepository.js";
 
 class CategoryService {
     constructor(repository) {

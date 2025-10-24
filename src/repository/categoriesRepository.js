@@ -1,4 +1,4 @@
-import { categoriesDao } from "../dao/categories.dao.js";
+import { categoriesDao } from "../dao/categoriesDao.js";
 
 class CategoryRepository {
     constructor(dao) {

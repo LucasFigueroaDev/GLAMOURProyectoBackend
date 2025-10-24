@@ -1,4 +1,4 @@
-import { orderModel } from "../models/orders.model.js";
+import { orderModel } from "../models/ordersModel.js";
 import { MongoDao } from "./mongo.dao.js";
 
 class OrderDao extends MongoDao {

@@ -1,4 +1,4 @@
-import { supplierModel } from "../models/supplier.model.js";
+import { supplierModel } from "../models/supplierModel.js";
 import BaseDao from "./base.dao.js";
 
 class SupplierDao extends BaseDao {

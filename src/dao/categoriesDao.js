@@ -1,4 +1,4 @@
-import { categoryModel } from "../models/categories.model.js";
+import { categoryModel } from "../models/categoriesModel.js";
 import BaseDao from "./base.dao.js";
 
 class CategoriesDao extends BaseDao {

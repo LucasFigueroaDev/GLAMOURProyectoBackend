@@ -1,4 +1,4 @@
-import { productsService } from "../services/products.service.js";
+import { productsService } from "../services/productsService.js";
 import { createResponse } from "../utils/createResponse.js";
 import { __dirname } from '../utils/utils.js';
 

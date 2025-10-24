@@ -1,6 +1,6 @@
-import { productRepository } from "../repository/products.repository.js";
+import { productRepository } from "../repository/productsRepository.js";
 import { categoriesService } from "./categories.service.js";
-import productDto from "../dto/product.dto.js";
+import productDto from "../dto/productDto.js";
 import CustomError from "../utils/customError.js";
 
 export class ProductsService {

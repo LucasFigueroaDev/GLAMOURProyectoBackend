@@ -1,4 +1,4 @@
-import { supplierDao } from "../dao/suppliers.dao.js";
+import { supplierDao } from "../dao/suppliersDao.js";
 
 class SupplierRepository {
     constructor(dao) {
