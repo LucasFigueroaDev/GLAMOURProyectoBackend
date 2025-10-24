@@ -1,7 +1,7 @@
 import CustomError from "../utils/customError.js";
-import userDto from "../dto/user.dto.js"
+import userDto from "../dto/userDto.js"
 import jwt from "jsonwebtoken";
-import { usersRepository } from "../repository/users.repository.js";
+import { usersRepository } from "../repository/usersRepository.js";
 import { createHash, passwordValidation } from "../utils/createHash.js";
 import "dotenv/config";
 
