@@ -1,5 +1,5 @@
 import { productRepository } from "../repository/productsRepository.js";
-import { categoriesService } from "./categories.service.js";
+import { categoriesService } from "./categoriesService.js";
 import productDto from "../dto/productDto.js";
 import CustomError from "../utils/customError.js";
 
