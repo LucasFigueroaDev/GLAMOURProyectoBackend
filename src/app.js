@@ -15,7 +15,7 @@ let allowedOrigins;
 if(environment === 'development'){
     allowedOrigins = 'http://localhost:5173';
 }else{
-    allowedOrigins = 'https://glamour-proyecto-frontend.vercel.app';
+    allowedOrigins = 'https://glamour-proyecto-backend.vercel.app';
 }
 if (environment === 'development') {
     // Configuración de CORS para el entorno de desarrollo
