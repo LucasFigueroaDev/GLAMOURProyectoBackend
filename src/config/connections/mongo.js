@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import { log, error } from '../../utils/logger.js';
 import 'dotenv/config';
 
 export const connectToMongo = async () => {
@@ -10,10 +11,10 @@ export const connectToMongo = async () => {
             maxPoolSize: 10,
             retryWrites: true,
             w: 'majority'
-        })
-            .then(() => console.log('Conexión a la base de datos exitosa'));
-    } catch (error) {
-        console.log('Error al conectarse a la base de datos');
+        });
+        log('Conexión a la base de datos exitosa');
+    } catch (err) {
+        error('Error al conectarse a la base de datos', err.message);
         process.exit(1);
     }
 };

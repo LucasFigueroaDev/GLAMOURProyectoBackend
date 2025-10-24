@@ -1,7 +1,7 @@
 import { ticketModel } from "../models/ticketModel.js";
-import { MongoDao } from "./mongo.dao.js";
+import BaseDao from "./baseDao.js";
 
-class TicketDao extends MongoDao {
+class TicketDao extends BaseDao {
     constructor(model) {
         super(model);
     }

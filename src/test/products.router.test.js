@@ -1,5 +1,6 @@
 import request from 'supertest';
 import { expect } from 'chai';
+import { log } from '../utils/logger.js';
 import app from '../app.js';
 
 describe('products router', () => {
@@ -40,7 +41,7 @@ describe('products router', () => {
         const response = await request(app).post('/api/products/create').send(testProductData);
         expect(response.status).to.equal(201);
         testProductId = response.body.data.payload.id;
-        console.log(`[SETUP] Producto creado con ID: ${testProductId}`);
+        log(`Producto creado con ID: ${testProductId}`);
         expect(testProductId).to.be.a('string', 'El ID de producto no se pudo extraer correctamente.');
     })
 
@@ -84,7 +85,7 @@ describe('products router', () => {
         const response = await request(app).post('/api/products/insertMany').send([testProductData2, testProductData3]);
         testProductId2 = response.body.data.payload[0].id;
         testProductId3 = response.body.data.payload[1].id;
-        console.log(`[SETUP] Productos creados con ID: ${testProductId2} y ${testProductId3}`);
+        log(`Productos creados con ID: ${testProductId2} y ${testProductId3}`);
         expect(response.status).to.equal(201);
         expect(response.body).to.be.an('object');
     })
@@ -102,18 +103,18 @@ describe('products router', () => {
     })
 
     after(async () => {
-        console.log(`[TEARDOWN] Intentando eliminar producto ID: ${testProductId}`);
+        log(`Intentando eliminar producto ID: ${testProductId}`);
         if (!testProductId) {
-            console.log('[TEARDOWN] No hay testProductId valido para eliminar. Saltando limpieza.');
+            log('No hay testProductId valido para eliminar. Saltando limpieza.');
             return;
         }
         const deleteResponse = await request(app).delete(`/api/products/${testProductId}`);
         try {
             expect(deleteResponse.status).to.equal(200),
                 `El servidor falló al eliminar el producto, Status: ${deleteResponse.status}`
-            console.log(`[TEARDOWN] ✔️ Producto ${testProductId} eliminado exitosamente (Status ${deleteResponse.status}).`);
+            log(`Producto ${testProductId} eliminado exitosamente (Status ${deleteResponse.status}).`);
         } catch (error) {
-            console.log('[TEARDOWN] ❌ ERROR EN LA ELIMINACIÓN:', deleteResponse.body);
+            log('ERROR EN LA ELIMINACIÓN:', deleteResponse.body);
             throw error;
         }
     })

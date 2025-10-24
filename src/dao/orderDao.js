@@ -1,7 +1,6 @@
 import { orderModel } from "../models/ordersModel.js";
-import { MongoDao } from "./mongo.dao.js";
-
-class OrderDao extends MongoDao {
+import BaseDao from "./baseDao.js";
+class OrderDao extends BaseDao {
     constructor(model) {
         super(model);
     }

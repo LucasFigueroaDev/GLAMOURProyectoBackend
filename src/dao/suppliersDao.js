@@ -1,5 +1,5 @@
 import { supplierModel } from "../models/supplierModel.js";
-import BaseDao from "./base.dao.js";
+import BaseDao from "./baseDao.js";
 
 class SupplierDao extends BaseDao {
     constructor(model) {

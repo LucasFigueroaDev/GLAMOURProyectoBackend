@@ -1,5 +1,6 @@
 import request from 'supertest';
 import { expect } from 'chai';
+import { log, error, warn } from '../utils/logger.js';
 import app from '../app.js';
 
 describe('users router', () => {
@@ -13,7 +14,7 @@ describe('users router', () => {
         const response = await request(app).post('/api/users/register').send(testUserData);
         expect(response.status).to.equal(201);
         testUserId = response.body.data.payload.id;
-        console.log(`[SETUP] Usuario registrado con ID: ${testUserId}`);
+        log(`[SETUP] Usuario registrado con ID: ${testUserId}`);
         expect(testUserId).to.be.a('string', 'El ID de usuario no se pudo extraer correctamente.');
     })
 
@@ -60,9 +61,9 @@ describe('users router', () => {
     })
 
     after(async () => {
-        console.log(`[TEARDOWN] Intentando eliminar usuario ID: ${testUserId}`);
+        log(`Intentando eliminar usuario ID: ${testUserId}`);
         if (!testUserId) {
-            console.warn('[TEARDOWN] No hay testUserId válido para eliminar. Saltando limpieza.');
+            warn('No hay testUserId válido para eliminar. Saltando limpieza.');
             return;
         }
         const deleteResponse = await request(app).delete(`/api/users/delete/${testUserId}`);
@@ -70,10 +71,10 @@ describe('users router', () => {
             expect(deleteResponse.status).to.be.oneOf([200, 204],
                 `El servidor falló al eliminar el usuario, Status: ${deleteResponse.status}`
             );
-            console.log(`[TEARDOWN] ✔️ Usuario ${testUserId} eliminado exitosamente (Status ${deleteResponse.status}).`);
-        } catch (error) {
-            console.error('[TEARDOWN] ❌ ERROR EN LA ELIMINACIÓN:', deleteResponse.body);
-            throw error; // Lanza el error para que la suite falle si la limpieza falla
+            log(`Usuario ${testUserId} eliminado exitosamente (Status ${deleteResponse.status}).`);
+        } catch (err) {
+            error('ERROR EN LA ELIMINACIÓN:', deleteResponse.body, err);
+            throw err; // Lanza el error para que la suite falle si la limpieza falla
         }
     });
 })

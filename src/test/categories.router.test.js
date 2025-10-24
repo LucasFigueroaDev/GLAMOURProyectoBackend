@@ -19,11 +19,11 @@ describe('categories router', () => {
 
     before(async () => {
         const response = await request(app).post('/api/categories/create').send(testCategoryData);
-        console.log(response.body);
+        log(response.body);
 
         expect(response.status).to.equal(201);
         testCategoryId = response.body.data.payload._id;
-        console.log(`[SETUP] Categoría creada con ID: ${testCategoryId}`);
+        log(`Categoría creada con ID: ${testCategoryId}`);
         expect(testCategoryId).to.be.a('string', 'El ID de categoría no se pudo extraer correctamente.');
     })
 
@@ -65,7 +65,7 @@ describe('categories router', () => {
             selfCheckId = createResponse.body.data.payload._id;
             // INTENTO DE DUPLICADO (Debe fallar con 400)
             const duplicateResponse = await request(app).post('/api/categories/create').send(selfCheckData);
-            console.log("Respuesta del duplicado:", duplicateResponse.body);
+            log("Respuesta del duplicado:", duplicateResponse.body);
             expect(duplicateResponse.status).to.equal(400);
             expect(duplicateResponse.body).to.be.an('object');
         } finally {
@@ -77,18 +77,18 @@ describe('categories router', () => {
     });
 
     after(async () => {
-        console.log(`[TEARDOWN] Intentando eliminar categoría ID: ${testCategoryId}`);
+        log(`Intentando eliminar categoría ID: ${testCategoryId}`);
         if (!testCategoryId) {
-            console.log('[TEARDOWN] No hay testCategoryId valido para eliminar. Saltando limpieza.');
+            log('No hay testCategoryId valido para eliminar. Saltando limpieza.');
             return;
         }
         const deleteResponse = await request(app).delete(`/api/categories/delete/${testCategoryId}`);
         try {
             expect(deleteResponse.status).to.equal(200),
                 `El servidor falló al eliminar la categoría, Status: ${deleteResponse.status}`
-            console.log(`[TEARDOWN] ✔️ Categoría ${testCategoryId} eliminada exitosamente (Status ${deleteResponse.status}).`);
+            log(`Categoría ${testCategoryId} eliminada exitosamente (Status ${deleteResponse.status}).`);
         } catch (error) {
-            console.log('[TEARDOWN] ❌ ERROR EN LA ELIMINACIÓN:', deleteResponse.body);
+            log('ERROR EN LA ELIMINACIÓN:', deleteResponse.body);
             throw error;
         }
     })

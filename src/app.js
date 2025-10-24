@@ -4,17 +4,18 @@ import path from 'node:path';
 import cors from 'cors';
 import apiRouter from "./routes/index.js";
 import { errorHandler } from "./middlewares/errorHandler/errorHandler.js";
-import { __dirname } from "./utils/utils.js"; // Asume que este helper proporciona la ruta del directorio
+import { __dirname } from "./utils/utils.js";
+import { log } from "./utils/logger.js";
 import { connectToMongo } from "./config/connections/mongo.js";
 import './config/passportJWT/jwt.config.js';
 const app = express();
 
 const environment = process.env.NODE_ENV || 'development';
-console.log(`Ejecutando en modo: ${environment}`);
+log(`Ejecutando en modo: ${environment}`);
 let allowedOrigins;
-if(environment === 'development'){
+if (environment === 'development') {
     allowedOrigins = 'http://localhost:5173';
-}else{
+} else {
     allowedOrigins = 'https://glamour-proyecto-backend.vercel.app';
 }
 if (environment === 'development') {
@@ -27,8 +28,8 @@ if (environment === 'development') {
 }
 const corsOptions = {
     origin: (origin, callback) => {
-        if(!origin) return callback(null, true);
-        if(allowedOrigins.indexOf(origin) === -1) {
+        if (!origin) return callback(null, true);
+        if (allowedOrigins.indexOf(origin) === -1) {
             return callback(new Error(`La política CORS no permite el acceso desde el origen: ${origin}`), false);
         }
         return callback(null, true);
